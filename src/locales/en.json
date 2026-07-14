@@ -10,14 +10,7 @@
       "twitterDescription": "Aniimo Wiki covers every creature, evolution, element, Twine ability, map area, starter, and release date for the open-world creature-catching RPG."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
