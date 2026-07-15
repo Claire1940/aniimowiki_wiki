@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Download } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "アニモ ベータ：グローバルテストガイドとリリース詳細",
+  description: "アニモ（Aniimo）のグローバルクローズドベータを始めましょう。ダウンロード方法、対応プラットフォーム、序盤の攻略に欠かせないヒントを解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Aniimo+Beta+Guide",
+  date: "2026-07-15",
+  author: "アニモ Wikiチーム",
+  keywords: "アニモ, ベータテスト, ダウンロード, ガイド, リリース日"
+}
+
+<Callout type="info" title="クイックガイド">
+- **アニモ ベータ版**は現在、PC（Steam）、Android、iOSプラットフォームでアクセス可能です。
+- **グローバルリリース**は、2026年第3四半期に基本プレイ無料タイトルとして正式に予定されています。
+- **進行データ**は、クローズドベータ終了後に正式リリースに向けてワイプ（削除）されます。
+- **コアゲームプレイ**は、クリーチャーの収集、トワイン（Twining）、そしてリアルタイム戦闘が中心です。
+- **序盤の攻略**には、属性の相性を考慮したバランスの良い編成が不可欠です。
+</Callout>
+
+<Section icon={Download} title="グローバルクローズドベータとダウンロードガイド">
+
+アニモのグローバルクローズドベータでは、プレイヤーにイディル大陸を探索する特別な機会を提供しています。参加人数には限りがあり、アクセス権は公式の招待メールを通じて管理されます。
+
+**動画の見どころ：**
+- 公式のゲームプレイメカニクスと戦闘システム。
+- トワイン（変身）機能の実演。
+- オープンワールド環境の探索とクリーチャーとの交流。
+
+<YouTubeEmbed videoId="186NEVNr8MI" title="Aniimo Gameplay Showcase" />
+
+テスト環境への準備を整えるために、以下の手順に従ってください：
+
+<Steps>
+  <Step num="1" title="参加資格の確認">
+    公式サイトにログインして、ベータ版のステータスを確認してください。選ばれたテスターにはメールで詳細が送信されます。
+  </Step>
+  <Step num="2" title="プラットフォームへのインストール">
+    お使いのデバイス（PC、Steam、Android、または iOS TestFlight）専用の提供されたリンクに従ってください。
+  </Step>
+  <Step num="3" title="データ管理について">
+    すべての進行状況はテスト終了後にリセットされることに注意してください。長期的なやり込みよりも、システムのテストに集中することをお勧めします。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="重要な注意事項">
+ベータ版に応募したにもかかわらず確認メールが届かない場合は、必ず「迷惑メール」フォルダを確認してください。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="リリース日とプラットフォームの概要">
+
+アニモは2026年第3四半期に全世界でリリースされる予定です。本作は基本プレイ無料モデルを採用しており、主要なゲームプラットフォームでプレイ可能です。
+
+| プラットフォーム | ストア | 利用状況 |
+| :--- | :--- | :--- |
+| PC | Steam / Epic Games | ウィッシュリスト登録受付中 |
+| PlayStation 5 | PlayStation Store | ウィッシュリスト登録受付中 |
+| Xbox Series X\|S | Microsoft Store | ウィッシュリスト登録受付中 |
+| モバイル | Google Play / App Store | 事前登録受付中 |
+
+<Callout type="success" title="プラットフォームの利点">
+テスト期間中、PCとモバイルデバイス間で同じアカウントを使用する場合、クロスプラットフォームのデータ共有がサポートされています。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="戦闘要素とチーム戦略">
+
+アニモの戦闘は、戦術的なコマンドモードとリアルタイムのトワインモードを組み合わせています。勝利の鍵は、属性の相性を理解し、効果的にメンバーを交代させることにあります。
+
+| 属性 | 有利 | 不利 |
+| :--- | :--- | :--- |
+| 火 | 草、氷 | 水、岩 |
+| 水 | 火、岩 | 雷、草 |
+| 雷 | 水、風 | 岩、草 |
+| 風 | 雷、闇 | 火、氷 |
+
+<CardGrid cols={3}>
+  <Card title="アルファボス用チーム">
+    - 有利属性のアタッカー
+    - 高いブレイクダメージ特化キャラ
+    - 耐久力の高いサポートユニット
+  </Card>
+  <Card title="探索用チーム">
+    - 移動に特化したトワイン形態
+    - 幅広い属性カバー率
+    - パズル解き用のユーティリティ
+  </Card>
+  <Card title="ホロバトル用チーム">
+    - 最適化されたDPS出力
+    - 回転の速いサポートスキル
+    - 相乗効果によるダメージバフ
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+オープンワールドに隠された宝箱を見つけるために、滑空や穴掘りなどの移動能力を持つクリーチャーを優先的に編成しましょう。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="初心者向けの進行ヒント">
+
+序盤の効率的な進行は、貴重なリソースの節約につながります。捕まえたすべてのクリーチャーをアップグレードするのではなく、汎用性の高い編成を組むことに集中しましょう。
+
+| アクション | 優先度 | 理由 |
+| :--- | :--- | :--- |
+| メインクエスト | 最高 | 基幹システムの解放 |
+| アクティブ編成 | 高 | 経験値が共有されるため |
+| 経験値ジェム | 中 | 主力メンバーのために温存 |
+| 素材集め | 低 | 最終進化時のみ必要 |
+
+<Checklist
+  id="beginner-checklist"
+  title="初日の目標："
+  items={[
+    "チュートリアルクエストを完了する",
+    "アニポッドメーカーを解放する",
+    "3属性のチーム編成を構築する",
+    "最初の移動用アニモを特定する"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="よくある質問（FAQ）">
+
+<FAQ items={[
+  {
+    question: "アニモのベータ版は無料でプレイできますか？",
+    answer: "はい、現在のグローバルクローズドベータは無料で、テストのためのゲーム内課金は必要ありません。"
+  },
+  {
+    question: "進行状況は正式リリースに引き継がれますか？",
+    answer: "いいえ、ベータ終了後、すべてのアカウントデータ、進行状況、および捕獲したクリーチャーは消去されます。"
+  },
+  {
+    question: "スマートフォンでアニモをプレイできますか？",
+    answer: "はい、アニモはAndroidおよびiOSをサポートしており、クロスプラットフォームプレイに対応するように設計されています。"
+  },
+  {
+    question: "トワイン（Twine）メカニクスとは何ですか？",
+    answer: "トワインは捕獲したクリーチャーに変身できる機能で、そのクリーチャー特有の移動能力、パズル解決能力、およびリアルタイム戦闘能力を使用できるようになります。"
+  }
+]} />
+
+</Section>

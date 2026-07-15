@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target,import { Map, Swords, Trophy, Target, Shield, Sparkles, Cpu, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo specs: 2026 Combat Mechanics & Creature Stats Guide",
+  description: "Master the aniimo specs with our guide on elemental types, combat roles, and genetic quality for the 2026 open-world RPG launch.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Combat+Specs",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo specs** define every creature's combat potential through five core stats: HP, Attack, Magic Defense, Physical Defense, and Regen.
+- **Genetic quality** ranges from Common to Perfect, determining the hidden growth potential of your captured Aniimo.
+- **Type advantages** are critical, providing a 100% damage boost (Excellent) or a 50% reduction (Bad) based on nine elemental affinities.
+- **The Break system** is the core meta; depleting an enemy's break meter stuns them and doubles all incoming damage.
+- **Twining** allows players to possess their Aniimo, granting a significant damage boost and direct control over special skills.
+</Callout>
+
+<Section icon={Cpu} title="Core aniimo specs and Genetic Quality">
+
+Understanding the fundamental **aniimo specs** is the first step toward dominating the open world of this 2026 RPG. Every creature you capture comes with a unique set of attributes that dictate their performance in both PvE and PvP encounters. While base stats provide the foundation, the genetic "hidden values" determine whether an Aniimo is a temporary companion or a permanent member of your endgame roster.
+
+**Video Highlights:**
+- Detailed breakdown of the five primary combat statistics.
+- Explanation of the genetic quality tiers from Common to Perfect.
+- Insight into the "Twine" mechanic for direct creature control.
+- Overview of the skill tree and attribute investment strategies.
+
+<YouTubeEmbed videoId="UWc1uQ1BxU8" title="How GOOD is Aniimo ACTUALLY?" />
+
+### Primary Attribute Breakdown
+
+Stats in Aniimo are streamlined but offer significant depth when paired with the skill tree. Unlike traditional RPGs that separate physical and magical power, the "Attack" stat in Aniimo governs the damage output for all skill types, simplifying the gearing process while emphasizing role specialization.
+
+| Stat | Function | Impact on Combat |
+| :--- | :--- | :--- |
+| **HP** | Health Points | Determines total survivability before fainting |
+| **Attack** | Offensive Power | Increases damage for both physical and magical skills |
+| **Phys. Def** | Physical Defense | Reduces damage taken from melee and ranged strikes |
+| **Mag. Def** | Magic Defense | Mitigates damage from elemental and ethereal spells |
+| **Regen** | Recovery Rate | Governs the speed of HP and EP restoration |
+
+### Genetic Potential Tiers
+
+When you report a captured Aniimo, the system evaluates its genetic makeup. This classification is permanent and cannot be altered, making "Perfect" specimens highly sought after for competitive play.
+
+| Quality Tier | Growth Potential | Recommendation |
+| :--- | :--- | :--- |
+| **Common** | Baseline | Use for early-game progression or fusion fodder |
+| **Good** | Moderate | Reliable for mid-game questing and exploration |
+| **Elite** | High | Suitable for Alpha Boss fights and high-tier PvE |
+| **Perfect** | Maximum | The gold standard for endgame and PvP builds |
+
+<Callout type="tip" title="Pro Tip">
+Always check the "Capability" section after capturing a new Aniimo. Investing skill points into "Might" for a DPS-focused creature is the most efficient way to maximize their Attack stat early on.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Elemental Affinities and Type Matchups">
+
+The world of Aniimo is built upon nine distinct elemental types. Mastering the **aniimo specs** regarding type advantages is the difference between a 20-minute boss slog and a 5-minute victory. Type advantages grant a 2x damage multiplier, which stacks with other modifiers like the "Break" status.
+
+### The Nine Elements
+
+Each Aniimo can be a single type or a dual type. Dual-type creatures offer more versatility but may also inherit more weaknesses.
+
+| Element | Primary Strength | Common Counter |
+| :--- | :--- | :--- |
+| **Fire** | High burst damage | Water, Earth |
+| **Water** | Sustainability/Regen | Grass, Lightning |
+| **Grass** | Support/Debuffs | Fire, Ice |
+| **Earth** | High Physical Defense | Water, Wind |
+| **Wind** | Mobility/Spatial control | Ice, Lightning |
+| **Ice** | Crowd control (Freeze) | Fire, Earth |
+| **Lightning** | Speed/Chain attacks | Earth, Wind |
+| **Light** | Healing/Buffs | Dark |
+| **Dark** | High Magic Defense/EP Drain | Light |
+
+<Callout type="warning" title="Battle Indicator">
+Pay close attention to the text pop-ups during combat. "Excellent" indicates a type advantage (Double Damage), while "Bad" indicates a disadvantage (Half Damage).
+</Callout>
+
+### Spatial Relations: The RPS System
+
+Beyond elements, Aniimo uses a "Spatial Relation" system that functions like a weighted Rock-Paper-Scissors. This determines how attacks interact based on the creature's physical position in the world.
+
+<CardGrid cols={3}>
+  <Card title="Flying vs Grounded">
+    Ranged attacks are essential for hitting flying targets. Grounded melee attacks often miss or deal reduced damage to airborne foes.
+  </Card>
+  <Card title="Burrowing vs Tremor">
+    Burrowing Aniimo are immune to most standard attacks. You must use a creature with "Tremor" skills to force them back to the surface.
+  </Card>
+  <Card title="Melee vs Ranged">
+    Melee skills offer higher "Break" potential but require risky proximity, whereas Ranged skills provide safety at the cost of lower impact.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Combat Roles and Team Synergy">
+
+A balanced party is required for tackling Alpha Aniimo. While it might be tempting to stack four DPS units, the game's mechanics reward a diversified composition that can manage Elemental Power (EP) and the Break meter effectively.
+
+### The Five Combat Roles
+
+| Role | Primary Objective | Key Stat Focus |
+| :--- | :--- | :--- |
+| **DPS** | Raw damage output | Attack, Regen |
+| **Break** | Shredding the Break meter | Attack, Phys. Def |
+| **Support** | Buffing allies/Debuffing enemies | Mag. Def, Regen |
+| **Regen** | Restoring Elemental Power (EP) | Regen, HP |
+| **Healer** | Restoring team HP | HP, Mag. Def |
+
+<Callout type="success" title="Meta Strategy">
+The "Regen" role is often overlooked but critical. Creatures like **Wichen** can apply debuffs that restore your team's EP on every hit, allowing your DPS to spam high-damage skills indefinitely.
+</Callout>
+
+### Ideal Team Composition for Bossing
+
+For high-level PvE content, we recommend the following 4-slot party structure:
+
+<Steps>
+  <Step num="1" title="The Breaker">
+    Start the fight with your Breaker. Their goal is to deplete the enemy's yellow bar as quickly as possible. Use a Breaker with a type advantage for 2x Break efficiency.
+  </Step>
+  <Step num="2" title="The Support/Regen">
+    Cycle in your Regen unit to apply EP-restoration buffs. This ensures your team has enough energy to cast skills without resorting to weak normal attacks.
+  </Step>
+  <Step num="3" title="The DPS Payload">
+    Once the "Break" status is achieved, swap to your primary DPS. This is the time to use your Ultimate attacks, as they will deal quadruple damage (2x from Type + 2x from Break).
+  </Step>
+  <Step num="4" title="The Healer (Emergency)">
+    Keep a Healer in the final slot to recover from mistakes. Some healers, like Graswing, also provide elemental resistances to keep the team alive during boss Ultimates.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist and Goals">
+
+To optimize your journey in Aniimo, you should follow a structured progression path. Focus on securing high-quality "specs" early to avoid wasting resources on Common-tier creatures.
+
+<Checklist
+  id="aniimo-milestones"
+  title="2026 Launch Goals:"
+  items={[
+    "Capture a 'Good' or 'Elite' Breaker in the starting zone",
+    "Evolve a Wichen to unlock the EP-regen meta",
+    "Defeat the first Alpha Boss (Grizbol) using type advantages",
+    "Unlock the 'Twine' ability for your primary DPS",
+    "Reach Level 30 to unlock the full skill tree for your party"
+  ]}
+/>
+
+<Callout type="info" title="Evolution Tip">
+Wichen is considered one of the most powerful utility Aniimo in the early game. It can be evolved from the common 'humanoid' types found in the first open-world area.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technical Specs: System Requirements">
+
+While the "specs" of your Aniimo are vital for gameplay, ensuring your hardware meets the **aniimo specs** for the 2026 launch is equally important for a smooth experience.
+
+| Component | Minimum Requirements | Recommended (1440p) |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **CPU** | Intel i5-10400 / Ryzen 5 3600 | Intel i7-12700 / Ryzen 7 5800X |
+| **GPU** | GTX 1060 / RX 580 | RTX 3070 / RX 6800 |
+| **RAM** | 8 GB | 16 GB |
+| **Storage** | 50 GB SSD | 50 GB NVMe SSD |
+
+</Section>
+
+<Section icon={Target} title="FAQ: Common Aniimo Questions">
+
+<FAQ items={[
+  {
+    question: "What is the most important aniimo spec for endgame?",
+    answer: "While Attack is vital for damage, the 'Regen' stat is the most important for endgame sustainability. High Regen allows you to use your powerful skills more frequently without waiting for EP orbs to drop."
+  },
+  {
+    question: "Can I change an Aniimo's genetic quality (e.g., from Good to Perfect)?",
+    answer: "No, genetic quality is fixed upon capture. To get a Perfect Aniimo, you must either find one in the wild or use the breeding system to roll for better hidden values."
+  },
+  {
+    question: "How does the 'Twine' mechanic affect my stats?",
+    answer: "Twining with an Aniimo gives you direct control and typically grants a 15-25% boost to all combat stats. It also allows you to time 'Perfect' hits for skills, which can increase Break damage by up to 30%."
+  },
+  {
+    question: "Which element is the strongest in the current 2026 meta?",
+    answer: "There is no single 'strongest' element due to the RPS system. However, Dark and Light types are highly valued because they only have one weakness (each other) and often possess the best utility skills."
+  }
+]} />
+
+</Section>

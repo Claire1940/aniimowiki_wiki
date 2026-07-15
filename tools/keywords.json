@@ -1,46 +1,76 @@
 {
+  "topic_name": "aniimo",
   "categories": [
     {
-      "category": "Guides",
+      "category": "release",
       "keywords": [
-        "lucid blocks guide"
+        "aniimo release date",
+        "aniimo mobile release date",
+        "aniimo xbox release date",
+        "aniimo ps5 release date"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "beta",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "aniimo beta",
+        "aniimo closed beta",
+        "aniimo global closed beta",
+        "aniimo beta sign up",
+        "aniimo beta download",
+        "aniimo closed beta key",
+        "aniimo closed beta 3"
       ]
     },
     {
-      "category": "Items",
+      "category": "platforms",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "aniimo steam",
+        "aniimo specs",
+        "aniimo ps5",
+        "aniimo switch 2",
+        "aniimo mobile",
+        "aniimo xbox",
+        "aniimo epic games"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "creatures",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "aniimo creatures",
+        "aniimo starters",
+        "aniimo tier list",
+        "aniimo evolutions",
+        "aniimo shiny creatures"
       ]
     },
     {
-      "category": "Building",
+      "category": "features",
       "keywords": [
-        "lucid blocks qualia"
+        "aniimo ai",
+        "aniimo multiplayer",
+        "aniimo pvp",
+        "aniimo character customization",
+        "aniimo base building"
       ]
     },
     {
-      "category": "Support",
+      "category": "guide",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "aniimo vs palworld",
+        "aniimo gameplay",
+        "aniimo beginner guide",
+        "aniimo interactive map",
+        "aniimo creature catching guide",
+        "aniimo boss fight guide"
+      ]
+    },
+    {
+      "category": "monetization",
+      "keywords": [
+        "aniimo gacha",
+        "aniimo monetization",
+        "aniimo free to play"
       ]
     }
   ]

@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Monetization: Economy Guide & System Comparison",
+  description: "An in-depth breakdown of the aniimo monetization model, in-game currencies, and progression mechanics analyzed from the 2026 beta test.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Monetization+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo monetization** relies heavily on cosmetics and progression-based mechanics rather than pay-to-win elements.
+- **In-game currencies** such as Credits, Glimmers, and Fame are earned strictly through gameplay activities.
+- **The Prime Energy system** functions as a stamina limit, which impacts the speed of your late-game progression.
+- **No gacha mechanics** are present in the current build, ensuring a fairer monster-taming experience.
+</Callout>
+
+<Section icon={Map} title="Understanding the Aniimo Monetization Model">
+
+The core design of the **aniimo monetization** system focuses on player progression and cosmetic customization. Unlike many modern monster-taming and online RPGs, the game avoids aggressive pay-to-win structures. The developers have structured the economy around active participation, where major milestones, capturing tools, and research upgrades are tied directly to your in-game achievements.
+
+**Video Highlights:**
+- **Zero Pay-to-Win:** None of the core progression currencies can be purchased with real money.
+- **Stamina Constraints:** Prime Energy acts as a soft gate for daily high-tier rewards.
+- **Cosmetic Focus:** Premium items are limited to character and monster skins.
+
+<YouTubeEmbed videoId="R13NLyy6W9I" title="How will monetization ACTUALLY work within Aniimo? - Full Discussion" />
+
+| Feature | Monetized? | Primary Acquisition Method |
+| :--- | :--- | :--- |
+| **Anilog Progress** | No | Capturing unique Aniimos |
+| **Research Points** | No | Completing research tasks |
+| **Character Cosmetics**| Yes | Fashion Vouchers, Glimmer conversion |
+| **Aniimo Cosmetics** | Yes | Fame, Polaris Institute missions |
+| **Resource Chests** | No | Defeating Alpha/Omega bosses |
+
+<Callout type="success" title="Progression Integrity">
+The bottom progress bar on your Anilog interface is not a paid battle pass. Every reward on this track is unlocked entirely through capturing unique creatures in the wild.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="In-Game Currency Breakdown">
+
+Navigating the economy requires a clear understanding of the various currencies available. Each serves a specific purpose, ranging from purchasing basic capturing gear to unlocking premium aesthetic upgrades.
+
+### Standard and Premium Currency Comparison
+
+| Currency | Type | Main Uses | Primary Source |
+| :--- | :--- | :--- | :--- |
+| **Credits** | Standard | Antipods, XP Gems, Outpost vendors | Catch reports, Star levels, Chests |
+| **Fashion Vouchers** | Cosmetic | Character outfits, Skins | Elite training, Shop conversion |
+| **Glimmers** | Advanced | Antipod Ultras, Ability vouchers | Branch quests, Alpha/Omega bosses |
+| **Fame** | Cosmetic | Aniimo-specific cosmetics | Polaris Institute missions |
+
+<CardGrid cols={2}>
+  <Card title="Utility Currencies">
+    - **Credits:** Abundant standard currency for basic gameplay loops.
+    - **Glimmers:** Advanced resource used to buy high-tier capturing devices.
+  </Card>
+  <Card title="Cosmetic Currencies">
+    - **Fashion Vouchers:** Dedicated strictly to player character customization.
+    - **Fame:** Earned through specialized missions to style your favorite Aniimos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Glimmer Conversion Tip">
+You can convert your excess Glimmers into Fashion Vouchers at specific vendors, allowing you to acquire premium character cosmetics entirely through active gameplay.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Prime Energy System & Pay-to-Progress">
+
+While the game avoids direct pay-to-win mechanics, the inclusion of Prime Energy introduces a "pay-to-progress" element. This system acts as a stamina cap that regulates how often you can claim high-value rewards daily.
+
+### Prime Energy Costs and Recovery
+
+| Activity | Energy Cost | Reward Type |
+| :--- | :--- | :--- |
+| **Omega Chest** | 50 | High-tier Glimmers, Rare crafting items |
+| **Alpha Chest** | 30 | Standard Glimmers, Upgrade materials |
+| **Antipod Production** | Varies | Capturing devices |
+| **Battle Sim Rewards** | Varies | Combat experience, Training materials |
+
+<Steps>
+  <Step num="1" title="Passive Regeneration">
+    Prime Energy naturally recovers at a rate of 1 point every 10 minutes, capping out at a maximum of 200 points.
+  </Step>
+  <Step num="2" title="Consumable Replenishment">
+    Players can instantly restore their energy reserve by consuming a Prime Battery, which may be featured in future monetization plans.
+  </Step>
+  <Step num="3" title="Resource Feedback Loop">
+    Be mindful of your energy spend. If you run out of Prime Energy, you cannot open Alpha or Omega chests, halting your Glimmer acquisition loop.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Stamina Gating Warning">
+Because Glimmers are required to purchase advanced items, running out of Prime Energy directly limits your ability to farm high-tier gear and cosmetics during long play sessions.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Daily and Weekly Economy Checklist">
+
+To maximize your progression efficiency without spending real-world money, integrate these tasks into your regular play schedule.
+
+<Checklist
+  id="daily-economy-routine"
+  title="Recommended Daily Routine:"
+  items={[
+    "Clear daily Polaris Institute missions to accumulate Fame.",
+    "Defeat Alpha and Omega bosses to spend your regenerating Prime Energy.",
+    "Report your new catches to boost your Credit and Anilog star levels.",
+    "Convert spare Glimmers into Fashion Vouchers for free cosmetic unlocks."
+  ]}
+/>
+
+<Callout type="info" title="Stamina Management">
+Prioritize Omega Chests over Alpha Chests when your Prime Energy is limited, as they offer a significantly higher return on investment per energy point spent.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is there a gacha system in the current build of the game?",
+    answer: "No, there are no gacha mechanics. All Aniimos are captured directly in the wild through gameplay, and progression items cannot be rolled for with premium currency."
+  },
+  {
+    question: "Can I unlock all character cosmetics for free?",
+    answer: "Yes. By participating in Elite Training and branch quests, you earn Glimmers which can be converted into Fashion Vouchers to purchase shop cosmetics."
+  },
+  {
+    question: "How does the aniimo monetization handle pay-to-win elements?",
+    answer: "The game avoids direct pay-to-win by keeping stats, research points, and capturing rates tied to player progression. The only potential concern is the pay-to-progress nature of the Prime Energy stamina system."
+  },
+  {
+    question: "What is the maximum cap for Prime Energy?",
+    answer: "The natural storage limit for Prime Energy is 200 points, which regenerates passively over time or can be refilled using Prime Batteries."
+  }
+]} />
+
+</Section>

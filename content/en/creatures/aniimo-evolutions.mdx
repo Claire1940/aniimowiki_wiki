@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "aniimo evolutions: Progression Guide & Branching Path Tips",
+  description: "Master aniimo evolutions with our guide on branching paths, evolution materials, and progression strategies for the 2026 Global Closed Beta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Evolutions+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo evolutions** require reaching specific level thresholds and gathering specialized materials like Evolution Crystals.
+- **Branching paths** allow a single creature to evolve into different forms based on the materials used and player choice.
+- **Experience Gems** provide the fastest way to level up, with an 80% refund rate if you choose to release an upgraded creature.
+- **Special forms** such as Prismana and Darkler offer unique visual aesthetics and boosted combat capabilities.
+- **Researcher Levels** must be increased through exploration and capture to unlock advanced evolution skills.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics of aniimo evolutions">
+
+Understanding the fundamental systems behind **aniimo evolutions** is essential for any Pathfinder entering the continent of Idyll. Evolution in this world is not a linear progression but a strategic choice that impacts your team's elemental coverage and mobility. Before a creature can reach its next stage, it must accumulate enough combat experience or consume Experience Gems to hit the required level cap.
+
+<CardGrid cols={3}>
+  <Card title="Leveling Methods">
+    - **Active Combat**: Earn XP by defeating enemies in Twine Mode.
+    - **Experience Gems**: Use items for immediate level progression.
+    - **Quest Rewards**: Complete main story objectives for team-wide XP.
+  </Card>
+  <Card title="Evolution Stages">
+    - **Lumin**: The base or initial stage of most common creatures.
+    - **Gamma**: The first major evolution, unlocking new skills.
+    - **Nova**: The peak evolutionary form with maximum ability values.
+  </Card>
+  <Card title="Stat Influences">
+    - **Personalities**: Affect base stat growth (ATK, DEF, SPD).
+    - **Traits**: Unique passive abilities that define combat roles.
+    - **Ability Values**: Hidden potentials that can be optimized.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pathfinder Strategy">
+Concentrate your early-game resources on a core roster of three Aniimo. Spreading Experience Gems too thin across your entire collection will leave you under-leveled for the Alpha boss encounters found in the Russet Highlands.
+</Callout>
+
+| Evolution Stage | Minimum Level | Common Materials Required | Primary Benefit |
+| :--- | :--- | :--- | :--- |
+| **Lumin to Gamma** | Level 15-20 | Evolution Crystals, Regional Flora | New Active Skill, Stat Boost |
+| **Gamma to Nova** | Level 35-40 | Pure Luminite, Rare Boss Drops | Ultimate Ability, Max Mobility |
+| **Special Form** | Variable | Prismana Eggs, Event Items | Unique Traits, Enhanced Visuals |
+
+</Section>
+
+<Section icon={Sparkles} title="Branching Evolution Paths and Traits">
+
+One of the most distinct features of the **aniimo evolutions** system is the multi-branch progression. Many creatures in Idyll do not follow a single path; instead, they can adapt into different elemental or functional roles. This allows Pathfinders to tailor their favorite companions to fit specific team gaps, whether they need a high-stagger BREAK specialist or a ranged magic DPS.
+
+For example, a basic Fire-element creature might have the option to evolve into a high-speed physical attacker or a durable tank-style defender. These choices are permanent once the evolution material is consumed, making it vital to review the "Type Matchup" panel before committing.
+
+<Callout type="success" title="Evolution Flexibility">
+The January 29 update significantly improved the progression economy. If you evolve a creature and later find a version with a better Personality or higher Ability Values, you can release the old one to recover 80% of the invested Experience Gems.
+</Callout>
+
+| Branch Type | Material Focus | Combat Outcome | Exploration Utility |
+| :--- | :--- | :--- | :--- |
+| **Aggressive** | Attack-oriented Crystals | Higher Crit Rate, Burst Damage | Faster Ground Movement |
+| **Protective** | Defense-oriented Crystals | Shielding Skills, High HP | Resistance to Hazards |
+| **Utility** | Support-oriented Crystals | Healing, Buffs, Debuffs | Flight or Tunneling Lv.2 |
+
+Reviewing the traits of your Aniimo before evolution is equally important. Two creatures of the same species can have different personalities. A "Brave" personality might boost physical attack, while a "Calm" one increases magical defense. Use Potential Fruit to nudge these stats if you find a rare Sparkling variant with suboptimal base numbers.
+
+</Section>
+
+<Section icon={Target} title="Essential Materials and Farming Routes">
+
+To trigger **aniimo evolutions**, you must collect specific resources scattered across the open world. While basic Evolution Crystals are found in treasure chests and as quest rewards, higher-tier materials require defeating Alpha Aniimo or participating in specialized activities like the Diamond Egg Heist.
+
+| Resource Name | Primary Source | Usage | Rarity |
+| :--- | :--- | :--- | :--- |
+| **Experience Gem** | Training Program, Daily Quests | Leveling up Aniimo | Common |
+| **Evolution Crystal** | Outpost Shops, World Loot | Base Evolution Trigger | Common |
+| **Besauce Dewdrop** | Island of Peace, Water Bosses | Water-branch Evolutions | Rare |
+| **Pure Luminite** | Holo-Battle Challenges | Nova-stage Evolutions | Epic |
+| **Trait Potion** | Achievement Rewards | Switching Passive Traits | Rare |
+
+<Callout type="warning" title="Resource Management">
+Avoid using Pure Luminite on non-essential roster members. These are currently limited in the Global Closed Beta and should be reserved for your primary S-Tier creatures like Nimbi or Celestis.
+</Callout>
+
+Farming these materials efficiently involves a mix of exploration and social play. The Homeland system allows you to grow certain crops that can be processed into evolution aids, while the Aniipod Maker ensures you always have the tools needed to catch the high-level specimens required for advanced research tasks.
+
+</Section>
+
+<Section icon={Trophy} title="Special Forms and Progression Goals">
+
+Beyond standard **aniimo evolutions**, dedicated Pathfinders can seek out special forms that offer superior power and rare aesthetics. These forms are often tied to specific world events or high-difficulty cooperative challenges.
+
+<Checklist
+  id="evolution-milestones"
+  title="Evolution Progression Checklist:"
+  items={[
+    "Reach Researcher Level 10 to unlock Gamma evolution skills",
+    "Collect 50 Evolution Crystals from the Astra region",
+    "Successfully evolve your first Starter Aniimo to the Gamma stage",
+    "Participate in an Egg Heist to obtain a Darkler-form egg",
+    "Obtain a Sparkling Aniimo variant through world exploration",
+    "Max out a Nova-stage creature for Alpha Boss challenges"
+  ]}
+/>
+
+Special forms like the **Prismana** variants are obtained through Prismana Eggs, which feature boosted stat growth and iridescent visual effects. The **Darkler** forms, often rewarded through the competitive Lost Isles activities, focus on Dark-element synergy and high-risk, high-reward combat styles.
+
+<Callout type="info" title="Sparkling Aniimo">
+Sparkling variants are rare spawns in the wild. While they do not have a different evolution tree, their base Ability Values are typically 10-15% higher than standard versions, making them the ideal candidates for long-term investment.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Evolution Guide">
+
+If you are ready to strengthen your roster, follow these steps to ensure you don't waste rare materials or choose the wrong branching path for your playstyle.
+
+<Steps>
+  <Step num="1" title="Reach the Level Threshold">
+    Focus on your chosen Aniimo and use Experience Gems or active combat to reach the level required for the next stage (usually Level 20 for Gamma). Ensure the creature is in your active roster to maximize passive XP gain.
+  </Step>
+  <Step num="2" title="Gather Regional Materials">
+    Check the Aniilog to see which specific materials are needed. For example, creatures found in the Rosetower Wood may require specific flora or crystals only found in that biome.
+  </Step>
+  <Step num="3" title="Compare Branching Options">
+    Open the Evolution menu and preview the available branches. Look at the skill changes and elemental shifts. If you lack a Wind-type for flight, choosing a branch that grants "Fly Lv.1" is highly recommended.
+  </Step>
+  <Step num="4" title="Confirm Personality Synergy">
+    Ensure your Aniimo's personality matches its intended evolution role. An ATK-boosting personality is wasted on a branch that focuses entirely on healing and support skills.
+  </Step>
+  <Step num="5" title="Trigger the Evolution">
+    Consume the required materials to transform your Aniimo. Once evolved, your creature will gain a significant stat boost and often unlock a new Twine Mode ability, such as a faster dash or a higher jump.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Twine Ability Upgrades">
+Evolving your Aniimo doesn't just help in combat; it's the primary way to unlock better exploration tools. A Nova-stage Celestis, for instance, provides superior climbing and flying capabilities compared to its Lumin form, opening up hidden areas in the Forest of Falling Stars.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Aniimo Evolution FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I reverse an evolution if I don't like the new form?",
+    answer: "No, evolutions are permanent. However, because of the 80% Experience Gem refund policy, you can release the evolved Aniimo and quickly level up a new one if you change your mind about a branching path."
+  },
+  {
+    question: "Do aniimo evolutions change the creature's element?",
+    answer: "Some branching paths can add a secondary element or completely change the primary one. Always check the preview screen to see how the 'Type Matchup' will be affected before confirming."
+  },
+  {
+    question: "Is it better to use Experience Gems or fight wild enemies?",
+    answer: "Fighting wild enemies is better for long-term progression as it saves resources, but Experience Gems are essential for quickly catching up a new, high-potential capture to your current team's level."
+  },
+  {
+    question: "Does the Researcher Level affect my ability to evolve Aniimo?",
+    answer: "Yes, certain advanced evolution stages and the ability to use high-tier evolution materials are locked behind your Researcher Level. You increase this by completing exploration tasks and capturing new species."
+  }
+]} />
+
+</Section>

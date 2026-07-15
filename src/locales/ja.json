@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "ガイド",
+    "creatures": "クリーチャー",
+    "features": "機能",
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "beta": "ベータ",
+    "monetization": "課金"
+  }
+}

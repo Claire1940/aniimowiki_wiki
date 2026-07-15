@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo interactive map: Spawn Locations & Conditions Guide",
+  description: "Master the aniimo interactive map to track down spawn locations, time conditions, and capture requirements in the closed beta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Interactive+Map+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Map Interface**: Use the right-hand diagram on the **aniimo interactive map** to view regional spawn lists.
+- **Spawn Borders**: Blue and red borders define the exact proximity of active creature habitats.
+- **Time Manipulation**: Toggle the day/night cycle manually to trigger time-sensitive spawns immediately.
+- **Capture Chains**: Catch specific numbers of common forms in a row to force rare variants to appear.
+- **Fast Travel**: Warp instantly to nearby cubes even when engaged in minor wild combat.
+</Callout>
+
+<Section icon={Map} title="Navigating the aniimo interactive map and Proximity Borders">
+
+Locating rare creatures in the game requires a firm understanding of the **aniimo interactive map** and its built-in detection tools. Every major zone, such as the Berlyn Causeway, features a dedicated regional interface that displays which creatures reside within the area's boundaries. By selecting a target from the list, you can view its specific spawn requirements and general location.
+
+Understanding how to read these map interfaces prevents unnecessary wandering. The game provides visual indicators that narrow down your search area, allowing you to focus on the environment rather than searching aimlessly across the entire zone.
+
+**Video Highlights:**
+- Accessing the right-hand map diagram to view local creature availability.
+- Understanding how proximity borders define active hunting zones.
+- Using the manual time shift mechanic to change day to night.
+- Finding hidden, cloaked creatures using visual cues in the forest.
+- Executing consecutive captures to unlock rare variant spawns.
+
+<YouTubeEmbed videoId="fc0ITwCzoSM" title="How to Find ANY Aniimo FAST! | Spawn Locations & Conditions Guide | Aniimo Global Closed Beta" />
+
+When exploring a new region, always check the right-hand side of the map interface. This diagram lists every creature registered in the current sub-zone. A colored border outlines the proximity area, showing you exactly where the creatures are capable of spawning. If you are hunting for a specific target, clicking its icon reveals its spawn conditions, such as weather requirements or time constraints.
+
+If you prefer not to wander blindly, the map features a distribution view option. Clicking this button overlays tiny yellow markers on your map, indicating the exact nesting grounds of the selected creature. This is particularly useful for locating creatures that nest in dense forests or hidden ruins.
+
+<Callout type="tip" title="Fast Travel Scouting">
+If you cannot find a creature in its marked yellow zone, use fast travel to jump between nearby teleportation cubes to reset the local rendering.
+</Callout>
+
+| Map Element | Location on Screen | Primary Function |
+| :--- | :--- | :--- |
+| Regional Diagram | Right-hand sidebar | Displays all creatures native to the current sub-zone |
+| Proximity Border | Main map overlay | Defines the exact geographical limits of the spawn zone |
+| Distribution View | Bottom center | Highlights specific spawn coordinates with yellow markers |
+| Day/Night Toggle | Top right corner | Allows players to change the world time instantly |
+
+</Section>
+
+<Section icon={Sparkles} title="Day/Night Cycles and Environmental Spawns">
+
+Environmental factors play a massive role in creature availability. Many species only appear during specific times of day or under certain weather conditions. For instance, the normal form of Ignis requires night time to spawn. If you search the forest during the day, you will find other species occupying the area instead.
+
+Fortunately, you do not have to wait in real-time for the sun to set. The map interface includes a time manipulation feature that allows you to jump between day and night instantly. This utility is essential for target-farming creatures that have strict environmental triggers.
+
+<Steps>
+  <Step num="1" title="Open the Area Map">
+    Access your regional map and identify the target creature from the right-hand list.
+  </Step>
+  <Step num="2" title="Check Trigger Conditions">
+    Read the spawn requirements, looking specifically for time constraints like night time.
+  </Step>
+  <Step num="3" title="Access Time Settings">
+    Navigate to the day and night configuration panel located on the map interface.
+  </Step>
+  <Step num="4" title="Confirm Time Skip">
+    Accept the prompt to skip ahead to night time, allowing the environment to shift.
+  </Step>
+  <Step num="5" title="Travel to Yellow Zones">
+    Fast travel to the highlighted yellow coordinates and search the forest canopy.
+  </Step>
+</Steps>
+
+Manipulating the time of day immediately updates the spawn tables in your current zone. However, keep in mind that weather patterns, such as rain or fog, might persist through a time skip. Some creatures require a combination of both night time and rainy weather, making it necessary to monitor both the sky and the clock.
+
+When searching for night-only spawns, look for visual anomalies. Some creatures utilize natural camouflage or cloaking abilities. In the forest, you might only see the glowing eyes or the faint outline of a cloak. Approaching slowly is key to initiating a successful capture before they flee.
+
+<Callout type="warning" title="Time Skip Warnings">
+Forcing a day-to-night transition does not clear active weather effects like rain, which can still affect visibility.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Capture Requirements and Chains">
+
+Not all creatures rely solely on the time of day. Advanced variants, such as the Prismane Ignitus, require players to complete specific gameplay challenges before they will show themselves. These challenges often involve catching a set number of common forms in a row to trigger the rare spawn.
+
+For example, to force a Prismane Ignitus to appear in the Berlyn Causeway, you must catch 15 Highland forms consecutively. Breaking the chain by catching a different species or leaving the region resets your progress, meaning you must plan your route carefully.
+
+<Callout type="success" title="Chaining Rewards">
+Maintaining a high capture chain increases the individual values and rare trait chances of subsequent spawns.
+</Callout>
+
+| Creature Form | Primary Spawn Condition | Recommended Location |
+| :--- | :--- | :--- |
+| Normal Ignis | Night time cycle | Berlyn Causeway Forest |
+| Prismane Ignitus | Catch 15 Highland forms in a row | Highland Cliffs |
+| Wispitus | Standard daylight cycle | Open Causeway Meadows |
+| Shadow Ignis | Heavy rain at night | Deep Forest Ruins |
+
+| Mechanic | Input Action | Expected Result |
+| :--- | :--- | :--- |
+| Fast Travel | Select active cube on map | Instant teleportation, even during active wild combat |
+| Distribution Check | Click 'View Distribution' | Yellow dots overlay showing exact nesting grounds |
+| Stealth Approach | Crouch and approach from behind | Backstab capture bonus with Antipodes |
+
+To successfully complete a capture chain, clear out any aggressive wild creatures that might interfere with your targets. If you accidentally engage an unwanted creature, you can fast travel to a nearby cube to drop combat without breaking your active chain. This allows you to reposition and continue targeting the required species.
+
+When approaching your target, use stealth to your advantage. Crouching reduces your detection radius, allowing you to get close enough to throw an Antipode. Backstabbing a creature with a capture sphere significantly increases your success rate, saving resources during long farming sessions.
+
+<CardGrid cols={3}>
+  <Card title="Stealth Capture Strategy">
+    - **Crouch to approach**
+    - Target the back of the creature
+    - High success rate with standard Antipodes
+  </Card>
+  <Card title="Chain Farming Strategy">
+    - **Target one species**
+    - Avoid catching filler mobs
+    - Triggers elite and Prismane variants
+  </Card>
+  <Card title="Speed Scouting Strategy">
+    - **Fast travel between cubes**
+    - Check minimap for visual anomalies
+    - Reset spawns by toggling day/night
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Checklist for Map Completion">
+
+Completing a zone requires systematic exploration and tracking. By unlocking all fast travel points and understanding the local spawn triggers, you can efficiently fill out your collection index. Use the checklist below to track your progress in the starting regions.
+
+As you progress, the requirements for unlocking new areas will become more demanding. Keeping your map updated and clearing out older zones ensures you have the resources and levels needed to tackle higher-level areas.
+
+<Checklist
+  id="map-completion-goals"
+  title="Regional Map Checklist:"
+  items={[
+    "Unlock all fast travel cubes in Berlyn Causeway",
+    "Locate the forest nesting grounds",
+    "Trigger the night cycle for Ignis spawns",
+    "Complete a 15-capture chain of Highland forms",
+    "Identify invisible training groups near the ruins"
+  ]}
+/>
+
+<Callout type="info" title="Minimap Tracking">
+Keep an eye on the top-left mini-map. Look for subtle visual cues like glowing eyes or cloaking ripples.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ and Troubleshooting">
+
+Understanding the map interface and spawn conditions can be challenging for new players. Below are answers to the most common questions regarding navigation, tracking, and capture mechanics.
+
+<Callout type="tip" title="Beta Updates">
+Map features and spawn rates are subject to adjustments during the ongoing global closed beta phases.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I use the aniimo interactive map to find invisible targets?",
+    answer: "Open the map, select the target creature, and click 'View Distribution'. Travel to the marked yellow spots and look for visual ripples or glowing eyes in the environment."
+  },
+  {
+    question: "Does fast travel cancel my active capture chain?",
+    answer: "No, fast traveling between cubes within the same region does not break your current capture chain, allowing you to reposition safely."
+  },
+  {
+    question: "What happens if I catch a different creature type during a chain?",
+    answer: "Catching any creature outside of the specified chain target will immediately reset your counter to zero, forcing you to restart."
+  },
+  {
+    question: "Can I skip time while engaged in active combat?",
+    answer: "No, the day and night toggle option is disabled on the map interface while your character is actively flagged for combat."
+  }
+]} />
+
+</Section>

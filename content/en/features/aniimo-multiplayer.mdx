@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo multiplayer: Competitive Modes & Co-op Guide",
+  description: "Master aniimo multiplayer with our guide to Diamond Egg Heist, co-op Alpha bosses, social hubs, and cross-platform play for the 2026 launch.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/17344A/fff?text=Aniimo+Multiplayer+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo multiplayer** features a robust mix of **3v3v3v3v3v3 PvP**, 2-player co-op puzzles, and massive social hubs.
+- **Diamond Egg Heist** is the primary competitive mode where up to six teams battle to secure and escort a rare egg.
+- **Co-op Gameplay** includes challenging Alpha Aniimo boss fights and specialized **Sanctum** puzzle dungeons.
+- **Cross-Platform Play** is fully supported across PC, PS5, Xbox Series X|S, and mobile devices for the Q3 2026 launch.
+- **Social Features** allow for Aniimo trading, visiting player Homelands, and meeting in the city of Astra.
+</Callout>
+
+<Section icon={Users} title="The aniimo multiplayer Experience: Overview">
+
+The world of Idyll is not a solitary journey. **aniimo multiplayer** integrates social interaction directly into the core gameplay loop, bridging the gap between creature-catching exploration and high-stakes competitive action. Whether you are teaming up with a friend to solve intricate physics-based puzzles in a Sanctum or competing against five other squads in the Lost Isles, the multiplayer systems are designed to reward coordination and strategic Twining.
+
+**Video Highlights:**
+- **Capture Mechanics**: See how stealth and Break damage work in real-time.
+- **Twine Combat**: Watch the transition from Pathfinder to Aniimo control.
+- **Multiplayer Regions**: A glimpse into the diverse biomes of Idyll.
+- **Boss Encounters**: Preview the scale of Alpha Aniimo battles.
+
+<YouTubeEmbed videoId="fjSZIipVkhA" title="Aniimo | Gameplay Showcase" />
+
+As of the July 2026 Global Closed Beta, players can access a variety of online features. The game emphasizes "Pathfinder synergy," where different players Twine with complementary Aniimo to overcome environmental obstacles or elemental resistances.
+
+<Callout type="info" title="Beta Access Reminder">
+The current Global Closed Beta (started July 9, 2026) is a data-wipe test. While you can enjoy all **aniimo multiplayer** features now, your progress and social rankings will be reset before the official Q3 2026 launch.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Competitive Play: Diamond Egg Heist and PvP">
+
+The pinnacle of competitive **aniimo multiplayer** is the **Diamond Egg Heist**. Set in the treacherous Lost Isles, this mode pits six teams of three against each other in a race to claim a Diamond Egg. This isn't just a simple capture-the-flag variant; it requires a deep understanding of movement abilities and team composition.
+
+In this mode, players must navigate the terrain using Twine abilities—gliding, climbing, and swimming—to reach the central objective. Once a team secures the egg, the carrier becomes a high-profile target. The remaining two teammates must provide protection, using defensive Aniimo like Nimbi to shield the carrier or aggressive types like Emberpup to intercept pursuers.
+
+| Feature | Diamond Egg Heist | Holo-Battle Interlink |
+| :--- | :--- | :--- |
+| **Player Count** | 18 Players (6 Teams of 3) | 1-3 Players |
+| **Primary Goal** | Secure and escort the Diamond Egg | Defeat waves of enemies/bosses |
+| **Map Location** | Lost Isles | Polaris Institute |
+| **Key Rewards** | Darkler-form Aniimo, Rare Eggs | Upgrade materials, Resonators |
+| **Combat Style** | PvEvP (Creatures + Players) | PvE (Simulation) |
+
+<Callout type="warning" title="Strategy Alert">
+In Diamond Egg Heist, over-extending without your team is the fastest way to lose. Always ensure at least one player in your trio has a mobility-focused Aniimo to act as a scout or emergency carrier.
+</Callout>
+
+Beyond the Heist, the **Holo-Battle Interlink** offers a more structured competitive environment. While primarily focused on clearing simulations, the leaderboards and score-chasing aspects provide a platform for players to showcase their combat efficiency against the community.
+
+</Section>
+
+<Section icon={Zap} title="Cooperative Challenges: Alpha Bosses and Sanctums">
+
+For those who prefer collaboration over competition, **aniimo multiplayer** offers extensive PvE content. The continent of Idyll is home to **Alpha Aniimo**, massive versions of standard creatures with significantly higher health pools and devastating attack patterns. These encounters, such as the water-themed Bubbask or the formidable Minespine, often require a full party of Pathfinders to manage aggro and apply enough Break damage to create openings.
+
+**Sanctum Puzzles** represent a different kind of cooperation. These are dedicated dungeons, like the *Sanctum: Rigged Maze*, designed for two-player co-op. Players must use their Aniimo's unique environmental abilities—such as using a Fire type to power a steam engine while a Wind type navigates a floating platform—to reach the end.
+
+<Steps>
+  <Step num="1" title="Form a Party">
+    Use the social menu (Esc > Social) to invite friends or use the matchmaking kiosks in Astra to find a partner.
+  </Step>
+  <Step num="2" title="Select Complementary Roster">
+    Ensure your team covers multiple elements. If your partner brings a high-DPS Fire type, consider bringing a Support Wind type or a Rock type for BREAK pressure.
+  </Step>
+  <Step num="3" title="Enter the Encounter">
+    Travel to the Alpha Boss icon on the map or enter a Sanctum portal. All party members must be present to trigger the start.
+  </Step>
+  <Step num="4" title="Coordinate Twine Usage">
+    Communicate when you are switching to Twine Mode. Direct control is essential for dodging boss "ultimate" attacks and executing combos.
+  </Step>
+</Steps>
+
+| Boss Name | Element | Recommended Role | Major Drop |
+| :--- | :--- | :--- | :--- |
+| **Bubbask** | Water | Electric / Grass DPS | Pure Luminite |
+| **Minespine** | Rock / Dark | Water / Holy BREAK | Evolution Crystals |
+| **Coraliz** | Water / Ice | Fire / Electric DPS | Rare Prismana Eggs |
+| **Sparkling Alpha** | Variable | Elemental Counter | Shimmering Gems |
+
+<Callout type="tip" title="Pro Tip">
+When fighting Alpha Bosses in co-op, designate one player as the "Breaker." Their sole job should be using high-BREAK abilities to stagger the boss, allowing the other players to unload their most powerful Twine combos during the vulnerability window.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Social Hubs and the Homeland System">
+
+Multiplayer in Aniimo isn't always about combat. The city of **Astra** serves as the primary social hub where hundreds of Pathfinders can meet, showcase their rarest Aniimo, and trade resources. It is the heart of the community, featuring decorative stores, accessory shops, and the Polaris Institute.
+
+The **Homeland** system adds a personal touch to the social experience. Every player has an RV-connected base that can be customized and expanded. You can invite friends to visit your Homeland to see your Aniimo collection, help with crop cultivation, or simply hang out in a custom-decorated space.
+
+<CardGrid cols={2}>
+  <Card title="Aniimo Exchange">
+    - **Trading**: Swap captured Aniimo with other players to complete your Index.
+    - **Gifting**: Send resources or common items to friends to help their progression.
+    - **Marketplace**: Browse listed creatures in the Astra social district.
+  </Card>
+  <Card title="Homeland Visits">
+    - **Showcasing**: Display your evolved Gamma or Nova forms in your yard.
+    - **Co-op Farming**: Friends can help water crops or interact with your Aniimo.
+    - **Customization**: Share your interior design layouts with the community.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Community Feature">
+The "Island of Peace" update introduced even more non-combat activities, including aquatic races and social mini-games that reward players with cosmetic accessories for their Pathfinders.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technical Specifications and Cross-Play">
+
+To ensure a seamless **aniimo multiplayer** experience, Pawprint Studio has built the game with cross-platform functionality from day one. Whether you are on a high-end PC or a mobile device, you can join the same servers and play with your friends. Cross-progression is also supported, meaning your beta progress (and eventually your launch progress) follows your account across all linked platforms.
+
+| Platform | Cross-Play | Storage Required | Minimum RAM |
+| :--- | :--- | :--- | :--- |
+| **PC (Steam/Epic)** | Supported | 45 GB | 12 GB |
+| **PS5 / Xbox Series** | Supported | 45 GB | N/A |
+| **iOS (iPhone 12 Pro+)** | Supported | 25 GB | 6 GB |
+| **Android (Snapdragon 7+)** | Supported | 25 GB | 6 GB |
+
+<Checklist
+  id="multiplayer-prep"
+  title="Multiplayer Readiness Checklist:"
+  items={[
+    "Reach Researcher Level 5 to unlock Astra Hub",
+    "Complete 'The First Twine' quest for co-op access",
+    "Link your account to the official Aniimo portal",
+    "Assemble a team of at least 3 different elements",
+    "Ensure 25GB+ free space for mobile updates"
+  ]}
+/>
+
+<Callout type="info" title="Connectivity Tip">
+For the best experience in Diamond Egg Heist, we recommend a 5 GHz Wi-Fi connection or a wired Ethernet cable. High latency can cause "rubber-banding" during fast-paced Twine combat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is aniimo multiplayer mandatory for progression?",
+    answer: "No, the main story can be completed solo. However, Alpha Bosses and Sanctums provide significantly faster access to high-tier evolution materials and rare Aniimo forms."
+  },
+  {
+    question: "How does the trading system work?",
+    answer: "You can exchange Aniimo with friends or players in Astra. Some special forms, like those from the Egg Heist, are highly valued in the community exchange."
+  },
+  {
+    question: "Can I play with friends on different platforms?",
+    answer: "Yes, aniimo multiplayer fully supports cross-play between PC, PlayStation 5, Xbox Series X|S, and mobile (iOS/Android)."
+  },
+  {
+    question: "What happens if a player disconnects during a co-op boss?",
+    answer: "The boss health scales dynamically. If a player leaves, the difficulty will adjust, though it is always better to finish the fight with a full squad for maximum rewards."
+  }
+]} />
+
+</Section>

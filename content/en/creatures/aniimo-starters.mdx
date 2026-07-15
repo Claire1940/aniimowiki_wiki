@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Starters: Best Beginner Tips & Team Setup Guide",
+  description: "Master your journey with the best aniimo starters. Learn team building, element synergy, and essential progression tips for the closed beta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Starters+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo Starters**: Twinning directly with your starter is the most efficient way to clear early game encounters.
+- **Team Synergy**: Focus on building three Damage Per Second (DPS) units with complementary elements first.
+- **Resource Management**: Prioritize leveling your primary DPS and Break units before upgrading static supports.
+- **Resonance System**: Collect species-specific crystals to ascend your team and earn valuable Capability Points.
+- **Homeland System**: Avoid selling overworld collectibles; craft elemental RV decorations to boost stats.
+</Callout>
+
+<Section icon={Map} title="Essential Aniimo Starters and Movement Mechanics">
+
+Selecting and mastering your **aniimo starters** is the foundation of a successful adventure. While you can let your creatures fight independently on the sidelines, the most effective way to conquer tough encounters is through Twinning. Twinning allows you to directly control your creature in active combat. 
+
+Every starter controls differently, featuring unique movement speeds, attack animations, and recovery frames. It is highly recommended to test your creature's physical feel before investing heavy resources into its development.
+
+**Video Highlights:**
+- **Control Mechanics**: Direct control via Twinning is far superior to sideline spectating.
+- **Vibe Check**: Test movement and attack speeds before committing leveling materials.
+- **Case Study**: Blazing looks powerful but plays slowly, whereas Benmain offers high mobility.
+
+<YouTubeEmbed videoId="UsicCObepZ0" title="Aniimo Beginner Tips – What to Know Before Playing" />
+
+| Starter | Element | Playstyle | Movement Speed | Attack Speed |
+| :--- | :--- | :--- | :--- | :--- |
+| **Blazing** | Fire | Heavy Brawler | Slow | Slow |
+| **Benmain** | Grass | Mobile Skirmisher | Fast | Fast |
+| **Aquasprite** | Water | Ranged Supporter | Medium | Medium |
+
+<Callout type="warning" title="Twinning Advisory">
+Do not judge a creature solely by its visual design. Always enter a practice match to ensure its attack pacing and movement speed match your personal playstyle.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Early Game Team Building and Element Synergy">
+
+Optimizing your squad early requires understanding the core elemental wheel. To farm high-level upgrade items efficiently, you must build a balanced roster of three DPS units. The Hollow Battle Sim requires specific element configurations to claim high-tier rewards, runes, and held items.
+
+Focus on covering the primary element wheel (Fire, Water, and Grass) before branching out into advanced elements.
+
+| Game Mode | Recommended Setup | Primary Reward | Energy Cost |
+| :--- | :--- | :--- | :--- |
+| **Hollow Battle Sim** | 3 Complementary DPS | Held Items / Runes | Medium |
+| **Boss Chests** | Element Advantage | Astronite Shards | High (Daily) |
+| **Overworld Exploration** | High Mobility Team | Exploration Chests | None |
+
+<CardGrid cols={3}>
+  <Card title="Fire Element">
+    - Strong against Grass
+    - Weak against Water
+    - Focuses on high burst damage
+  </Card>
+  <Card title="Water Element">
+    - Strong against Fire
+    - Weak against Grass
+    - Focuses on crowd control
+  </Card>
+  <Card title="Grass Element">
+    - Strong against Water
+    - Weak against Fire
+    - Focuses on mobility and healing
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Resource Allocation">
+Prioritize upgrading your DPS and Break units first. Support buffs are static and do not scale significantly with early levels, meaning healers can function well at lower investments.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Starter Progression and Resonance">
+
+To maximize the potential of your **aniimo starters**, you must engage with the Resonance system. This process functions like character ascension, boosting base stats and granting Capability Points (similar to Effort Values in classic monster tamers) to specialize stats.
+
+<Steps>
+  <Step num="1" title="Catch Species Duplicates">
+    Catch multiple wild creatures of the same species to obtain species-specific crystals.
+  </Step>
+  <Step num="2" title="Farm Astronite Shards">
+    Spend your daily energy on boss chests to accumulate Astronite Shards for ascension.
+  </Step>
+  <Step num="3" title="Ascend through Resonance">
+    Use crystals and shards in the Resonance menu to increase your star rating and unlock Capability Points.
+  </Step>
+  <Step num="4" title="Distribute Capability Points">
+    Allocate earned points into specific stats to customize your creature's combat role.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimization Strategy">
+Do not hyper-invest in the very first creature you catch. Potentials, personalities, and traits are determined upon capture. Save your premium resources for high-potential or elite variants.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Homeland System and Element Buffs">
+
+The Homeland system is not just a cosmetic housing simulator; it is a critical source of passive combat power. By completing requests for local residents, you earn materials to craft special RV decorations. These decorations provide permanent stat boosts to specific elements.
+
+| Decoration Type | Crafting Material | Element Boosted | System Source |
+| :--- | :--- | :--- | :--- |
+| **Solar Panel RV** | Overworld Collectibles | Grass / Fire | Homeland Requests |
+| **Water Filter RV** | River Minerals | Water / Ice | Homeland Requests |
+| **Engine Core RV** | Rare Metal Ore | Electric / Steel | Boss Loot Drops |
+
+<Callout type="info" title="Hoarding Tip">
+Never sell overworld collectibles or random items found during exploration. These are frequently requested in Homeland missions and are vital for crafting high-tier decorations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist and Goals">
+
+Avoid burning out by setting realistic daily and weekly goals. Progression in the beta is a marathon, not a sprint. Focus on building a stable foundation before attempting high-end PvP content.
+
+<Checklist
+  id="beginner-progression"
+  title="Early Game Milestones:"
+  items={[
+    "Test and select your preferred starter playstyle via Twinning",
+    "Assemble a core team of Fire, Water, and Grass DPS units",
+    "Unlock the Hollow Battle Sim to start farming held items",
+    "Ascend your primary DPS using the Resonance system",
+    "Complete Homeland requests to craft your first element-boosting RV decoration"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Which of the aniimo starters is the best for beginners?",
+    answer: "There is no single best starter, but highly mobile units like Benmain are generally easier to handle in active combat compared to slower, heavy hitters like Blazing."
+  },
+  {
+    question: "Why should I avoid leveling my support units early?",
+    answer: "Most support buffs are static and do not scale with level. Your DPS and Break units scale significantly better with early-game resources like leveling gems."
+  },
+  {
+    question: "How do I get more Capability Points?",
+    answer: "Capability Points are unlocked by ascending your creatures through the Resonance system, which requires species-specific crystals and Astronite Shards."
+  },
+  {
+    question: "Should I keep every overworld item I find?",
+    answer: "Yes. Do not sell your overworld collectibles. They are required to complete Homeland requests, which reward you with materials for stat-boosting RV decorations."
+  }
+]} />
+
+</Section>

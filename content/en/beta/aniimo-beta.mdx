@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Download } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Beta: Global Test Guide and Launch Details",
+  description: "Get started with the Aniimo Global Closed Beta. Explore our guide for download instructions, platform availability, and essential early-game tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Aniimo+Beta+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo beta** access is currently live for PC, Steam, Android, and iOS platforms.
+- **Global launch** is officially scheduled for Q3 2026 as a free-to-play title.
+- **Progression** data from the closed beta will be wiped upon the official release.
+- **Core gameplay** centers on creature collection, Twining, and real-time combat.
+- **Early-game success** requires a balanced roster focusing on elemental counters.
+</Callout>
+
+<Section icon={Download} title="Global Closed Beta and Download Guide">
+
+The Global Closed Beta for Aniimo provides players with an exclusive opportunity to explore the continent of Idyll. Participation is limited, and access is managed via official email invitations.
+
+**Video Highlights:**
+- Official gameplay mechanics and combat systems.
+- Demonstration of the Twining transformation feature.
+- Exploration of the open-world environment and creature interaction.
+
+<YouTubeEmbed videoId="186NEVNr8MI" title="Aniimo Gameplay Showcase" />
+
+Follow these steps to ensure you are ready for the test environment:
+
+<Steps>
+  <Step num="1" title="Check Eligibility">
+    Log in to the official website to verify your beta status. Selected testers receive instructions via email.
+  </Step>
+  <Step num="2" title="Platform Installation">
+    Follow the specific link provided for your device (PC, Steam, Android, or iOS TestFlight).
+  </Step>
+  <Step num="3" title="Data Management">
+    Note that all progress is reset after the test. Focus on testing systems rather than long-term grinding.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+Always check your Spam or Junk folder if you have applied for the beta but have not received a confirmation email.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Release Date and Platform Overview">
+
+Aniimo is set to arrive globally in Q3 2026. The game adopts a free-to-play model, ensuring accessibility across major gaming platforms.
+
+| Platform | Storefront | Availability |
+| :--- | :--- | :--- |
+| PC | Steam / Epic Games | Wishlist Available |
+| PlayStation 5 | PlayStation Store | Wishlist Available |
+| Xbox Series X\|S | Microsoft Store | Wishlist Available |
+| Mobile | Google Play / App Store | Pre-registration |
+
+<Callout type="success" title="Platform Advantage">
+Cross-platform progression is supported during the testing phase for players using the same account across PC and mobile devices.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Elements and Team Strategy">
+
+Combat in Aniimo combines tactical Command Mode with real-time Twine Mode. Success depends on understanding elemental matchups and rotating your roster effectively.
+
+| Element | Strength | Weakness |
+| :--- | :--- | :--- |
+| Fire | Grass, Ice | Water, Rock |
+| Water | Fire, Rock | Electric, Grass |
+| Electric | Water, Wind | Rock, Grass |
+| Wind | Electric, Dark | Fire, Ice |
+
+<CardGrid cols={3}>
+  <Card title="Alpha Boss Team">
+    - Counter-element attacker
+    - High Break-damage specialist
+    - Durable support unit
+  </Card>
+  <Card title="Exploration Team">
+    - Mobility-focused Twine form
+    - Broad elemental coverage
+    - Utility for puzzle solving
+  </Card>
+  <Card title="Holo-Battle Team">
+    - Optimized DPS output
+    - Fast-cycling support skills
+    - Synergy-based damage buffs
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Always prioritize creatures with movement abilities like gliding or tunneling to reach hidden treasure chests in the open world.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Beginner Progression Tips">
+
+Efficient progression in the early game saves valuable resources. Focus on building a versatile roster rather than upgrading every captured creature.
+
+| Action | Priority | Reason |
+| :--- | :--- | :--- |
+| Main Quests | Highest | Unlocks core systems |
+| Active Roster | High | Experience gain is shared |
+| Experience Gems | Medium | Reserve for core members |
+| Material Farming | Low | Only for final evolutions |
+
+<Checklist
+  id="beginner-checklist"
+  title="First Day Objectives:"
+  items={[
+    "Complete the tutorial questline",
+    "Unlock the Aniipod Maker",
+    "Build a 3-element team roster",
+    "Identify your first mobility Aniimo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Is the Aniimo beta free to play?",
+    answer: "Yes, the current Global Closed Beta is free, and no in-game purchases are required for testing."
+  },
+  {
+    question: "Will my progress carry over to the official launch?",
+    answer: "No, all account data, progress, and captured creatures will be wiped after the beta ends."
+  },
+  {
+    question: "Can I play Aniimo on my phone?",
+    answer: "Yes, Aniimo is designed for cross-platform play, including Android and iOS support."
+  },
+  {
+    question: "What is the Twine mechanic?",
+    answer: "Twine allows you to transform into a captured creature, granting you their unique movement, puzzle-solving, and real-time combat abilities."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,133 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Home } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Base Building: 2026 Optimization & Automation Guide",
+  description: "Master aniimo base building with our 2026 guide. Learn efficient layout design, automation tips, and how to maximize your RV production.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Base+Building+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo base building** is the core loop for resource generation and progression.
+- **Automation** allows your creatures to handle farming, watering, and hauling tasks.
+- **RV leveling** unlocks new facilities, higher placement limits, and advanced production tiers.
+- **Team composition** matters; match creature elemental traits to facility requirements for efficiency.
+</Callout>
+
+<Section icon={Home} title="Getting Started with Base Building">
+
+The RV serves as your personal base in Aniimo, acting as an instanced sanctuary where you can cultivate resources and manage your creatures. Mastering this space is essential for steady progression and generating the currency needed for higher-level upgrades.
+
+**Video Highlights:**
+- Understanding the RV park and instance management.
+- Setting up initial farmland and production facilities.
+- Automating basic tasks like wheat harvesting and storage.
+
+<YouTubeEmbed videoId="zgsa2XFUxFA" title="Base Building, Automation, Creature Capture And Fighting, And MORE! Aniimo Closed Beta Gameplay" />
+
+Once you unlock your RV, focus on fulfilling "Home Orders." These quests provide the necessary experience to level up your RV, which in turn increases your creature capacity and facility limits.
+
+| Facility | Primary Function | Required Creature Trait |
+| :--- | :--- | :--- |
+| Farmland | Grow crops like wheat | Water / Plant |
+| Woodland | Produce wood resources | Dig / Chop |
+| Storage Unit | Automatically collect items | Haul |
+
+<Callout type="tip" title="Efficiency Tip">
+Always maintain a food supply in your camp. Creatures become sluggish and stop working if they are hungry, which halts your entire production chain.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Automation Strategy">
+
+To stop manually harvesting crops, you must assign specific creatures to your facilities. The key is matching the creature's elemental power to the facility's needs.
+
+<Steps>
+  <Step num="1" title="Assess Facility Needs">
+    Check the facility's required traits (e.g., Water, Earth, or Wind) via the management screen.
+  </Step>
+  <Step num="2" title="Assign Correct Creatures">
+    Drag and drop creatures with matching traits into the work slots.
+  </Step>
+  <Step num="3" title="Build Storage">
+    Place a storage unit nearby so creatures can haul harvested items automatically.
+  </Step>
+  <Step num="4" title="Monitor Production">
+    Use the manage mode to change crop types or check on creature stamina levels.
+  </Step>
+</Steps>
+
+| Automation Level | Requirements | Benefit |
+| :--- | :--- | :--- |
+| Basic | 1 Water, 1 Haul creature | Automated wheat cycle |
+| Advanced | 1 Water, 1 Haul, 1 Chop | Full wood and crop cycle |
+| Optimized | High level creatures | Increased yield and speed |
+
+<Callout type="warning" title="Worker Management">
+Avoid overloading your base with too many creatures of the same type if they don't have the specific trait required for the active facility, as this wastes food resources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resource Optimization">
+
+As your RV level increases, you gain access to more complex facilities. Balancing your layout is key to maintaining a high-output base.
+
+<CardGrid cols={3}>
+  <Card title="Resource Priority">
+    - Prioritize wheat for quick cash
+    - Willow seeds for specific orders
+    - Keep storage near farmland
+  </Card>
+  <Card title="Creature Selection">
+    - Use specialized creatures
+    - Level up workers for efficiency
+    - Monitor elemental power stats
+  </Card>
+  <Card title="Expansion Plans">
+    - Upgrade RV as soon as possible
+    - Maximize facility placement limits
+    - Unlock advanced farming tiers
+  </Card>
+</CardGrid>
+
+| Resource | Best Source | Usage |
+| :--- | :--- | :--- |
+| Wheat | Farmland Level 1 | Selling for tokens |
+| Wood | Woodland Level 1 | Crafting/Upgrades |
+| Willow | Farmland Level 2 | Special Orders |
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I automate harvesting in Aniimo?",
+    answer: "You must assign creatures with the correct elemental traits (like Wind for harvesting) to your farmland and ensure a storage unit is placed nearby for hauling."
+  },
+  {
+    question: "Why are my creatures not working?",
+    answer: "Check if your camp has enough food. Hungry creatures become sluggish and stop performing their tasks until they are fed."
+  },
+  {
+    question: "How can I level up my RV?",
+    answer: "Complete the specific 'Home Orders' and 'Aniimo to the Rescue' missions found in your quest log to gain the XP required for RV level-ups."
+  },
+  {
+    question: "What is the benefit of higher level facilities?",
+    answer: "Higher-level facilities allow you to produce more valuable resources and unlock new recipes, which are crucial for late-game progression."
+  }
+]} />
+
+</Section>

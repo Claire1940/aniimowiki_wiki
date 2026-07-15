@@ -10,7 +10,15 @@
       "twitterDescription": "Aniimo Wiki covers every creature, evolution, element, Twine ability, map area, starter, and release date for the open-world creature-catching RPG."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "creatures": "Creatures",
+    "features": "Features",
+    "release": "Release",
+    "platforms": "Platforms",
+    "beta": "Beta",
+    "monetization": "Monetization"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -750,53 +758,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "beginner": {
-      "title": "Aniimo Beginner Guides",
-      "description": "First-session routes, controls, roster setup, and early progression for new Aniimo Pathfinders.",
-      "metaTitle": "Aniimo Beginner Guides - First Steps in Idyll",
-      "metaDescription": "Start Aniimo with beginner guides covering controls, roster setup, capturing, leveling, and your first exploration routes across Idyll."
+    "guide": {
+      "title": "Aniimo Guides",
+      "description": "Complete Aniimo walkthroughs covering beginner routes, creature catching, boss fights, the interactive map, and how Aniimo compares to Palworld.",
+      "metaTitle": "Aniimo Guides - Beginner, Map & Boss Fight Walkthroughs",
+      "metaDescription": "Master Aniimo with guides on beginner routes, creature catching, Twine, boss fights, the interactive map, and how Aniimo compares to Palworld.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Aniimo Guides?",
+      "whatIsDescription": "Aniimo Guides are practical walkthroughs for every part of the game, from your first steps in Idyll to advanced boss fights, exploration routes, and the Twine system that lets you control a captured Aniimo directly.",
+      "why": "Why read these guides?",
+      "whySteps": {
+        "step1Title": "Start with the Right Route",
+        "step1Description": "Follow a tested beginner path that unlocks Aniimo Management, capture tools, Twine, and the main story without missing early rewards.",
+        "step2Title": "Catch and Build Smarter",
+        "step2Description": "Learn stealth, BREAK damage, and Aniipod strategies, plus how to assemble a roster that covers damage, support, and multiple elements.",
+        "step3Title": "Conquer Bosses and Explore Fully",
+        "step3Description": "Use the interactive map and boss fight tactics to find every creature, solve Sanctum puzzles, and clear Alpha encounters across Idyll."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
     },
     "creatures": {
       "title": "Aniimo Creatures",
-      "description": "Every indexed Aniimo with elements, roles, habitats, and capture locations.",
-      "metaTitle": "Aniimo Creatures - Full Index, Elements & Locations",
-      "metaDescription": "Browse the full Aniimo creature index with elements, roles, evolution stages, and where to find each Aniimo across Idyll."
+      "description": "The full Aniimo creature index with elements, roles, evolution stages, starters, tier rankings, and shiny variants across Idyll.",
+      "metaTitle": "Aniimo Creatures - Full Index, Tier List & Evolutions",
+      "metaDescription": "Browse every Aniimo creature with elements, roles, evolution stages, the best starters, tier list rankings, and shiny forms found across Idyll.",
+      "categoryLabel": "CREATURES",
+      "whatIs": "What are Aniimo Creatures?",
+      "whatIsDescription": "Aniimo Creatures are the magical companions you catch, evolve, and Twine with across the continent of Idyll. Each has unique elements, roles, habitats, and evolution paths drawn from the official Aniimo Index.",
+      "why": "Why study the creatures?",
+      "whySteps": {
+        "step1Title": "Pick the Best Starters",
+        "step1Description": "Compare starter Aniimo by element, role, and early-game value to build a strong foundation from your first session.",
+        "step2Title": "Rank and Prioritize",
+        "step2Description": "Use tier lists to identify the strongest Aniimo for combat, exploration, and elemental coverage before investing resources.",
+        "step3Title": "Evolve and Collect",
+        "step3Description": "Track evolution stages, materials, and branching paths, and hunt shiny variants for a complete Index collection."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Creatures"
     },
-    "tier-lists": {
-      "title": "Aniimo Tier Lists",
-      "description": "Ranked Aniimo for PvE, PvP, exploration, and early roster building.",
-      "metaTitle": "Aniimo Tier Lists - Best Creatures Ranked",
-      "metaDescription": "Aniimo tier lists ranking the best creatures for combat, exploration, PvP, and building a strong early roster."
-    },
-    "evolutions": {
-      "title": "Aniimo Evolutions",
-      "description": "Evolution stages, materials, branching paths, traits, and special forms.",
-      "metaTitle": "Aniimo Evolution Guide - Stages, Materials & Traits",
-      "metaDescription": "Master Aniimo evolution with guides to stages, materials, branching paths, personalities, traits, and special forms."
-    },
-    "twine": {
-      "title": "Aniimo Twine Abilities",
-      "description": "Twine movement, puzzle, and combat abilities for every exploration challenge.",
-      "metaTitle": "Aniimo Twine Guide - Movement, Puzzles & Combat",
-      "metaDescription": "Learn every Aniimo Twine ability for gliding, diving, climbing, tunneling, solving puzzles, and fighting in real time."
-    },
-    "world": {
-      "title": "Aniimo World Map",
-      "description": "Regions, dungeons, weather, spawn locations, and exploration routes.",
-      "metaTitle": "Aniimo World Map - Regions, Spawns & Dungeons",
-      "metaDescription": "Explore the Aniimo world map with guides to regions, weather, spawn locations, dungeons, and exploration routes."
-    },
-    "combat": {
-      "title": "Aniimo Combat",
-      "description": "Elements, counters, team builds, bosses, and multiplayer modes.",
-      "metaTitle": "Aniimo Combat - Elements, Teams & Bosses",
-      "metaDescription": "Aniimo combat guides covering elemental counters, Command and Twine modes, team builds, Alpha bosses, and PvP."
+    "features": {
+      "title": "Aniimo Features",
+      "description": "Aniimo's core gameplay systems: AI-driven creatures, multiplayer, PvP, character customization, and Homeland base building.",
+      "metaTitle": "Aniimo Features - AI, Multiplayer, PvP & Base Building",
+      "metaDescription": "Explore Aniimo's gameplay features including AI-driven creatures, online multiplayer, PvP modes like Egg Heist, character customization, and base building.",
+      "categoryLabel": "FEATURES",
+      "whatIs": "What are Aniimo Features?",
+      "whatIsDescription": "Aniimo Features cover the systems that shape how you play, from AI-driven creature behavior and real-time combat to multiplayer co-op, competitive PvP, character customization, and the RV-connected Homeland you build and decorate.",
+      "why": "Why explore these features?",
+      "whySteps": {
+        "step1Title": "Understand AI and Behavior",
+        "step1Description": "Learn how Aniimo's AI drives creature habits, weather responses, and dynamic encounters so you can predict and adapt to the living world.",
+        "step2Title": "Play Together or Compete",
+        "step2Description": "Join co-op bosses and social hubs, or compete in team-based PvP like the Diamond Egg Heist for exclusive rewards.",
+        "step3Title": "Customize and Build",
+        "step3Description": "Design your Pathfinder with character customization and construct a productive Homeland with farming, decoration, and RV travel."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Features"
     },
     "release": {
-      "title": "Aniimo Release & Beta",
-      "description": "Launch dates, platforms, beta access, downloads, and update records.",
-      "metaTitle": "Aniimo Release Date, Beta & Platforms",
-      "metaDescription": "Track the Aniimo release date, platforms, Global Closed Beta access, downloads, system requirements, and updates."
+      "title": "Aniimo Release",
+      "description": "Aniimo release date tracking across PC, PS5, Xbox, and mobile, including the global launch window and platform schedules.",
+      "metaTitle": "Aniimo Release Date - PC, PS5, Xbox & Mobile Launch",
+      "metaDescription": "Track the Aniimo release date and global launch window for PC, PS5, Xbox, and mobile, with platform schedules and pre-registration details.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the Aniimo Release?",
+      "whatIsDescription": "The Aniimo Release section tracks the worldwide launch of Aniimo, a free-to-play open-world creature-catching RPG from Pawprint Studio, scheduled for Q3 2026 across PC, PlayStation 5, Xbox Series X|S, iOS, and Android.",
+      "why": "Why follow the release?",
+      "whySteps": {
+        "step1Title": "Know the Launch Window",
+        "step1Description": "Stay current on the Q3 2026 global launch window and any schedule updates as Pawprint Studio confirms dates.",
+        "step2Title": "Plan for Your Platform",
+        "step2Description": "Check release timing for PC, PS5, Xbox, and mobile so you can jump in the moment Aniimo goes live.",
+        "step3Title": "Pre-register and Wishlist",
+        "step3Description": "Lock in pre-registration rewards and wishlist Aniimo on available stores to get notified the instant it launches."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release"
+    },
+    "platforms": {
+      "title": "Aniimo Platforms",
+      "description": "Where to play Aniimo across Steam, Epic Games, PS5, Xbox, Switch 2, mobile, and the official PC launcher, with system requirements.",
+      "metaTitle": "Aniimo Platforms - Steam, PS5, Xbox, Switch 2 & Mobile",
+      "metaDescription": "Find Aniimo on Steam, Epic Games, PS5, Xbox, Switch 2, and mobile, with system requirements, specs, and how to install on each platform.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What Platforms is Aniimo on?",
+      "whatIsDescription": "Aniimo is coming to PC via Steam, the Epic Games Store, and the official launcher, plus PlayStation 5, Xbox Series X|S, iOS, and Android, with cross-platform multiplayer support across launch devices.",
+      "why": "Why check the platforms?",
+      "whySteps": {
+        "step1Title": "Pick Your Store",
+        "step1Description": "Compare Steam, Epic Games, and the official PC launcher to choose where to download and play Aniimo.",
+        "step2Title": "Match Your Hardware",
+        "step2Description": "Review system requirements and specs for PC, PS5, Xbox, and mobile to ensure smooth performance before installing.",
+        "step3Title": "Play Across Devices",
+        "step3Description": "Take advantage of cross-platform multiplayer to explore Idyll and team up with friends on any supported device."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platforms"
+    },
+    "beta": {
+      "title": "Aniimo Beta",
+      "description": "How to join the Aniimo Global Closed Beta: eligibility, sign-up, beta keys, download steps, and schedule for PC, Steam, iOS, and Android.",
+      "metaTitle": "Aniimo Beta - Closed Beta Access, Sign Up & Download",
+      "metaDescription": "Get into the Aniimo Global Closed Beta with guides on eligibility, sign-up, beta keys, and downloading on PC, Steam, iOS, and Android.",
+      "categoryLabel": "BETA",
+      "whatIs": "What is the Aniimo Beta?",
+      "whatIsDescription": "The Aniimo Beta is the limited-access Global Closed Test that opened on July 9, 2026 for PC, Steam, iOS, and Android, letting selected Pathfinders play early while all test progress is reset when the beta ends.",
+      "why": "Why join the beta?",
+      "whySteps": {
+        "step1Title": "Confirm Your Access",
+        "step1Description": "Verify eligibility on the official Aniimo website with the email you used to apply, and check your inbox for the invitation.",
+        "step2Title": "Claim Your Beta Key",
+        "step2Description": "Follow the platform-specific instructions and product codes to activate Aniimo on Steam, the official launcher, or mobile.",
+        "step3Title": "Install and Play Early",
+        "step3Description": "Download Aniimo, meet the device requirements, and explore Idyll ahead of the Q3 2026 global launch."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Beta"
+    },
+    "monetization": {
+      "title": "Aniimo Monetization",
+      "description": "Aniimo's free-to-play model: the gacha system, what's free, and how monetization works across launch platforms.",
+      "metaTitle": "Aniimo Monetization - Gacha, Free-to-Play & Pricing",
+      "metaDescription": "Understand Aniimo's free-to-play monetization, the gacha system, what content is free, and how spending works across all platforms.",
+      "categoryLabel": "MONETIZATION",
+      "whatIs": "What is Aniimo Monetization?",
+      "whatIsDescription": "Aniimo Monetization explains the free-to-play business model behind the game, including the gacha-style creature and item systems, what every player can access for free, and how optional purchases fit into the core gameplay loop.",
+      "why": "Why understand monetization?",
+      "whySteps": {
+        "step1Title": "Know What's Free",
+        "step1Description": "See exactly what content, creatures, and modes are available to every player without spending, since Aniimo is free-to-play on all platforms.",
+        "step2Title": "Learn the Gacha System",
+        "step2Description": "Understand how the gacha mechanics work, the odds, and what creatures or items can be obtained through pulls.",
+        "step3Title": "Spend Smartly",
+        "step3Description": "Plan optional purchases around your goals so any spending supports your roster and collection without blocking progression."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Monetization"
     }
   }
 }

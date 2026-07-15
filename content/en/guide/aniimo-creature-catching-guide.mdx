@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo creature catching guide: Pro Spawn Locations & Capture Tactics",
+  description: "Master the art of capturing Anima with our aniimo creature catching guide. Learn spawn conditions, map distribution, and rare variant triggers for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Catching+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo creature catching guide**: Use the map diagram to identify local Anima and their specific proximity borders.
+- **Spawn Triggers**: Check for specific **Time of Day** (Day/Night) and **Weather** (Rain/Sun) requirements.
+- **Distribution View**: Toggle the distribution map to see yellow markers indicating exact spawn clusters.
+- **Rare Variants**: High-tier Anima often require **Chain Catching** (e.g., 15 of a specific form in a row).
+- **Invisible Targets**: Some Anima hide in shadows; watch for faint auras or glowing eyes in the forest.
+</Callout>
+
+<Section icon={Map} title="Mastering the Map and Proximity Systems">
+
+Understanding the interface is the first step in any **aniimo creature catching guide**. The game provides a sophisticated proximity diagram located on the right side of your map screen. This tool is not merely decorative; it outlines exactly which Anima are currently inhabiting your immediate area. Each region, such as the Berlyn Causeway, has a defined border. If you step outside this border, the list of available creatures will refresh to reflect the new ecosystem.
+
+**Video Highlights:**
+- How to use the map diagram to identify local Anima.
+- Transitioning between Day and Night to trigger specific spawns.
+- Using the "View Distribution" tool to find yellow spawn markers.
+- Handling invisible Anima like the Ignis in forest areas.
+- Explanation of high-tier spawn conditions like "Chain Catching."
+
+<YouTubeEmbed videoId="fc0ITwCzoSM" title="How to Find ANY Aniimo FAST! | Spawn Locations & Conditions Guide" />
+
+The "View Distribution" feature is perhaps the most powerful tool for a dedicated hunter. By clicking this, the map populates with small yellow spots. These spots represent the exact coordinates where the selected Anima is likely to appear. Instead of wandering aimlessly, you can fast travel to the nearest "Cube" or waypoint and head directly to these high-density zones.
+
+| Map Feature | Primary Function | Tactical Advantage |
+| :--- | :--- | :--- |
+| **Proximity Diagram** | Lists all Anima in the current zone | Prevents wasting time in the wrong region |
+| **Trigger Condition** | Shows required time/weather | Essential for nocturnal or storm-only spawns |
+| **Distribution View** | Marks specific spawn coordinates | Allows for direct pathing to targets |
+| **Zone Borders** | Defines the area of the proximity list | Helps identify exactly where spawns change |
+
+<Callout type="success" title="Map Efficiency">
+Always check the "View Distribution" yellow spots before leaving a waypoint. It saves significant travel time and ensures you are looking in the correct sub-biome, such as a specific forest patch within a larger causeway.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Environmental Triggers and Time Manipulation">
+
+Spawns in Aniimo are rarely static. Most creatures are tied to environmental triggers that must be met before they manifest in the world. The most common trigger is the time of day. For instance, the normal form of Ignis only appears during the night. If you arrive at a spawn location during the day, the area will appear empty, or only "baby" versions of other creatures will be present.
+
+Fortunately, the game allows for manual time manipulation. By accessing the "Day and Night" toggle in your menu, you can speed up time to jump to the required period. This is vital for completing your collection efficiently. However, be aware that changing time does not always clear current combat status, and some Anima may "run up" on you during the transition if you are standing too close to a spawn node.
+
+| Trigger Type | Examples | Catching Strategy |
+| :--- | :--- | :--- |
+| **Time-Based** | Night only, Dawn only | Use the Time Jump tool to skip wait times |
+| **Weather-Based** | Rainy, Foggy, Sunny | Check the weather icon next to the mini-map |
+| **Chain-Based** | Catch 15 Highland forms | Clear inventory for a long catching session |
+| **Action-Based** | Defeat X students | Focus on combat before the main spawn appears |
+
+<Callout type="warning" title="Weather Deception">
+Be careful of "fake" night. Sometimes it may be raining during the day, making the sky dark enough to look like night, but the sun is still technically up behind the clouds. Always verify the actual game time in the menu before searching for nocturnal Anima.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Identifying and Capturing Invisible Anima">
+
+Not every creature in this **aniimo creature catching guide** will be standing out in the open. Advanced Anima, particularly those described as "hiding in the shadows" or "toying with their prey," utilize a cloaking mechanic. When you reach a distribution point and see nothing, do not assume the spawn is broken. Instead, look for environmental cues.
+
+Invisible Anima often leave a faint shimmering aura or have visible glowing eyes that peer out from the brush. They may also be found "training" with smaller, non-cloaked versions of their species. Engaging these creatures often requires a "backstab" approach or a quick toss of an Antipode (the primary capture tool) before they can relocate.
+
+<CardGrid cols={3}>
+  <Card title="Stealth Capture">
+    - Approach from behind
+    - Watch for eye glints
+    - High success rate
+  </Card>
+  <Card title="Combat Capture">
+    - Lower health first
+    - Use status effects
+    - Risky for rare spawns
+  </Card>
+  <Card title="Ambush Capture">
+    - Use Antipodes early
+    - Catch multiple at once
+    - Best for "Student" groups
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Predator Tip">
+If you are hunting an invisible Ignis, look for a group of "Wispitis." Often, the invisible adult is nearby acting as a teacher or guardian. Throwing an Antipode into the center of the group can often snag the invisible target along with its students.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Catching Process">
+
+To maximize your efficiency, follow this standardized workflow for every new creature you encounter in the wild.
+
+<Steps>
+  <Step num="1" title="Consult the Map Diagram">
+    Open your map in the target region and find the Anima you want to catch. Read the "Trigger Condition" carefully to ensure you aren't searching at the wrong time of day.
+  </Step>
+  <Step num="2" title="Adjust the Environment">
+    If the condition is "Night Time" and it is currently day, use the time jump feature. Confirm the jump and wait for the world to reload into the correct state.
+  </Step>
+  <Step num="3" title="Pinpoint the Distribution">
+    Click "View Distribution" and look for the yellow dots. Set a manual waypoint on the densest cluster of dots to guide your navigation.
+  </Step>
+  <Step num="4" title="Execute the Capture">
+    Approach the area cautiously. If the Anima is invisible, look for the cloak aura. Use your Antipodes to secure the capture. For rare variants, ensure you have completed any "Chain" requirements first.
+  </Step>
+</Steps>
+
+| Capture Stage | Recommended Item | Success Rate |
+| :--- | :--- | :--- |
+| **Initial Contact** | Standard Antipode | 45% - 60% |
+| **Weakened Target** | Great Antipode | 75% - 85% |
+| **Rare/Prismane** | Ultra Antipode | 90% + |
+| **Group Capture** | Splash Antipode | Variable |
+
+<Callout type="info" title="Fast Travel Tip">
+You can actually fast travel while in combat in certain areas of the Beta. If a fight is going poorly or you've accidentally engaged the wrong target, use the map to warp directly to a nearby cube to reset the encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rare Variants and Chain Catching Goals">
+
+The ultimate challenge in the **aniimo creature catching guide** is obtaining Prismane forms. These are high-tier variants that do not simply spawn by waiting for nightfall. They require specific player actions to "force" them into the world. The most common requirement is the "Catching Chain."
+
+For example, a Prismane Ignitus may only appear after you have caught 15 Highland forms in a row without catching anything else or leaving the zone. This requires patience and a large stock of Antipodes. The game is very clear about these conditions in the map UI, so always read the full description before starting a hunt.
+
+<Checklist
+  id="catching-prep"
+  title="Pre-Hunt Checklist:"
+  items={[
+    "Stock at least 50 standard Antipodes",
+    "Check current weather and time",
+    "Clear 20 slots in your Anima storage",
+    "Identify the nearest fast-travel Cube",
+    "Verify the specific Chain Catching number"
+  ]}
+/>
+
+| Variant Type | Spawn Difficulty | Key Requirement |
+| :--- | :--- | :--- |
+| **Normal Form** | Easy | Basic Time/Weather |
+| **Highland Form** | Medium | Specific Sub-Biome |
+| **Prismane Form** | Hard | Chain Catching (15+) |
+| **Alpha Form** | Very Hard | World Boss Trigger |
+
+<Callout type="warning" title="Chain Breaking">
+Catching a different species of Anima will usually break your current chain. If you are going for a Prismane, ignore all other creatures, even if they are rare, until you hit your target number.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why can't I see the Anima even though I'm at the yellow dot?",
+    answer: "Check if the creature has a cloaking ability. Many Anima in the Berlyn Causeway go invisible. Look for glowing eyes or a shimmering aura in the shadows."
+  },
+  {
+    question: "How do I trigger the night time quickly?",
+    answer: "Open your map, go to the 'Day and Night' settings, and select 'Jump to Night Time.' This will instantly advance the clock to the correct trigger window."
+  },
+  {
+    question: "What is a 'Catching Chain' in Aniimo?",
+    answer: "A chain is formed by catching the same species or form multiple times in a row. For example, catching 15 Highland forms in a row is often required to spawn a rare Prismane variant."
+  },
+  {
+    question: "Can I catch Anima while they are training?",
+    answer: "Yes. In fact, catching the 'students' or smaller Anima first can sometimes make the larger, invisible 'teacher' easier to spot and capture."
+  }
+]} />
+
+</Section>

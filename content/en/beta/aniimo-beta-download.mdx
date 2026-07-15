@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Download, Cpu, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo beta download: Step-by-Step Enrollment Guide",
+  description: "Secure your spot in the aniimo beta. Follow our detailed guide for the application process, survey tips, and PC system requirements for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Beta+Access+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo beta download**: Access is currently restricted to players who successfully pass the application and survey phase.
+- **Application Process**: Visit the official website to fill out a detailed survey regarding your gaming habits and preferences.
+- **Invitation System**: Approved players receive a VIP invitation email containing the direct download link and unique access code.
+- **PC Requirements**: Ensure your hardware meets the minimum specifications to handle the game's high-fidelity RPG environments.
+- **Platform Availability**: While primarily focused on PC for the initial test, mobile versions are planned for future phases.
+</Callout>
+
+<Section icon={Map} title="How to Secure Your aniimo Beta Download">
+
+Securing an **aniimo beta download** is the first step toward experiencing one of the most anticipated RPG titles of 2026. Unlike traditional open betas, the current phase utilizes a curated selection process to ensure a stable testing environment. Players must demonstrate their interest and background in the genre through a comprehensive application portal. The developers are looking for a diverse range of testers to provide feedback on core mechanics, server stability, and progression systems.
+
+**Video Highlights:**
+- Step-by-step walkthrough of the official website navigation.
+- Overview of the "Closed Beta" survey length and complexity.
+- Visual confirmation of the VIP invitation email format.
+- Early insights into PC hardware compatibility.
+
+<YouTubeEmbed videoId="vapmaiMHFk8" title="How to Join the Aniimo Beta Test – Open to Everyone!" />
+
+The process begins at the official portal, where you must navigate to the "Join the Closed Beta" section. It is important to note that slots are limited, and submission does not guarantee immediate access. However, being thorough in your application significantly increases your chances of being moved to the priority list.
+
+<Callout type="tip" title="Pro Tip">
+Use a clean, frequently checked email address for your application. The invitation contains time-sensitive instructions that may expire if not acted upon within the designated window.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Application and Survey Process">
+
+The path to an **aniimo beta download** involves a detailed survey designed to filter participants based on their gaming history. This is not a simple "sign up and play" event; the developers want to understand your familiarity with various RPG sub-genres and art styles.
+
+| Survey Category | Details Requested | Purpose |
+| :--- | :--- | :--- |
+| **Hardware** | Primary consoles, PC specs, Mobile OS | Compatibility testing |
+| **Gaming Habits** | Hours played per week, Favorite titles | Player persona mapping |
+| **Visual Interest** | Recognition of specific art styles | Aesthetic feedback |
+| **Demographics** | Name, Age, Gender | Statistical diversity |
+| **Genre Preference** | RPG, MMO, Strategy, or Action | Gameplay balancing |
+
+<Steps>
+  <Step num="1" title="Official Website Access">
+    Visit the official domain at aniimo.com. Avoid third-party mirrors or "leaked" installers, as these often contain malware and will not grant access to the live servers.
+  </Step>
+  <Step num="2" title="Complete the Survey">
+    Navigate to the "Join Closed Beta" button. Prepare to spend 5-10 minutes answering questions about your gaming background. Be honest about your hardware, as the game is currently optimized for specific configurations.
+  </Step>
+  <Step num="3" title="Email Verification">
+    After submission, monitor your inbox for a confirmation. You will not receive the download link immediately; you are now in the "Application Pending" pool.
+  </Step>
+  <Step num="4" title="VIP Invitation">
+    If selected, you will receive a "Congratulations" email. This message includes your unique tester ID and the official link for the client installer.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Survey Warning">
+The survey includes image-based questions where you must identify specific games. This is used to verify your expertise in the genre. Ensure you take your time to avoid being flagged as a bot.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="System Requirements for the Beta Client">
+
+Before attempting the **aniimo beta download**, you must verify that your PC can handle the current build. As the game is still in development, optimization may not be final, meaning the current requirements are slightly higher than what might be expected at the official launch.
+
+| Component | Minimum Requirement | Recommended Specification |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **CPU** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700 / AMD Ryzen 7 3700X |
+| **RAM** | 8 GB | 16 GB |
+| **GPU** | NVIDIA GTX 1060 / AMD RX 580 | NVIDIA RTX 3060 / AMD RX 6700 XT |
+| **Storage** | 40 GB SSD | 60 GB NVMe SSD |
+| **DirectX** | Version 11 | Version 12 |
+
+<CardGrid cols={2}>
+  <Card title="Storage Optimization">
+    - **SSD Mandatory**: Installation on an HDD may lead to significant texture pop-in.
+    - **Buffer Space**: Always keep at least 10GB of extra space for temporary patch files.
+  </Card>
+  <Card title="Driver Updates">
+    - **GPU Support**: Ensure you are running the latest "Game Ready" drivers.
+    - **Network**: A stable 10Mbps+ connection is required for initial verification.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mobile Note">
+While the survey asks about mobile devices, the current 2026 beta phase is primarily focused on the PC client. Mobile testing is expected to roll out in later quarters.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Common Download Issues">
+
+Even with an invitation, some players encounter hurdles during the installation phase. The following table highlights common errors reported by the community and their verified solutions.
+
+| Error Code | Description | Recommended Solution |
+| :--- | :--- | :--- |
+| **ERR_AUTH_01** | Invalid Invitation Token | Re-click the link directly from the email |
+| **ERR_DISK_FULL** | Insufficient storage space | Clear 10GB more than the stated size |
+| **ERR_NET_TIMEOUT** | Server handshake failed | Disable VPN or check firewall settings |
+| **ERR_VER_MISMATCH** | Outdated client version | Restart the launcher to force an update |
+| **ERR_SPEC_LOW** | Hardware below minimums | Check GPU drivers or bypass via settings |
+
+If you receive the invitation but the download button is greyed out, it typically means the regional server for your area has reached its temporary capacity. In such cases, wait 24 hours and try again, as slots are often rotated during the testing period.
+
+<Callout type="success" title="Verification Success">
+Once the download is complete, the launcher will perform a "File Integrity Check." Do not interrupt this process, as it ensures all assets are correctly decrypted for your specific hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Post-Download Checklist">
+
+After successfully completing the **aniimo beta download**, there are several steps you should take to ensure you are contributing effectively to the test and securing your progress for future rewards.
+
+<Checklist
+  id="beta-onboarding"
+  title="Initial Setup Tasks:"
+  items={[
+    "Link your Discord account to the official tester channel",
+    "Configure graphics settings to 'Medium' for the first run",
+    "Complete the 'Welcome' tutorial to unlock the feedback tool",
+    "Report any initial 'Day 1' crashes via the launcher log",
+    "Check the event calendar for scheduled stress-test windows"
+  ]}
+/>
+
+Participating in the beta often comes with exclusive perks. Players who reach specific milestones during this phase may receive "Legacy" cosmetics or titles that carry over to the full release. Ensure you check the "Events" tab within the game client daily to track your progress toward these limited-time rewards.
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the aniimo beta download free for everyone?",
+    answer: "Yes, the download itself is free, but access is gated by the survey and invitation system. You cannot buy your way into this specific testing phase."
+  },
+  {
+    question: "Can I share my download link with a friend?",
+    answer: "No. The download link is tied to your specific account and hardware ID. Attempting to share it may result in a permanent ban from the beta program."
+  },
+  {
+    question: "Will my progress be wiped after the beta ends?",
+    answer: "Most closed beta phases in 2026 involve a progress wipe to ensure a fair playing field at launch. However, cosmetic rewards earned are usually permanent."
+  },
+  {
+    question: "What should I do if I didn't receive an email after the survey?",
+    answer: "Slots are limited. If you weren't selected in the first wave, your application remains on file for future expansions. Check your spam folder regularly."
+  }
+]} />
+
+</Section>

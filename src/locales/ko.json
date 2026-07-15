@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "가이드",
+    "creatures": "크리처",
+    "features": "기능",
+    "release": "출시",
+    "platforms": "플랫폼",
+    "beta": "베타",
+    "monetization": "과금"
+  }
+}

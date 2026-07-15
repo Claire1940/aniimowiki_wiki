@@ -1,1 +1,330 @@
-{}
+{
+  "en": {
+    "beta": [
+      {
+        "slug": "aniimo-beta-download",
+        "file": "aniimo-beta-download"
+      },
+      {
+        "slug": "aniimo-beta-sign-up",
+        "file": "aniimo-beta-sign-up"
+      },
+      {
+        "slug": "aniimo-beta",
+        "file": "aniimo-beta"
+      },
+      {
+        "slug": "aniimo-closed-beta-3",
+        "file": "aniimo-closed-beta-3"
+      },
+      {
+        "slug": "aniimo-closed-beta-key",
+        "file": "aniimo-closed-beta-key"
+      },
+      {
+        "slug": "aniimo-closed-beta",
+        "file": "aniimo-closed-beta"
+      },
+      {
+        "slug": "aniimo-global-closed-beta",
+        "file": "aniimo-global-closed-beta"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "aniimo-creatures",
+        "file": "aniimo-creatures"
+      },
+      {
+        "slug": "aniimo-evolutions",
+        "file": "aniimo-evolutions"
+      },
+      {
+        "slug": "aniimo-shiny-creatures",
+        "file": "aniimo-shiny-creatures"
+      },
+      {
+        "slug": "aniimo-starters",
+        "file": "aniimo-starters"
+      },
+      {
+        "slug": "aniimo-tier-list",
+        "file": "aniimo-tier-list"
+      }
+    ],
+    "features": [
+      {
+        "slug": "aniimo-ai",
+        "file": "aniimo-ai"
+      },
+      {
+        "slug": "aniimo-base-building",
+        "file": "aniimo-base-building"
+      },
+      {
+        "slug": "aniimo-character-customization",
+        "file": "aniimo-character-customization"
+      },
+      {
+        "slug": "aniimo-multiplayer",
+        "file": "aniimo-multiplayer"
+      },
+      {
+        "slug": "aniimo-pvp",
+        "file": "aniimo-pvp"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "aniimo-beginner-guide",
+        "file": "aniimo-beginner-guide"
+      },
+      {
+        "slug": "aniimo-boss-fight-guide",
+        "file": "aniimo-boss-fight-guide"
+      },
+      {
+        "slug": "aniimo-creature-catching-guide",
+        "file": "aniimo-creature-catching-guide"
+      },
+      {
+        "slug": "aniimo-gameplay",
+        "file": "aniimo-gameplay"
+      },
+      {
+        "slug": "aniimo-interactive-map",
+        "file": "aniimo-interactive-map"
+      },
+      {
+        "slug": "aniimo-vs-palworld",
+        "file": "aniimo-vs-palworld"
+      }
+    ],
+    "monetization": [
+      {
+        "slug": "aniimo-free-to-play",
+        "file": "aniimo-free-to-play"
+      },
+      {
+        "slug": "aniimo-gacha",
+        "file": "aniimo-gacha"
+      },
+      {
+        "slug": "aniimo-monetization",
+        "file": "aniimo-monetization"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "aniimo-epic-games",
+        "file": "aniimo-epic-games"
+      },
+      {
+        "slug": "aniimo-mobile",
+        "file": "aniimo-mobile"
+      },
+      {
+        "slug": "aniimo-ps5",
+        "file": "aniimo-ps5"
+      },
+      {
+        "slug": "aniimo-specs",
+        "file": "aniimo-specs"
+      },
+      {
+        "slug": "aniimo-steam",
+        "file": "aniimo-steam"
+      },
+      {
+        "slug": "aniimo-switch-2",
+        "file": "aniimo-switch-2"
+      },
+      {
+        "slug": "aniimo-xbox",
+        "file": "aniimo-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "aniimo-mobile-release-date",
+        "file": "aniimo-mobile-release-date"
+      },
+      {
+        "slug": "aniimo-ps5-release-date",
+        "file": "aniimo-ps5-release-date"
+      },
+      {
+        "slug": "aniimo-release-date",
+        "file": "aniimo-release-date"
+      },
+      {
+        "slug": "aniimo-xbox-release-date",
+        "file": "aniimo-xbox-release-date"
+      }
+    ]
+  },
+  "ja": {
+    "beta": [
+      {
+        "slug": "aniimo-beta-download",
+        "file": "aniimo-beta-download"
+      },
+      {
+        "slug": "aniimo-beta-sign-up",
+        "file": "aniimo-beta-sign-up"
+      },
+      {
+        "slug": "aniimo-beta",
+        "file": "aniimo-beta"
+      },
+      {
+        "slug": "aniimo-closed-beta-3",
+        "file": "aniimo-closed-beta-3"
+      },
+      {
+        "slug": "aniimo-closed-beta-key",
+        "file": "aniimo-closed-beta-key"
+      },
+      {
+        "slug": "aniimo-closed-beta",
+        "file": "aniimo-closed-beta"
+      },
+      {
+        "slug": "aniimo-global-closed-beta",
+        "file": "aniimo-global-closed-beta"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "aniimo-creatures",
+        "file": "aniimo-creatures"
+      },
+      {
+        "slug": "aniimo-evolutions",
+        "file": "aniimo-evolutions"
+      },
+      {
+        "slug": "aniimo-shiny-creatures",
+        "file": "aniimo-shiny-creatures"
+      },
+      {
+        "slug": "aniimo-starters",
+        "file": "aniimo-starters"
+      },
+      {
+        "slug": "aniimo-tier-list",
+        "file": "aniimo-tier-list"
+      }
+    ],
+    "features": [
+      {
+        "slug": "aniimo-ai",
+        "file": "aniimo-ai"
+      },
+      {
+        "slug": "aniimo-base-building",
+        "file": "aniimo-base-building"
+      },
+      {
+        "slug": "aniimo-character-customization",
+        "file": "aniimo-character-customization"
+      },
+      {
+        "slug": "aniimo-multiplayer",
+        "file": "aniimo-multiplayer"
+      },
+      {
+        "slug": "aniimo-pvp",
+        "file": "aniimo-pvp"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "aniimo-beginner-guide",
+        "file": "aniimo-beginner-guide"
+      },
+      {
+        "slug": "aniimo-boss-fight-guide",
+        "file": "aniimo-boss-fight-guide"
+      },
+      {
+        "slug": "aniimo-creature-catching-guide",
+        "file": "aniimo-creature-catching-guide"
+      },
+      {
+        "slug": "aniimo-gameplay",
+        "file": "aniimo-gameplay"
+      },
+      {
+        "slug": "aniimo-interactive-map",
+        "file": "aniimo-interactive-map"
+      },
+      {
+        "slug": "aniimo-vs-palworld",
+        "file": "aniimo-vs-palworld"
+      }
+    ],
+    "monetization": [
+      {
+        "slug": "aniimo-free-to-play",
+        "file": "aniimo-free-to-play"
+      },
+      {
+        "slug": "aniimo-gacha",
+        "file": "aniimo-gacha"
+      },
+      {
+        "slug": "aniimo-monetization",
+        "file": "aniimo-monetization"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "aniimo-epic-games",
+        "file": "aniimo-epic-games"
+      },
+      {
+        "slug": "aniimo-mobile",
+        "file": "aniimo-mobile"
+      },
+      {
+        "slug": "aniimo-ps5",
+        "file": "aniimo-ps5"
+      },
+      {
+        "slug": "aniimo-specs",
+        "file": "aniimo-specs"
+      },
+      {
+        "slug": "aniimo-steam",
+        "file": "aniimo-steam"
+      },
+      {
+        "slug": "aniimo-switch-2",
+        "file": "aniimo-switch-2"
+      },
+      {
+        "slug": "aniimo-xbox",
+        "file": "aniimo-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "aniimo-mobile-release-date",
+        "file": "aniimo-mobile-release-date"
+      },
+      {
+        "slug": "aniimo-ps5-release-date",
+        "file": "aniimo-ps5-release-date"
+      },
+      {
+        "slug": "aniimo-release-date",
+        "file": "aniimo-release-date"
+      },
+      {
+        "slug": "aniimo-xbox-release-date",
+        "file": "aniimo-xbox-release-date"
+      }
+    ]
+  }
+}
