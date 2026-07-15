@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Cloud, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Dex: 2026 Species Index & Rare Form Guide",
+  description: "Master the Aniimo Dex with our 2026 guide to all 90+ species, rare Prismana variants, weather-based forms, and evolution requirements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Dex+Guide",
+  date: "2026-07-15",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo Dex**: The central database tracking 93+ unique species and their elemental variations.
+- **Rare Forms**: Look for **Prismana** and **Sparkling** variants for enhanced stats and unique aesthetics.
+- **Weather Mechanics**: Specific species only appear or change forms during Thunderstorms or Rain.
+- **Evolution Paths**: Most creatures follow a three-stage progression: **Lumin**, **Gamma**, and **Nova**.
+- **Role Mastery**: Balance your team using DPS, Heal, Break, and Regen roles for optimal combat efficiency.
+</Callout>
+
+<Section icon={Map} title="Mastering the Aniimo Dex Interface">
+
+The **aniimo dex** serves as more than just a collection log; it is a vital tactical tool for every player in 2026. Understanding how to navigate the index allows you to track species rarity, elemental weaknesses, and evolution requirements. The current version of the game features over 90 registered species, each with specific roles ranging from high-damage dealers (DPS) to essential support units (Heal and Regen).
+
+**Video Highlights:**
+- **Full Collection**: A showcase of all 62 base species and their rare Prismana forms.
+- **Visual Variations**: Comparison between Highlands, Mountain, and Forest forms.
+- **Evolution Showcase**: Witnessing the transition from basic pups to majestic wolves.
+- **Shiny Hunting**: Explanation of the "Sparkling" form mechanic and how they appear in the wild.
+
+<YouTubeEmbed videoId="VaTdfdBkarc" title="ALL 62 ANIIMO + RARE ANIIMO FORMS - FULL ANIIMO DEX!" />
+
+<Callout type="tip" title="Dex Completion Tip">
+You can customize which form appears as the default in your **aniimo dex**. If you catch a rare Mountain form but prefer the look of the Basic form, use the "Set Default" option in the species sub-menu.
+</Callout>
+
+| Element | Strength | Common Role | Best Strategy |
+|---------|----------|-------------|---------------|
+| **Fire** | Grass, Ice | DPS | High burst damage, Burn status |
+| **Water** | Fire, Rock | Heal / BREAK | Sustain and crowd control |
+| **Electric**| Wind, Water | DPS / BREAK | Fast attacks, Paralyze effect |
+| **Grass** | Water, Rock | Regen / DPS | Poison damage, Energy recovery |
+| **Holy** | Dark | Heal / Support | Team buffs, High survivability |
+
+</Section>
+
+<Section icon={Sparkles} title="Starter Species and Early Dex Entries">
+
+Your journey begins with selecting a starter, which fills the first slots of your **aniimo dex**. These creatures are designed to carry you through the early Highlands region and introduce you to the evolution system. Whether you choose the feline **Fennelun** or the fiery **Emberpup**, each starter offers a unique progression path that culminates in a powerful Nova-stage form.
+
+<CardGrid cols={3}>
+  <Card title="Emberpup (No. 001)">
+    - **Element**: Fire
+    - **Evolution**: Flameruff -> Scorchhowl
+    - **Key Trait**: High physical attack and speed.
+  </Card>
+  <Card title="Chirpi (No. 007)">
+    - **Element**: Wind
+    - **Evolution**: Tromber -> Cornet
+    - **Key Trait**: Musical note attacks that flap in the air.
+  </Card>
+  <Card title="Skippy (No. 014)">
+    - **Element**: Water
+    - **Evolution**: Pranky / Glacy / Leafy
+    - **Key Trait**: Features a rare Sea of Flowers pink form.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Starter Secrets">
+While most players focus on the basic Fire/Water/Grass triangle, the **aniimo dex** reveals that starters like **Helion** (the orange lion) have special starter-only traits that aren't found in wild-caught variants.
+</Callout>
+
+| Dex No. | Species | Element | Role | Evolves From |
+|---------|---------|---------|------|--------------|
+| **001** | Emberpup | Fire | DPS | Base Stage |
+| **003** | Scorchhowl | Fire | DPS | Flameruff |
+| **005** | Celestis | Holy | Heal | Base Stage |
+| **011** | Iris | Wind | Support | Base Stage |
+| **018** | Nimbi | Wind | Regen | Base Stage |
+
+</Section>
+
+<Section icon={Cloud} title="Rare Forms and Weather Variations">
+
+One of the most complex aspects of completing the **aniimo dex** is tracking down environmental variations. Unlike standard RPG monsters, many Aniimo change their physical appearance and elemental affinities based on the current weather or the biome they inhabit. For example, **Scorchhowl** possesses a rare Thunderstorm form that only appears during active weather events.
+
+<Steps>
+  <Step num="1" title="Check Local Weather">
+    Monitor the real-time weather icons on your HUD. Thunderstorms and Rain are the most common triggers for rare forms.
+  </Step>
+  <Step num="2" title="Locate Specific Biomes">
+    Some species, like **Budclaw**, have four distinct forms: Basic, Mudflat, Bay, and Beach (where it resembles a coconut).
+  </Step>
+  <Step num="3" title="Trigger the Encounter">
+    Enter combat during the weather event. If the creature has a weather-dependent form, it will register as a new variant in your Dex.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limited Opportunity">
+Weather-based forms like the **Rain form Luminelle** are highly time-sensitive. You often have only one shot to capture them before the weather clears. Always keep high-tier capture cards ready.
+</Callout>
+
+| Variant Type | Rarity | Visual Change | Combat Benefit |
+|--------------|--------|---------------|----------------|
+| **Prismana** | Ultra Rare | Glowing/Crystal | Enhanced Ultimate abilities |
+| **Sparkling**| Very Rare | Color Swap (Shiny) | Increased base stats |
+| **Thunderstorm**| Event Only | Electric Aura | Added Electric sub-element |
+| **Mountain** | Common | Earthy Tones | Higher physical defense |
+
+</Section>
+
+<Section icon={Swords} title="Evolution Mechanics and Split Paths">
+
+Evolution in the **aniimo dex** isn't always linear. Several species feature split evolution paths, where your choices or specific environmental factors determine the final Nova Stage. A prime example is **Skippy**, which can evolve into the ice-based **Glacy**, the prankster **Pranky**, or the foliage-covered **Leafy**.
+
+<Callout type="success" title="Evolution Tip">
+Before evolving, check the "Requirements" tab in the Dex. Some evolutions require specific items, while others are triggered by reaching a certain bond level during the night or day.
+</Callout>
+
+| Base Species | Evolution A | Evolution B | Evolution C |
+|--------------|-------------|-------------|-------------|
+| **Skippy** | Glacy (Ice) | Pranky (Dark) | Leafy (Grass) |
+| **Chirpi** | Tromber | Cornet | Tubster |
+| **Jawling** | Helggon (Calm) | Inferggon (Angry) | N/A |
+| **Pebbling** | Lavazar | Geodeback | Minespine |
+
+The **Jawling** line is particularly interesting for collectors. Depending on the "mood" of the creature during its Gamma stage transition, it can either become the cheerful **Helggon** or the aggressive, fire-breathing **Infergon**. Both are required to fully complete the index.
+
+</Section>
+
+<Section icon={Trophy} title="End-Game Completion and Legendary Tiers">
+
+Reaching the final entries of the **aniimo dex** (No. 080 to No. 093) requires venturing into late-game zones like the Volcanic Peaks and the Deep Sea Trenches. These entries often consist of powerful creatures like **Magmarex** and **Luminelle**, which serve as the "boss" tier of the standard index.
+
+<Checklist
+  id="dex-completion"
+  title="Dex Completion Milestones:"
+  items={[
+    "Register all 3 Starter lines (Fennelun, Helion, and others)",
+    "Capture at least one Prismana variant for the Nova stage",
+    "Unlock the secret No. 9997 and No. 9998 entries",
+    "Collect all 4 seasonal forms of the Budclaw line",
+    "Reach 100% completion to unlock the Master Catcher title"
+  ]}
+/>
+
+<Callout type="tip" title="Professional Strategy">
+For late-game hunting, use a team with high **BREAK** stats. Creatures like **Geoclaw** or **Bouldus** can quickly deplete the enemy's guard, making them much easier to capture and register in your Dex.
+</Callout>
+
+| Dex No. | Legendary Tier | Role | Primary Element |
+|---------|----------------|------|-----------------|
+| **080** | Luminelle | DPS | Electric / Water |
+| **083** | Besauce | BREAK | Rock |
+| **092** | Malangel | Heal | Holy / Dark |
+| **093** | Malevsera | DPS | Dark |
+
+</Section>
+
+<Section icon={Shield} title="Aniimo Dex FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I find the Sparkling (Shiny) forms in the Aniimo Dex?",
+    answer: "Sparkling forms are extremely rare wild encounters. You can increase your odds by using Lure items or maintaining a 'Catch Combo' of the same species."
+  },
+  {
+    question: "What is the difference between a Prismana form and a standard form?",
+    answer: "Prismana variants are rare event-based forms that feature glowing crystalline designs and often possess unique ultimate abilities not found in the base version."
+  },
+  {
+    question: "Can I evolve an Aniimo into all its split paths?",
+    answer: "A single individual can only follow one path. To complete the aniimo dex, you must catch multiple individuals of the base species and evolve them into each different branch."
+  },
+  {
+    question: "Do weather forms count as separate entries in the Dex?",
+    answer: "They are listed under the same Dex Number but have their own sub-entry and collection icon. 100% completion requires seeing all variations."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The **aniimo dex** is constantly expanding with seasonal updates. Ensure your game is updated to the latest 2026 patch to access the newest species and limited-time Prismana events.
+</Callout>
+
+</Section>
