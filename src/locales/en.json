@@ -17,7 +17,8 @@
     "release": "Release",
     "platforms": "Platforms",
     "beta": "Beta",
-    "monetization": "Monetization"
+    "monetization": "Monetization",
+    "community": "Community"
   },
   "common": {
     "home": "Home",

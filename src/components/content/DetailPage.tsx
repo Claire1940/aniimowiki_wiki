@@ -47,6 +47,7 @@ export async function DetailPage({
     platforms: t("nav.platforms"),
     beta: t("nav.beta"),
     monetization: t("nav.monetization"),
+    community: t("nav.community"),
   };
 
   // 提取图片元数据

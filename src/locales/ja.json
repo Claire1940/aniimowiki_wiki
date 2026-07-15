@@ -17,7 +17,8 @@
     "release": "リリース",
     "platforms": "プラットフォーム",
     "beta": "ベータ",
-    "monetization": "課金要素"
+    "monetization": "課金要素",
+    "community": "コミュニティ"
   },
   "common": {
     "home": "ホーム",
