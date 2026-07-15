@@ -38,6 +38,33 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // ANIIMO 主题语义图标（导航卡片 + 模块）
+  Calendar: LucideIcons.Calendar,
+  Compass: LucideIcons.Compass,
+  Trophy: LucideIcons.Trophy,
+  Target: LucideIcons.Target,
+  Dna: LucideIcons.Dna,
+  Swords: LucideIcons.Swords,
+  Globe: LucideIcons.Globe,
+  Map: LucideIcons.Map,
+  Rocket: LucideIcons.Rocket,
+  Crown: LucideIcons.Crown,
+  Gem: LucideIcons.Gem,
+  Egg: LucideIcons.Egg,
+  Waves: LucideIcons.Waves,
+  Crosshair: LucideIcons.Crosshair,
+
+  // 元素图标（Aniimo 九大元素）
+  Flame: LucideIcons.Flame,
+  Droplet: LucideIcons.Droplet,
+  Leaf: LucideIcons.Leaf,
+  Zap: LucideIcons.Zap,
+  Mountain: LucideIcons.Mountain,
+  Wind: LucideIcons.Wind,
+  Moon: LucideIcons.Moon,
+  Sun: LucideIcons.Sun,
+  Snowflake: LucideIcons.Snowflake,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }

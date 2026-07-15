@@ -52,728 +52,677 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Aniimo Gameplay",
+    "description": "Catch and evolve magical Aniimo, Twine with creatures to explore Idyll, solve puzzles, and battle in real time across a free open world."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Aniimo",
+    "titleHighlight": "Guide Hub",
+    "subtitle": "Everything you need to catch, evolve, and master every Aniimo across the continent of Idyll.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Download",
+        "title": "Aniimo Beta Access",
+        "description": "Join the Global Closed Beta and install Aniimo on PC, Steam, iOS, and Android"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Calendar",
+        "title": "Aniimo Release Date",
+        "description": "Q3 2026 launch window, every platform, and the free-to-play model"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Compass",
+        "title": "Aniimo Beginner Guide",
+        "description": "Your first session in Idyll: roster setup, controls, routes, and rewards"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Trophy",
+        "title": "Aniimo Tier List",
+        "description": "The best early Aniimo for combat, exploration, and elemental coverage"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Target",
+        "title": "Aniimo Catching & Twine",
+        "description": "Capture methods, Aniipods, and Twine abilities for movement and puzzles"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Dna",
+        "title": "Aniimo Evolution",
+        "description": "Leveling, evolution paths, traits, personalities, and progression resources"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Swords",
+        "title": "Aniimo Combat & Teams",
+        "description": "Command and Twine combat, elemental counters, and roster builds"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Globe",
+        "title": "Aniimo World & PvP",
+        "description": "Regions, Alpha bosses, co-op, Egg Heist PvP, and social hubs"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "aniimoBetaDownload": {
+      "eyebrow": "Beta Access",
+      "title": "Aniimo Global Closed Beta Download Guide",
+      "subtitle": "Check your beta access, install Aniimo on an eligible device, and prepare your account before entering Idyll.",
+      "intro": "The Global Closed Beta opened on July 9, 2026 for the official PC launcher, Steam, Android, and iOS. It is a limited-access, free, non-charging test, and all test progress is reset when the beta ends.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Check the Global Beta Schedule",
+          "description": "Pre-download opened on July 8, 2026, with staggered server starts across regions.",
+          "points": [
+            "America server start: July 8 at 22:00 UTC-4.",
+            "Europe server start: July 9 at 02:00 UTC+0.",
+            "APAC server start: July 9 at 10:00 UTC+8."
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Confirm Your Beta Access",
+          "description": "Verify eligibility through the official Aniimo website before installing.",
+          "points": [
+            "Open the Aniimo website and select Log in to Check or Check Beta Access.",
+            "Use the same email address submitted in the beta application.",
+            "Check the Junk or Spam folder if the confirmation email is missing."
+          ]
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Install the Official PC Version",
+          "description": "Eligible PC testers use the official Aniimo launcher.",
+          "points": [
+            "Select PC Download on the website or the link in the eligibility email.",
+            "Open the Aniimo launcher and select Install to download the game files.",
+            "Always start Aniimo through the official launcher."
+          ]
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Activate the Steam Version",
+          "description": "Steam testers redeem the unique product code from the invitation email.",
+          "points": [
+            "Open Steam, select Games, then Activate a Product on Steam.",
+            "Enter the product code from the beta invitation email.",
+            "Install Aniimo and sign in with the email that received the code."
+          ]
+        },
+        {
+          "title": "Install Aniimo on iOS and Android",
+          "description": "Mobile testers receive platform-specific install instructions.",
+          "points": [
+            "iOS testers get a TestFlight invitation and redemption code by email.",
+            "Android testers use the official Android Download link after confirming access.",
+            "Sign in with the same email used for the beta application."
+          ]
+        },
+        {
+          "title": "Check Storage and Device Requirements",
+          "description": "Make sure your device meets the listed specifications before installing.",
+          "points": [
+            "PC: 45 GB free, i7-9700 or Ryzen 5 3600X, GTX 1060 6 GB, 12 GB RAM, Windows 10 64-bit.",
+            "iOS: 25 GB free, iPhone 12 Pro with iOS 16 and 6 GB RAM.",
+            "Android: 25 GB free, Snapdragon 7 Gen 2 or Dimensity 9000, Android 10, 6 GB RAM."
+          ]
+        },
+        {
+          "title": "Fix Common Access and Performance Problems",
+          "description": "Resolve the most frequent launch and login issues quickly.",
+          "points": [
+            "Missing email: check the application inbox and Junk folder, then contact official support.",
+            "Mobile lag or heating: close background apps, restart, and lower graphics settings.",
+            "Unstable connection: use 5 GHz Wi-Fi or a wired connection and avoid proxies or VPNs.",
+            "Character stuck in terrain: open the menu with Esc and select Unstuck."
+          ]
+        },
+        {
+          "title": "Understand Account and Data-Wipe Rules",
+          "description": "Know how cross-platform progress and test data are handled.",
+          "points": [
+            "All beta progress and account data are deleted when the Global Closed Beta ends.",
+            "Beta access cannot be transferred, shared, sold, rented, or gifted.",
+            "iOS or Android access works on PC too, keeping cross-platform progress during the test."
+          ]
+        }
+      ]
+    },
+    "aniimoReleasePlatforms": {
+      "eyebrow": "Launch Information",
+      "title": "Aniimo Release Date, Platforms, and Price",
+      "subtitle": "Aniimo is scheduled to launch worldwide in Q3 2026 as a free-to-play creature-catching open-world RPG.",
+      "intro": "Pawprint Studio has announced console, PC, and mobile versions of Aniimo. Players will explore Idyll, collect magical creatures, build teams, and use the Twine system to control an Aniimo directly during exploration and combat.",
+      "platforms": [
+        {
+          "platform": "PlayStation 5",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "PlayStation Store",
+          "availability": "Wishlist available"
+        },
+        {
+          "platform": "Xbox Series X|S",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "Microsoft Store",
+          "availability": "Wishlist available"
+        },
+        {
+          "platform": "Steam",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "Steam",
+          "availability": "Store page and wishlist available"
+        },
+        {
+          "platform": "Epic Games Store",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "Epic Games Store",
+          "availability": "Wishlist available"
+        },
+        {
+          "platform": "Xbox PC",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "Xbox app for Windows PC",
+          "availability": "Confirmed launch platform"
+        },
+        {
+          "platform": "Android",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "Google Play",
+          "availability": "Pre-registration via the official website"
+        },
+        {
+          "platform": "iOS",
+          "window": "Q3 2026",
+          "price": "Free-to-play",
+          "store": "Apple App Store",
+          "availability": "Pre-registration via the official website"
+        }
+      ]
+    },
+    "aniimoBeginnerGuide": {
+      "eyebrow": "Getting Started",
+      "title": "Aniimo Beginner Guide: Your First Session in Idyll",
+      "subtitle": "Follow the main route, assemble a balanced roster, collect Aniipods, and unlock useful exploration abilities without missing early rewards.",
+      "intro": "Aniimo combines open-world exploration, real-time combat, creature capture, elemental counters, quests, and Twine. A strong first session focuses on the main story while building a small roster that covers damage, BREAK, support, and multiple elements.",
+      "steps": [
+        {
+          "title": "Follow the Main Quest First",
+          "description": "Use the mission tracker to unlock Aniimo's core systems before branching out.",
+          "points": [
+            "Complete tutorial prompts so Aniimo Management, Twine, capture tools, and shops unlock.",
+            "If a quest NPC disappears, teleport away and return or restart the game."
+          ]
+        },
+        {
+          "title": "Create Your Active Aniimo Roster",
+          "description": "A balanced team covers damage, BREAK, support, and several elements.",
+          "points": [
+            "Open Aniimo Management with Esc and drag Aniimo into the team slots.",
+            "Mix elements instead of stacking one damage type.",
+            "Add a BREAK-focused Aniimo and a support or healing option."
+          ]
+        },
+        {
+          "title": "Learn the Essential PC Controls",
+          "description": "A few keybinds unlock movement, menus, and combat control.",
+          "points": [
+            "M opens the world map; Esc opens the menu and Aniimo Management.",
+            "C activates Twine for direct Aniimo control; H switches rosters.",
+            "Esc then Unstuck frees a character trapped in terrain."
+          ]
+        },
+        {
+          "title": "Explore with the Right Mobility Ability",
+          "description": "Twine unlocks creature-specific movement for every terrain.",
+          "points": [
+            "Mobility skills include higher jumps, aerial dashes, climbing, flying, swimming, and tunneling.",
+            "Use elemental abilities to interact with puzzles and reach hidden rewards.",
+            "Open the map with M to find unexplored habitats."
+          ]
+        },
+        {
+          "title": "Level a Focused Group of Aniimo",
+          "description": "Concentrate resources on a core team before spreading upgrades.",
+          "points": [
+            "Active roster members earn experience from enemies defeated in Twine mode.",
+            "Use Experience Gems when a key member needs immediate levels.",
+            "Build a core team before investing in every captured Aniimo."
+          ]
+        },
+        {
+          "title": "Collect and Restock Aniipods",
+          "description": "Keep capture tools stocked from multiple reliable sources.",
+          "points": [
+            "Find Aniipods in exploration loot, treasure chests, story quests, and Aniilog objectives.",
+            "Purchase them from Outpost or Astra shops.",
+            "Produce more with the Aniipod Maker in the Homeland."
+          ]
+        },
+        {
+          "title": "Increase Your Capture Chance",
+          "description": "Preparation beats raw luck when catching valuable Aniimo.",
+          "points": [
+            "Approach sleeping Aniimo or use stealth before a capture.",
+            "Deal BREAK damage to weaken the target during combat.",
+            "Raise the Researcher Level to unlock capture-enhancing skills."
+          ]
+        },
+        {
+          "title": "Use Elemental Counters",
+          "description": "The Type Matchup panel turns elements into a combat advantage.",
+          "points": [
+            "Open Aniimo Management and choose an element icon to view matchups.",
+            "Rotate team members when an enemy resists your main attacker.",
+            "Maintain fire, water, grass, electric, rock, wind, dark, ice, and holy coverage."
+          ]
+        },
+        {
+          "title": "Claim Limited and Daily Rewards",
+          "description": "Log in and clear objectives before each reset.",
+          "points": [
+            "Complete the Global Closed Beta daily check-in event for cumulative rewards.",
+            "Check-ins refresh each day at 04:00 UTC+8.",
+            "Finish daily quests and event objectives before they reset."
+          ]
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Do not rely on a single element against every enemy.",
+        "Use stealth, BREAK damage, or a stronger Aniipod before difficult captures.",
+        "Keep mobility Aniimo ready, since many routes and rewards need specialized movement.",
+        "Save Experience Gems for active team members, and never miss daily check-ins."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+    "aniimoTierList": {
+      "eyebrow": "Global Beta Rankings",
+      "title": "Aniimo Tier List: Best Creatures for an Early Roster",
+      "subtitle": "These Global Closed Beta picks combine combat performance, elemental coverage, support value, and useful exploration abilities.",
+      "intro": "A practical early team includes a main attacker, a BREAK specialist, a support option, and several movement abilities. The picks below favor basic forms that deliver immediate value across combat and exploration.",
+      "tiers": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "tier": "S",
+          "label": "Best Early All-Rounders",
+          "creatures": [
+            {
+              "name": "Nimbi",
+              "elements": ["Wind"],
+              "role": "Support",
+              "combat": "Cloud Shield absorbs damage and reduces stamina consumption while ranged skills add safe damage.",
+              "exploration": "Puff Up raises jump height and adds an airborne dash, plus Fly Lv.1 pathfinding."
+            },
+            {
+              "name": "Budclaw",
+              "elements": ["Rock", "Grass"],
+              "role": "BREAK",
+              "combat": "High BREAK and physical defense make Budclaw effective against durable enemies.",
+              "exploration": "Tunnel moves underground and grants immunity to ranged attacks while active."
+            },
+            {
+              "name": "Celestis",
+              "elements": ["Dark"],
+              "role": "DPS",
+              "combat": "A ranged magic attacker with strong base ATK, Shooting Star Bombs, and Star Glide.",
+              "exploration": "Provides both Climb Lv.1 and Fly Lv.1 pathfinding for broad exploration."
+            }
+          ]
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "tier": "A",
+          "label": "Strong Core-Team Picks",
+          "creatures": [
+            {
+              "name": "Emberpup",
+              "elements": ["Fire"],
+              "role": "DPS",
+              "combat": "Fire Kick rewards dodges with extra damage, and Fire Bolt applies a ranged Fire debuff.",
+              "exploration": "Hustle increases movement speed while consuming stamina."
+            },
+            {
+              "name": "Dewy",
+              "elements": ["Dark"],
+              "role": "Support",
+              "combat": "Withering Bloom damages nearby enemies and restores team HP, while lowering Dark resistance.",
+              "exploration": "Provides Fly Lv.1 pathfinding for aerial routes."
+            },
+            {
+              "name": "Fentuft",
+              "elements": ["Electric"],
+              "role": "DPS",
+              "combat": "Thunder Field adds extra lightning strikes and Lightning Dart pulls targets together.",
+              "exploration": "Scurry gives a short forward rush alongside Fly Lv.1 pathfinding."
+            }
+          ]
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "tier": "B",
+          "label": "Useful Elemental Specialists",
+          "creatures": [
+            {
+              "name": "Shelly",
+              "elements": ["Water"],
+              "role": "DPS",
+              "combat": "Hydro Roll deals high physical damage, creates a puddle, and triggers Water damage bonuses.",
+              "exploration": "Hydro Roll provides fast forward movement while Twined."
+            },
+            {
+              "name": "Sparki",
+              "elements": ["Fire"],
+              "role": "REGEN",
+              "combat": "Fire Orb adds aimed ranged damage and Trick Fire Ring repeatedly applies Fire debuff.",
+              "exploration": "Chosen for ranged combat and Fire interactions over specialized movement."
+            }
+          ]
         }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "aniimoCatchingTwine": {
+      "eyebrow": "Capture & Twine",
+      "title": "Aniimo Catching and Twine Guide",
+      "subtitle": "Improve captures with stealth, BREAK damage, stronger Aniipods, and careful observation, then Twine with Aniimo to transform, explore, solve puzzles, and fight directly.",
+      "intro": "Catching an Aniimo is more than throwing an Aniipod. Study wild behavior, weaken resistant creatures with BREAK damage, use traps and the environment, and choose a suitable Aniipod. Twine Mode then lets you experience Idyll through that Aniimo's movement and combat abilities.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Prepare the Capture",
+          "summary": "Observe the target before starting combat or using an Aniipod.",
+          "details": [
+            "Wild Aniimo have different behaviors, habitats, and reactions to nearby Pathfinders.",
+            "Sleeping Aniimo are easier targets, while alert creatures can be approached with stealth.",
+            "Use the map to explore different regions when searching for undiscovered species."
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "Use Stealth, Traps, and the Environment",
+          "summary": "Avoid turning every encounter into a direct fight.",
+          "details": [
+            "Approach quietly when terrain and creature behavior allow it.",
+            "Set traps and use environmental features to create a better capture window.",
+            "Watch movement patterns before committing resources."
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Apply BREAK Damage",
+          "summary": "BREAK damage creates a stronger capture opportunity during combat.",
+          "details": [
+            "Use attacks that reduce the target's resistance before throwing an Aniipod.",
+            "Avoid defeating the Aniimo before the capture attempt.",
+            "Combine elemental pressure, BREAK damage, and timing against stronger targets."
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Choose the Right Aniipod",
+          "summary": "Higher-tier Aniipods provide better capture support than basic options.",
+          "details": [
+            "Aniipods come from loot, chests, story quests, Aniilog objectives, and Training rewards.",
+            "Additional Aniipods are sold through Outpost and Astra shops.",
+            "The Aniipod Maker inside the Homeland provides another production option."
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "title": "Raise Researcher Level",
+          "summary": "Research progression unlocks skills that improve capture performance.",
+          "details": [
+            "Complete exploration, research, photography, and capture activities.",
+            "Use capture-enhancing skills when pursuing rare Aniimo.",
+            "Save stronger Aniipods for targets that stay difficult after preparation."
+          ]
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "title": "Track Weather and Time of Day",
+          "summary": "The living ecosystem changes which Aniimo appear and how encounters play out.",
+          "details": [
+            "Nocturnal Aniimo emerge after dark, making night exploration essential for some finds.",
+            "Weather alters combat conditions, such as rain weakening fire abilities.",
+            "Revisit habitats under different weather and lighting when a target is missing."
+          ]
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "title": "Use Twine for Exploration",
+          "summary": "Twining transforms you into a collected Aniimo and grants its movement abilities.",
+          "details": [
+            "Different Aniimo climb cliffs, glide, dive underwater, or reach hidden areas.",
+            "Some transformations let you understand Aniimo language and observe their society.",
+            "Switch transformations when a route, collectible, or puzzle needs different movement."
+          ]
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Use Twine in Puzzles and Combat",
+          "summary": "Twine Mode supports physics-based puzzles and direct real-time battles.",
+          "details": [
+            "Combine Aniimo abilities with fire, water, and wind to operate mechanisms.",
+            "In Twine Mode you directly control the Aniimo, dodge, perform combos, and use skills.",
+            "Command Mode stays available when tactical roster control is more useful."
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "aniimoEvolutionProgression": {
+      "eyebrow": "Training & Evolution",
+      "title": "Aniimo Evolution and Progression Guide",
+      "subtitle": "Level your core companions, collect evolution resources, evaluate traits and personalities, and delay expensive upgrades until your main roster is set.",
+      "intro": "Aniimo progression combines direct leveling, combat experience, branching evolution, personalities, traits, ability values, and collectible forms. Experience Gems give immediate levels, while active-roster Aniimo earn experience from enemies defeated during Twine combat.",
+      "stages": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "stage": "Choose a Core Roster",
+          "method": "Pick a small group covering exploration, combat, BREAK pressure, and multiple elements.",
+          "resources": "Roster slots and Aniimo Management",
+          "priority": "Highest"
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "stage": "Gain Combat Experience",
+          "method": "Place Aniimo in the active roster and defeat enemies in Twine Mode.",
+          "resources": "Active-roster combat experience",
+          "priority": "High"
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "stage": "Use Experience Gems",
+          "method": "Apply Experience Gems directly to a selected Aniimo for instant levels.",
+          "resources": "Intermediate and higher EXP Gems",
+          "priority": "High"
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "stage": "Recover Invested Experience",
+          "method": "Release an upgraded Aniimo when it no longer fits the roster.",
+          "resources": "Experience Gem refund",
+          "priority": "Situational"
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "stage": "Prepare for Evolution",
+          "method": "Collect evolution materials before committing to a branch.",
+          "resources": "Evolution Crystals and Aniimo-specific materials",
+          "priority": "Save until branch is chosen"
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "stage": "Select an Evolution Path",
+          "method": "Advance eligible Aniimo through their multi-branch evolution routes.",
+          "resources": "Required level and evolution materials",
+          "priority": "High"
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "stage": "Review Personality and Traits",
+          "method": "Compare captured Aniimo before making a large investment.",
+          "resources": "Personality, stats, traits, Trait Switch Potion, Potential Fruit",
+          "priority": "High for long-term companions"
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "stage": "Collect Special Forms",
+          "method": "Join form-specific capture, hatching, cultivation, and competitive activities.",
+          "resources": "Prismana Eggs, Shimmering Eggs, and special-mode rewards",
+          "priority": "Collection goal"
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "stage": "Strengthen Advanced Forms",
+          "method": "Complete Holo-Battle Sim challenges and resource events.",
+          "resources": "Resonators, Pure Luminite, Experience Gems, event rewards",
+          "priority": "Late progression"
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "aniimoCombatTeams": {
+      "eyebrow": "Combat & Teams",
+      "title": "Aniimo Combat, Elements, and Team Builds",
+      "subtitle": "Combine tactical commands with direct Twine combat, cover multiple elemental matchups, and prepare roster structures for exploration, Alpha bosses, Holo-Battle, and challenging encounters.",
+      "intro": "Aniimo uses two connected combat styles. Command Mode directs Aniimo and coordinates skills, while Twine Mode transforms you into an Aniimo for real-time movement, dodging, attacks, and combos. Switch prepared roster members and review elemental matchups through Aniimo Management.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "title": "Command Mode",
+          "useCase": "Tactical control and skill coordination",
+          "setup": "Keep complementary Aniimo in the active roster and issue commands by enemy behavior.",
+          "playstyle": "Use it when positioning, coordinated abilities, or safe damage delivery matter most."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "title": "Twine Mode",
+          "useCase": "Direct real-time combat",
+          "setup": "Twine with an active Aniimo to use its movement, attacks, dodges, and skills.",
+          "playstyle": "Best for reacting to boss attacks, executing combos, and applying BREAK pressure."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "title": "Elemental Coverage",
+          "useCase": "Countering enemy weaknesses",
+          "setup": "Build around multiple elements instead of one damage type.",
+          "playstyle": "Check the Type Matchup panel and switch to an effective element before hard content."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "title": "Roster Switching",
+          "useCase": "Changing roles or elements during combat",
+          "setup": "Build rosters in Aniimo Management, use C to Twine, and H to switch members.",
+          "playstyle": "Open with the best matchup, then switch for stronger BREAK, mobility, or support."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "title": "Balanced Exploration Team",
+          "useCase": "Quests, gathering, puzzles, and regular encounters",
+          "setup": "One mobility Twine option, one dependable damage dealer, and one flexible Aniimo.",
+          "playstyle": "Prioritize movement variety and broad coverage for terrain and unplanned fights."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "title": "Alpha Boss Team",
+          "useCase": "Single powerful targets",
+          "setup": "One counter-element attacker, one strong BREAK Aniimo, and one durable support.",
+          "playstyle": "Learn the pattern, BREAK for an opening, and save Twine attacks for weak phases."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "title": "Holo-Battle Team",
+          "useCase": "Timed simulations and challenge objectives",
+          "setup": "A primary counter-element dealer, a secondary attacker, and a consistency utility pick.",
+          "playstyle": "Adjust the roster for each simulation instead of forcing one universal team."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "title": "Difficult Encounter Team",
+          "useCase": "Unknown enemies, long fights, and mixed groups",
+          "setup": "Two different elemental attackers plus a flexible third for BREAK, recovery, or control.",
+          "playstyle": "Start cautious in Command Mode, then Twine with the member that fits each phase."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "aniimoOpenWorld": {
+      "eyebrow": "World & Multiplayer",
+      "title": "Aniimo Open World, Bosses, and Multiplayer",
+      "subtitle": "Travel through varied regions, solve cooperative Sanctums, fight Alpha Aniimo, compete in Diamond Egg Heist, exchange creatures, and meet other Pathfinders.",
+      "intro": "The continent of Idyll combines open-world exploration with puzzles, real-time challenges, competitive activities, cooperative bosses, player housing, and social hubs. Twine changes how you move through each environment and lets different Aniimo abilities open new routes and puzzle solutions.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "title": "The Continent of Idyll",
+          "category": "Open World",
+          "location": "Forests, volcanic terrain, floating cities, coastlines, and underwater areas",
+          "activity": "Capture Aniimo, complete quests, discover treasure, race, climb, glide, dive, and solve physics puzzles.",
+          "multiplayer": "Solo exploration with online social and multiplayer systems throughout the world."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "title": "Astra and the Homeland",
+          "category": "Social Hub & Housing",
+          "location": "Astra and the player's RV-connected Homeland",
+          "activity": "Buy accessories, meet Pathfinders, customize the Homeland, grow crops, and interact with owned Aniimo.",
+          "multiplayer": "Astra is a busy social area, while RV campsites and Homelands support visits and shared activities."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "title": "Island of Peace",
+          "category": "Water Region",
+          "location": "A newly introduced area within Idyll",
+          "activity": "Explore aquatic environments, discover wild Aniimo and forms, and use water-oriented movement.",
+          "multiplayer": "Includes cooperative boss challenges against Bubbask and Coraliz."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
+          "title": "Alpha Aniimo",
+          "category": "Boss Encounters",
+          "location": "Open-world regions and dedicated challenges",
+          "activity": "Fight stronger Aniimo with large health pools, dangerous patterns, and BREAK opportunities.",
+          "multiplayer": "Selected Alpha encounters can be challenged with other Pathfinders."
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "title": "Diamond Egg Heist",
+          "category": "Competitive PvP",
+          "location": "Lost Isles",
+          "activity": "Up to six teams of three race to Twine with the diamond egg and escort it to safety.",
+          "multiplayer": "Team-based mode blending exploration, combat, objective control, and escort play."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "title": "Holo-Battle Interlink",
+          "category": "Solo & Co-op Challenge",
+          "location": "Hall of the Polaris Institute",
+          "activity": "Defeat Alpha Aniimo, earn points, complete combat challenges, and collect rewards.",
+          "multiplayer": "Challenges can be attempted alone or with friends."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "title": "Sanctum Puzzles",
+          "category": "Co-op Exploration",
+          "location": "Sanctums and puzzle dungeons like Sanctum: Rigged Maze",
+          "activity": "Twine with complementary Aniimo, operate mechanisms, and solve environmental puzzles.",
+          "multiplayer": "Two-player co-op is supported for Sanctum puzzle challenges."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "title": "Aniimo Exchange & Social Play",
+          "category": "Trading & Community",
+          "location": "Online social systems and player hubs",
+          "activity": "Exchange Aniimo, form teams, socialize in urban hubs, and join cooperative or competitive activities.",
+          "multiplayer": "Steam lists online co-op, online PvP, and cross-platform multiplayer support."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Named Test Regions",
+          "category": "Exploration Checklist",
+          "location": "Astra, Tideblossom Coast, Rosetower Wood, Russet Highlands, Lost Isles, and Island of Peace",
+          "activity": "Search each region for different Aniimo, conditions, quests, treasures, bosses, and puzzle routes.",
+          "multiplayer": "Activities range from solo discovery to co-op bosses and team-based PvP."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Aniimo",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know about Aniimo, the Global Closed Beta, and the worldwide launch.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Aniimo?",
+        "answer": "Aniimo is a free-to-play, open-world creature-catching RPG from Pawprint Studio. You catch and evolve magical Aniimo, Twine with them to explore Idyll, solve puzzles, battle in real time, and build a Homeland."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When does Aniimo release?",
+        "answer": "Aniimo is scheduled to launch worldwide in Q3 2026 as a free-to-play game across PS5, Xbox Series X|S, PC, iOS, and Android."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Which platforms is Aniimo on?",
+        "answer": "Aniimo is coming to PlayStation 5, Xbox Series X|S, Steam, the Epic Games Store, Xbox PC, Android, and iOS. You can wishlist Aniimo now on the available stores."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Is Aniimo free to play?",
+        "answer": "Yes. Aniimo is free-to-play on every launch platform. The Global Closed Beta is also free and does not charge testers."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What is Twine in Aniimo?",
+        "answer": "Twine is Aniimo's signature system. It transforms you into a collected Aniimo so you can use its movement, exploration, puzzle, and real-time combat abilities directly."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Does Aniimo have multiplayer and PvP?",
+        "answer": "Yes. Aniimo supports online co-op, cross-platform multiplayer, social hubs, and competitive modes such as the team-based Diamond Egg Heist in the Lost Isles."
+      },
+      {
+        "question": "How do I join the Aniimo Global Closed Beta?",
+        "answer": "Check your eligibility on the official Aniimo website with the email used in your application. Selected testers receive platform install instructions by email for PC, Steam, iOS, and Android."
+      },
+      {
+        "question": "How many elements does Aniimo have?",
+        "answer": "Aniimo creatures use nine elements: fire, water, grass, electric, rock, wind, dark, ice, and holy. Elemental counters are central to combat and team building."
       }
     ]
   },
@@ -801,125 +750,53 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+    "beginner": {
+      "title": "Aniimo Beginner Guides",
+      "description": "First-session routes, controls, roster setup, and early progression for new Aniimo Pathfinders.",
+      "metaTitle": "Aniimo Beginner Guides - First Steps in Idyll",
+      "metaDescription": "Start Aniimo with beginner guides covering controls, roster setup, capturing, leveling, and your first exploration routes across Idyll."
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+    "creatures": {
+      "title": "Aniimo Creatures",
+      "description": "Every indexed Aniimo with elements, roles, habitats, and capture locations.",
+      "metaTitle": "Aniimo Creatures - Full Index, Elements & Locations",
+      "metaDescription": "Browse the full Aniimo creature index with elements, roles, evolution stages, and where to find each Aniimo across Idyll."
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
+    "tier-lists": {
+      "title": "Aniimo Tier Lists",
+      "description": "Ranked Aniimo for PvE, PvP, exploration, and early roster building.",
+      "metaTitle": "Aniimo Tier Lists - Best Creatures Ranked",
+      "metaDescription": "Aniimo tier lists ranking the best creatures for combat, exploration, PvP, and building a strong early roster."
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
+    "evolutions": {
+      "title": "Aniimo Evolutions",
+      "description": "Evolution stages, materials, branching paths, traits, and special forms.",
+      "metaTitle": "Aniimo Evolution Guide - Stages, Materials & Traits",
+      "metaDescription": "Master Aniimo evolution with guides to stages, materials, branching paths, personalities, traits, and special forms."
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
+    "twine": {
+      "title": "Aniimo Twine Abilities",
+      "description": "Twine movement, puzzle, and combat abilities for every exploration challenge.",
+      "metaTitle": "Aniimo Twine Guide - Movement, Puzzles & Combat",
+      "metaDescription": "Learn every Aniimo Twine ability for gliding, diving, climbing, tunneling, solving puzzles, and fighting in real time."
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+    "world": {
+      "title": "Aniimo World Map",
+      "description": "Regions, dungeons, weather, spawn locations, and exploration routes.",
+      "metaTitle": "Aniimo World Map - Regions, Spawns & Dungeons",
+      "metaDescription": "Explore the Aniimo world map with guides to regions, weather, spawn locations, dungeons, and exploration routes."
+    },
+    "combat": {
+      "title": "Aniimo Combat",
+      "description": "Elements, counters, team builds, bosses, and multiplayer modes.",
+      "metaTitle": "Aniimo Combat - Elements, Teams & Bosses",
+      "metaDescription": "Aniimo combat guides covering elemental counters, Command and Twine modes, team builds, Alpha bosses, and PvP."
+    },
+    "release": {
+      "title": "Aniimo Release & Beta",
+      "description": "Launch dates, platforms, beta access, downloads, and update records.",
+      "metaTitle": "Aniimo Release Date, Beta & Platforms",
+      "metaDescription": "Track the Aniimo release date, platforms, Global Closed Beta access, downloads, system requirements, and updates."
     }
   }
 }
