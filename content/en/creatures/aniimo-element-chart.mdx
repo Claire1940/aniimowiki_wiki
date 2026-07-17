@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo element chart: 2026 Elemental Matchups & Role Guide",
+  description: "Master the aniimo element chart with our 2026 guide. Learn elemental strengths, weaknesses, and role synergies to dominate every battle in Aniimo.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Element+Chart+Guide",
+  date: "2026-07-17",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo element chart** is the fundamental system for mastering combat, featuring 9 distinct elemental types and their specific interactions.
+- **Elemental matchups** often include self-weaknesses (mirror matches), making it risky to fight enemies of the same type.
+- **Move elements** function independently of an Aniimo's base type; always verify the element of the specific skill you are using.
+- **Team roles** are fixed attributes (DPS, Break, Heal, Regen, Support) that define an Aniimo's primary job in your party.
+- **Break mechanics** allow specialized units to stun enemies, creating critical windows for DPS units to deal maximum damage.
+</Callout>
+
+<Section icon={Map} title="Aniimo Elemental Combat Fundamentals">
+
+Understanding the **aniimo element chart** is the first step toward becoming a master Pathfinder in the world of Aniimo. Combat is built upon a complex web of elemental strengths and weaknesses that dictate how much damage you deal and receive. Unlike traditional monster-battling games, Aniimo introduces a nuanced system where an Aniimo's base element and its move element can differ, adding a layer of strategic depth to every encounter.
+
+**Video Highlights:**
+- Detailed breakdown of the 9 elemental types and their specific counters.
+- Explanation of the 5 permanent roles embedded in an Aniimo's DNA.
+- The critical distinction between an Aniimo's type and its move elements.
+- Strategies for utilizing the "Break" mechanic to stun difficult bosses.
+
+<YouTubeEmbed videoId="Ba3sYn6ZQ5I" title="Aniimo Types & Roles EXPLAINED FOR BATTLE" />
+
+<Callout type="tip" title="Pathfinder Tip">
+Always check the element icon next to a specific move before committing to an attack. A Water-type Aniimo using an Ice-type move will deal Ice damage, which may be resisted by the enemy even if Water would have been effective.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Complete aniimo element chart & Matchups">
+
+The **aniimo element chart** consists of nine elements: Ice, Light (Holy), Fire, Dark, Lightning (Electric), Wind, Earth (Rock), Water, and Grass. Mastering these matchups is essential for navigating high-level content where elemental resistance can make or break a fight. Many elements in Aniimo are weak against themselves, meaning mirror matches are generally discouraged unless you have a significant level advantage.
+
+| Element | Strong Against (Offense) | Weak To (Defense) | Resistant To |
+| :--- | :--- | :--- | :--- |
+| **Ice** | Lightning, Water | Light, Fire, Wind, Grass | Varies by matchup |
+| **Light** | Dark, Earth | Ice, Lightning | Dark |
+| **Fire** | Ice, Grass | Water, Earth, Fire | Ice, Grass |
+| **Dark** | Light, Fire, Grass | Earth, Water | Lightning |
+| **Lightning** | Wind, Water | Ice, Earth | Dark |
+| **Wind** | Dark, Grass | Wind, Earth | Grass |
+| **Earth** | Ice, Lightning | Water, Wind | Lightning |
+| **Water** | Fire, Earth | Ice, Light, Water | Fire |
+| **Grass** | Earth, Water | Fire, Grass | Earth, Water |
+
+Dark is currently considered one of the strongest offensive types in the 2026 meta because it holds an advantage over three separate elements (Light, Fire, and Grass). However, its vulnerability to Earth and Water keeps it balanced within the overall ecosystem.
+
+<Callout type="warning" title="Mirror Match Warning">
+Be extremely cautious when engaging in mirror matches (e.g., Fire vs. Fire). In Aniimo, many elements take increased damage from their own type, leading to "glass cannon" scenarios where whoever strikes first usually wins.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Defining Aniimo Roles and Team Synergy">
+
+Every Aniimo is born with a specific role that cannot be changed. This role is embedded in their DNA and determines their base stats and primary function within a three-member party. While you can technically build a team with any combination, a balanced approach using the **aniimo element chart** alongside these roles is the most effective strategy for endgame content.
+
+<CardGrid cols={3}>
+  <Card title="DPS (Damage Per Second)">
+    - **Primary Goal**: Deal maximum damage.
+    - High attack stats and fast move execution.
+    - Essential for clearing health bars quickly during stun windows.
+  </Card>
+  <Card title="Break">
+    - **Primary Goal**: Incapacitate and stagger enemies.
+    - High impact damage to trigger the "Stun" mechanic.
+    - Best used at the start of a fight to create openings.
+  </Card>
+  <Card title="Heal">
+    - **Primary Goal**: Team survivability.
+    - Lower offensive presence but vital for long battles.
+    - Allows DPS and Break units to play more aggressively.
+  </Card>
+  <Card title="Regen (Regeneration)">
+    - **Primary Goal**: Cooldown and energy management.
+    - Speeds up energy regeneration and boosts healing output.
+    - Highly valuable in 2026 endgame boss encounters.
+  </Card>
+  <Card title="Support">
+    - **Primary Goal**: Damage reduction and utility.
+    - Provides shields, healing auras, and defensive buffs.
+    - Can overlap with Regen roles; pick carefully to avoid redundancy.
+  </Card>
+</CardGrid>
+
+| Role | Best Pairing | Stat Priority | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **DPS** | Regen, Support | Attack, Crit Rate | Easy |
+| **Break** | DPS, Heal | Impact, Speed | Medium |
+| **Heal** | Break, Support | Max HP, Recovery | Hard |
+| **Regen** | DPS, Heal | Energy Recharge | Medium |
+| **Support** | DPS, Break | Defense, Shield Strength | Easy |
+
+<Callout type="info" title="Role Redundancy">
+Running a team with a Healer, a Regen unit, and a Support unit provides incredible survivability, but you will likely struggle to meet damage checks in timed challenges. Always ensure you have at least one dedicated DPS or Break unit.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Build an Optimized Team">
+
+Building a team requires more than just picking your favorite designs. You must account for elemental coverage and role synergy to handle the various threats found in the wild. Follow these steps to assemble a competitive squad based on the current 2026 battle mechanics.
+
+<Steps>
+  <Step num="1" title="Select Your Lead Break Unit">
+    Start by choosing a Break Aniimo. Their job is to stagger the enemy as quickly as possible. For example, if you are fighting a Lightning enemy, an Earth-type Break unit will crush their stagger bar efficiently.
+  </Step>
+  <Step num="2" title="Identify Your Primary DPS">
+    Once the enemy is stunned, you need a DPS unit to capitalize. Choose a DPS whose element counters the target. If your Break unit is Earth, your DPS could be Fire or Dark to cover other potential elemental shifts.
+  </Step>
+  <Step num="3" title="Fill the Utility Slot">
+    The third slot should be a Heal, Regen, or Support unit. This Aniimo ensures your team stays healthy and your moves stay off cooldown. Look for a utility unit that covers the elemental weaknesses of your first two picks.
+  </Step>
+  <Step num="4" title="Verify Move Elements">
+    Check the specific moves equipped on your Aniimo. Ensure your Dark-type DPS has at least one move that provides coverage for elements it normally struggles against, such as an Ice move to handle Light threats.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Strategy Success">
+A common 2026 "Meta" team includes a Break unit to initiate, a DPS to finish, and a Regen unit to keep the cycle of abilities moving quickly. This "BDR" (Break-Damage-Regen) loop is highly effective for most boss content.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Combat Mechanics: The Stun Window">
+
+The "Break" mechanic is a core pillar of Aniimo combat. Dealing enough damage of a specific type (usually Impact damage from a Break-role unit) will fill a stagger meter. Once full, the enemy enters a "Stun" state for several seconds.
+
+**Stun Window Benefits:**
+- The enemy is completely incapacitated and cannot attack.
+- All damage dealt to the enemy is significantly increased.
+- Perfect time to swap to your DPS and unleash Ultimate abilities.
+
+| Mechanic | Effect on Enemy | Best Counter Role |
+| :--- | :--- | :--- |
+| **Stagger** | Meter fills based on Impact damage | Break |
+| **Stun** | Enemy is immobilized for 3-5 seconds | DPS |
+| **Elemental Burst** | Extra damage based on chart advantage | Any (with correct move) |
+
+<Callout type="info" title="Pro Strategy">
+Save your high-energy Ultimate moves for the Stun window. Using them while the enemy is active is often a waste of resources, as the damage multiplier during a Stun state is significantly higher.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Battle Readiness Checklist & FAQ">
+
+Before heading into a major boss fight or a Lumin Stage challenge, use this checklist to ensure your team is prepared for the elemental requirements of the encounter.
+
+<Checklist
+  id="battle-prep"
+  title="Pre-Battle Checklist:"
+  items={[
+    "Confirm the enemy's primary element and secondary weaknesses",
+    "Equip moves that match the offensive needs of the aniimo element chart",
+    "Ensure your Break unit has high Impact stats for faster staggering",
+    "Verify that your Healer or Support unit isn't the same element as the enemy",
+    "Check that your DPS unit has their Ultimate energy ready"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Does an Aniimo's base element provide a damage bonus to moves of the same type?",
+    answer: "Yes, using a move that matches the Aniimo's base element typically results in a 'Same Type Attack Bonus,' making it more powerful than using an off-element move."
+  },
+  {
+    question: "Can I change the role of my Aniimo if I don't like it?",
+    answer: "No, roles are permanent and embedded in the Aniimo's DNA. If you want a different role, you must catch or obtain a different species that naturally fills that role."
+  },
+  {
+    question: "What is the most versatile element in the aniimo element chart?",
+    answer: "Dark is currently very versatile due to its three offensive advantages, but Earth is also highly valued for its ability to punish Lightning and Ice threats, which are common in early-game stages."
+  },
+  {
+    question: "Is it better to have a dedicated Healer or a Support with shields?",
+    answer: "This depends on the fight. Healers are better for long, attrition-based battles, while Support units with shields are better for preventing 'one-shot' mechanics from powerful bosses."
+  }
+]} />
+
+</Section>

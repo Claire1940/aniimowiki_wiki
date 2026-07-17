@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo How to Play: 2026 Combat & Team Building Guide",
+  description: "Master Aniimo combat with our guide on Twining, elemental team building, and progression systems for the 2026 global release.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Aniimo+How+to+Play",
+  date: "2026-07-17",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo how to play**: Master the Twine mechanic to directly control your creatures for maximum combat efficiency.
+- **Team Composition**: Prioritize three DPS units with complementary elements (Fire, Water, Grass) to clear the Hollow Battle Sim.
+- **Resource Management**: Focus leveling resources on DPS and Break units first; supports and healers require less early investment.
+- **Resonance System**: Use species-specific crystals and Astronite shards to unlock Capability Points for stat specialization.
+- **Exploration**: Utilize the Homeland feature and RV decorations to gain permanent elemental damage boosts for your team.
+</Callout>
+
+<Section icon={Swords} title="Mastering the Twine: Aniimo How to Play Combat Basics">
+
+Understanding **aniimo how to play** begins with the core "Twine" mechanic. While the game allows you to let your Aniimo fight autonomously, manual control through Twining is essential for overcoming difficult boss encounters and high-level challenges. Twining allows you to inhabit your Aniimo, giving you direct access to their movement, basic attacks, and special abilities.
+
+**Video Highlights:**
+- Direct control (Twining) is significantly more effective than AI-controlled combat.
+- Movement and attack speeds vary greatly between different Aniimo species.
+- Test an Aniimo's "vibe" through Twining before committing rare upgrade resources.
+- Elemental advantages are critical for clearing the Hollow Battle Sim.
+
+<YouTubeEmbed videoId="UsicCObepZ0" title="Aniimo Beginner Tips – What to Know Before Playing" />
+
+Each Aniimo features unique handling characteristics. For example, a heavy-hitter like Scorchhowl may feel slower in movement compared to a mobile unit like Benmain. It is highly recommended to test the "feel" of an Aniimo's attack animations and dodge timings before investing heavily in their level or Resonance.
+
+| Combat Aspect | AI-Controlled Mode | Twine (Manual) Mode |
+| :--- | :--- | :--- |
+| **Precision** | Low (Targeting is automatic) | High (Direct aim and positioning) |
+| **Dodge Ability** | Moderate (Based on AI patterns) | High (Player-timed iframe dodges) |
+| **Skill Usage** | On cooldown | Strategic timing for Break windows |
+| **Efficiency** | Best for AFK farming | Required for Bosses and PvP |
+
+<Callout type="tip" title="Pro Tip">
+When Twining, pay close attention to the "Break" gauge on enemies. Using an Aniimo with high Break stats during Twine mode allows you to stun enemies faster, creating massive damage windows for your primary DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Elemental Mastery and Team Composition">
+
+The elemental system in Aniimo follows a classic rock-paper-scissors dynamic but expands with Dark, Wind, and Earth attributes. To optimize your progression, you should aim to build a versatile roster that can handle various elemental threats.
+
+| Element | Strong Against | Weak Against | Key Role Example |
+| :--- | :--- | :--- | :--- |
+| **Fire** | Grass | Water | Scorchhowl (DPS) |
+| **Water** | Fire | Grass | Susuta (Support/Utility) |
+| **Grass** | Water | Fire | Budclaw (Tank/DPS) |
+| **Dark** | Neutral | Neutral | Celestis (Specialist) |
+| **Wind** | Earth | Lightning | Nimbi (Mobile DPS) |
+
+<Callout type="warning" title="Early Game Strategy">
+Do not spread your resources too thin. In the early stages of 2026 gameplay, focus on building one strong DPS for Fire, Water, and Grass. This ensures you can farm the Hollow Battle Sim levels required for high-tier held items.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="The DPS Lead">
+    Focus on units with high attack growth. They should stay on the field the longest during Twine mode.
+  </Card>
+  <Card title="The Breaker">
+    These units excel at depleting the enemy's guard gauge. Switch to them when the enemy is preparing a heavy attack.
+  </Card>
+  <Card title="The Support">
+    Healers and buffers often have static stat boosts. They require the least amount of leveling gems to be effective.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression: Resonance and Capability Points">
+
+Once you have selected your favorite team, you must engage with the Resonance system. Resonance acts as a tiered ascension path that increases base stats and, more importantly, provides Capability Points (CP). CP allows you to specialize your Aniimo’s stats, similar to EV training in other monster-collection titles.
+
+<Steps>
+  <Step num="1" title="Collect Species Crystals">
+    Catch multiple Aniimo of the same species to obtain specific crystals. Higher rarity catches provide more resources.
+  </Step>
+  <Step num="2" title="Farm Astronite Shards">
+    Spend your daily energy to open boss chests in the overworld. These shards are the secondary requirement for Resonance stages.
+  </Step>
+  <Step num="3" title="Unlock Resonance Tiers">
+    Each tier grants a permanent stat boost and a pool of Capability Points.
+  </Step>
+  <Step num="4" title="Allocate Capability Points">
+    Distribute points into Attack, Defense, Speed, or HP based on the Aniimo's role in your team.
+  </Step>
+</Steps>
+
+| Resonance Tier | Required Shards | Stat Bonus | CP Granted |
+| :--- | :--- | :--- | :--- |
+| **Tier 1** | 10 Green Shards | +5% Base Stats | 10 Points |
+| **Tier 2** | 25 Green Shards | +10% Base Stats | 15 Points |
+| **Tier 3** | 15 Blue Shards | +15% Base Stats | 20 Points |
+| **Tier 4** | 40 Blue Shards | +20% Base Stats | 25 Points |
+
+<Callout type="success" title="Optimization Tip">
+Wait until you catch an Aniimo with a "Rare" or "Elite" trait before hyper-investing your Astronite Shards. Traits are fixed upon capture and can significantly alter the Aniimo's performance in the late game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Investment Strategy: Potentials and Personalities">
+
+A common mistake when learning **aniimo how to play** is dumping all resources into the first creature you catch. Every Aniimo has hidden Grade Potentials, Personalities, and Traits that are determined the moment they are captured.
+
+**Key Investment Factors:**
+- **Grade Potentials**: Determines the growth rate of specific stats (S-Tier to D-Tier).
+- **Personalities**: Provides a percentage boost to one stat while slightly decreasing another.
+- **Traits**: Unique passive abilities that can define an Aniimo's niche (e.g., "Flame Aura" for extra burn damage).
+
+| Resource Type | Priority | Best Use Case |
+| :--- | :--- | :--- |
+| **Leveling Gems** | High | Primary Elemental DPS units |
+| **Astronite Shards** | Medium | Resonance for Elite-tier units |
+| **Skill Manuals** | High | Unlocking 3rd and 4th skill slots |
+| **Gold/Currency** | Low | Buying consumables and basic gear |
+
+<Callout type="info" title="World Exploration">
+As you complete world exploration and fill your Antilog, your chances of finding Aniimo with higher Grade Potentials increase. Patience in the early game will save you thousands of resources in the long run.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Homeland and Social Features">
+
+The Homeland feature is more than just a housing system; it is a functional part of your power progression. By managing your farm and completing requests, you can craft specialized RV decorations.
+
+<Checklist
+  id="homeland-tasks"
+  title="Daily Homeland Goals:"
+  items={[
+    "Complete 3 Homeland Requests for crafting materials",
+    "Check for collectible spawns in the overworld",
+    "Craft and place one Elemental RV Decoration",
+    "Interact with your Aniimo to increase Friendship levels"
+  ]}
+/>
+
+These decorations provide global buffs to specific elements. For instance, a "Sunlit Fountain" might grant a 2% damage boost to all Water-type Aniimo in your party. Never sell collectibles found in the overworld, as they are frequently required for high-priority Homeland requests.
+
+| Decoration Type | Material Source | Party-Wide Effect |
+| :--- | :--- | :--- |
+| **Volcanic Hearth** | Fire Boss Chests | +3% Fire Damage |
+| **Hydro Statue** | Fishing Requests | +3% Water Damage |
+| **Verdant Arch** | Forest Exploration | +3% Grass Damage |
+
+<Callout type="tip" title="Final Advice">
+Take your time exploring the world. Aniimo is designed as a marathon, not a sprint. Rushing to PvP without a properly built team with matching personalities and traits will often lead to frustration. Enjoy the scenery and build your roster organically.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Aniimo How to Play FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the most important mechanic in Aniimo how to play?",
+    answer: "The Twine mechanic is the most vital. It allows you to manually control your Aniimo, which is necessary for dodging boss attacks and timing your Break abilities effectively."
+  },
+  {
+    question: "Which elements should I focus on first?",
+    answer: "You should prioritize Fire, Water, and Grass DPS units. This trio allows you to cover most elemental weaknesses in the Hollow Battle Sim and farm essential power-up items."
+  },
+  {
+    question: "Can I change an Aniimo's personality or traits later?",
+    answer: "Currently, personalities and traits are fixed upon capture. While some late-game items might allow for minor adjustments, it is much more efficient to catch an Aniimo with the desired traits from the start."
+  },
+  {
+    question: "How do I get more Capability Points (CP)?",
+    answer: "CP is earned through the Resonance system. By ascending your Aniimo using species-specific crystals and Astronite shards, you unlock points to customize their stats."
+  }
+]} />
+
+</Section>
