@@ -30,14 +30,68 @@
         "file": "aniimo-global-closed-beta"
       }
     ],
+    "community": [
+      {
+        "slug": "aniimo-developer",
+        "file": "aniimo-developer"
+      },
+      {
+        "slug": "aniimo-discord",
+        "file": "aniimo-discord"
+      },
+      {
+        "slug": "aniimo-news",
+        "file": "aniimo-news"
+      },
+      {
+        "slug": "aniimo-reddit",
+        "file": "aniimo-reddit"
+      }
+    ],
     "creatures": [
+      {
+        "slug": "aniimo-all-creatures",
+        "file": "aniimo-all-creatures"
+      },
       {
         "slug": "aniimo-creatures",
         "file": "aniimo-creatures"
       },
       {
+        "slug": "aniimo-dragon",
+        "file": "aniimo-dragon"
+      },
+      {
+        "slug": "aniimo-eklue",
+        "file": "aniimo-eklue"
+      },
+      {
+        "slug": "aniimo-element-chart",
+        "file": "aniimo-element-chart"
+      },
+      {
         "slug": "aniimo-evolutions",
         "file": "aniimo-evolutions"
+      },
+      {
+        "slug": "aniimo-fox",
+        "file": "aniimo-fox"
+      },
+      {
+        "slug": "aniimo-hoptail",
+        "file": "aniimo-hoptail"
+      },
+      {
+        "slug": "aniimo-irelia",
+        "file": "aniimo-irelia"
+      },
+      {
+        "slug": "aniimo-iris",
+        "file": "aniimo-iris"
+      },
+      {
+        "slug": "aniimo-lunara",
+        "file": "aniimo-lunara"
       },
       {
         "slug": "aniimo-shiny-creatures",
@@ -62,8 +116,20 @@
         "file": "aniimo-base-building"
       },
       {
+        "slug": "aniimo-change-weather",
+        "file": "aniimo-change-weather"
+      },
+      {
         "slug": "aniimo-character-customization",
         "file": "aniimo-character-customization"
+      },
+      {
+        "slug": "aniimo-coop",
+        "file": "aniimo-coop"
+      },
+      {
+        "slug": "aniimo-local-co-op",
+        "file": "aniimo-local-co-op"
       },
       {
         "slug": "aniimo-multiplayer",
@@ -88,12 +154,28 @@
         "file": "aniimo-creature-catching-guide"
       },
       {
+        "slug": "aniimo-dex",
+        "file": "aniimo-dex"
+      },
+      {
         "slug": "aniimo-gameplay",
         "file": "aniimo-gameplay"
       },
       {
+        "slug": "aniimo-handbook",
+        "file": "aniimo-handbook"
+      },
+      {
+        "slug": "aniimo-how-to-play",
+        "file": "aniimo-how-to-play"
+      },
+      {
         "slug": "aniimo-interactive-map",
         "file": "aniimo-interactive-map"
+      },
+      {
+        "slug": "aniimo-tips-and-tricks",
+        "file": "aniimo-tips-and-tricks"
       },
       {
         "slug": "aniimo-vs-palworld",
@@ -101,6 +183,10 @@
       }
     ],
     "monetization": [
+      {
+        "slug": "aniimo-energy-system",
+        "file": "aniimo-energy-system"
+      },
       {
         "slug": "aniimo-free-to-play",
         "file": "aniimo-free-to-play"
@@ -116,12 +202,44 @@
     ],
     "platforms": [
       {
+        "slug": "aniimo-android-release-date",
+        "file": "aniimo-android-release-date"
+      },
+      {
+        "slug": "aniimo-android",
+        "file": "aniimo-android"
+      },
+      {
+        "slug": "aniimo-app-store",
+        "file": "aniimo-app-store"
+      },
+      {
+        "slug": "aniimo-console-release",
+        "file": "aniimo-console-release"
+      },
+      {
+        "slug": "aniimo-cross-platform",
+        "file": "aniimo-cross-platform"
+      },
+      {
+        "slug": "aniimo-crossplay",
+        "file": "aniimo-crossplay"
+      },
+      {
         "slug": "aniimo-epic-games",
         "file": "aniimo-epic-games"
       },
       {
         "slug": "aniimo-mobile",
         "file": "aniimo-mobile"
+      },
+      {
+        "slug": "aniimo-on-ps5",
+        "file": "aniimo-on-ps5"
+      },
+      {
+        "slug": "aniimo-on-xbox",
+        "file": "aniimo-on-xbox"
       },
       {
         "slug": "aniimo-ps5",
@@ -146,8 +264,16 @@
     ],
     "release": [
       {
+        "slug": "aniimo-demo",
+        "file": "aniimo-demo"
+      },
+      {
         "slug": "aniimo-mobile-release-date",
         "file": "aniimo-mobile-release-date"
+      },
+      {
+        "slug": "aniimo-pre-register",
+        "file": "aniimo-pre-register"
       },
       {
         "slug": "aniimo-ps5-release-date",
@@ -194,14 +320,68 @@
         "file": "aniimo-global-closed-beta"
       }
     ],
+    "community": [
+      {
+        "slug": "aniimo-developer",
+        "file": "aniimo-developer"
+      },
+      {
+        "slug": "aniimo-discord",
+        "file": "aniimo-discord"
+      },
+      {
+        "slug": "aniimo-news",
+        "file": "aniimo-news"
+      },
+      {
+        "slug": "aniimo-reddit",
+        "file": "aniimo-reddit"
+      }
+    ],
     "creatures": [
+      {
+        "slug": "aniimo-all-creatures",
+        "file": "aniimo-all-creatures"
+      },
       {
         "slug": "aniimo-creatures",
         "file": "aniimo-creatures"
       },
       {
+        "slug": "aniimo-dragon",
+        "file": "aniimo-dragon"
+      },
+      {
+        "slug": "aniimo-eklue",
+        "file": "aniimo-eklue"
+      },
+      {
+        "slug": "aniimo-element-chart",
+        "file": "aniimo-element-chart"
+      },
+      {
         "slug": "aniimo-evolutions",
         "file": "aniimo-evolutions"
+      },
+      {
+        "slug": "aniimo-fox",
+        "file": "aniimo-fox"
+      },
+      {
+        "slug": "aniimo-hoptail",
+        "file": "aniimo-hoptail"
+      },
+      {
+        "slug": "aniimo-irelia",
+        "file": "aniimo-irelia"
+      },
+      {
+        "slug": "aniimo-iris",
+        "file": "aniimo-iris"
+      },
+      {
+        "slug": "aniimo-lunara",
+        "file": "aniimo-lunara"
       },
       {
         "slug": "aniimo-shiny-creatures",
@@ -226,8 +406,20 @@
         "file": "aniimo-base-building"
       },
       {
+        "slug": "aniimo-change-weather",
+        "file": "aniimo-change-weather"
+      },
+      {
         "slug": "aniimo-character-customization",
         "file": "aniimo-character-customization"
+      },
+      {
+        "slug": "aniimo-coop",
+        "file": "aniimo-coop"
+      },
+      {
+        "slug": "aniimo-local-co-op",
+        "file": "aniimo-local-co-op"
       },
       {
         "slug": "aniimo-multiplayer",
@@ -252,12 +444,28 @@
         "file": "aniimo-creature-catching-guide"
       },
       {
+        "slug": "aniimo-dex",
+        "file": "aniimo-dex"
+      },
+      {
         "slug": "aniimo-gameplay",
         "file": "aniimo-gameplay"
       },
       {
+        "slug": "aniimo-handbook",
+        "file": "aniimo-handbook"
+      },
+      {
+        "slug": "aniimo-how-to-play",
+        "file": "aniimo-how-to-play"
+      },
+      {
         "slug": "aniimo-interactive-map",
         "file": "aniimo-interactive-map"
+      },
+      {
+        "slug": "aniimo-tips-and-tricks",
+        "file": "aniimo-tips-and-tricks"
       },
       {
         "slug": "aniimo-vs-palworld",
@@ -265,6 +473,10 @@
       }
     ],
     "monetization": [
+      {
+        "slug": "aniimo-energy-system",
+        "file": "aniimo-energy-system"
+      },
       {
         "slug": "aniimo-free-to-play",
         "file": "aniimo-free-to-play"
@@ -280,12 +492,44 @@
     ],
     "platforms": [
       {
+        "slug": "aniimo-android-release-date",
+        "file": "aniimo-android-release-date"
+      },
+      {
+        "slug": "aniimo-android",
+        "file": "aniimo-android"
+      },
+      {
+        "slug": "aniimo-app-store",
+        "file": "aniimo-app-store"
+      },
+      {
+        "slug": "aniimo-console-release",
+        "file": "aniimo-console-release"
+      },
+      {
+        "slug": "aniimo-cross-platform",
+        "file": "aniimo-cross-platform"
+      },
+      {
+        "slug": "aniimo-crossplay",
+        "file": "aniimo-crossplay"
+      },
+      {
         "slug": "aniimo-epic-games",
         "file": "aniimo-epic-games"
       },
       {
         "slug": "aniimo-mobile",
         "file": "aniimo-mobile"
+      },
+      {
+        "slug": "aniimo-on-ps5",
+        "file": "aniimo-on-ps5"
+      },
+      {
+        "slug": "aniimo-on-xbox",
+        "file": "aniimo-on-xbox"
       },
       {
         "slug": "aniimo-ps5",
@@ -310,8 +554,16 @@
     ],
     "release": [
       {
+        "slug": "aniimo-demo",
+        "file": "aniimo-demo"
+      },
+      {
         "slug": "aniimo-mobile-release-date",
         "file": "aniimo-mobile-release-date"
+      },
+      {
+        "slug": "aniimo-pre-register",
+        "file": "aniimo-pre-register"
       },
       {
         "slug": "aniimo-ps5-release-date",
@@ -324,6 +576,134 @@
       {
         "slug": "aniimo-xbox-release-date",
         "file": "aniimo-xbox-release-date"
+      }
+    ]
+  },
+  "ko": {
+    "community": [
+      {
+        "slug": "aniimo-developer",
+        "file": "aniimo-developer"
+      }
+    ],
+    "creatures": [
+      {
+        "slug": "aniimo-all-creatures",
+        "file": "aniimo-all-creatures"
+      },
+      {
+        "slug": "aniimo-dragon",
+        "file": "aniimo-dragon"
+      },
+      {
+        "slug": "aniimo-eklue",
+        "file": "aniimo-eklue"
+      },
+      {
+        "slug": "aniimo-element-chart",
+        "file": "aniimo-element-chart"
+      },
+      {
+        "slug": "aniimo-fox",
+        "file": "aniimo-fox"
+      },
+      {
+        "slug": "aniimo-hoptail",
+        "file": "aniimo-hoptail"
+      },
+      {
+        "slug": "aniimo-irelia",
+        "file": "aniimo-irelia"
+      },
+      {
+        "slug": "aniimo-iris",
+        "file": "aniimo-iris"
+      },
+      {
+        "slug": "aniimo-lunara",
+        "file": "aniimo-lunara"
+      }
+    ],
+    "features": [
+      {
+        "slug": "aniimo-change-weather",
+        "file": "aniimo-change-weather"
+      },
+      {
+        "slug": "aniimo-coop",
+        "file": "aniimo-coop"
+      },
+      {
+        "slug": "aniimo-local-co-op",
+        "file": "aniimo-local-co-op"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "aniimo-dex",
+        "file": "aniimo-dex"
+      },
+      {
+        "slug": "aniimo-handbook",
+        "file": "aniimo-handbook"
+      },
+      {
+        "slug": "aniimo-how-to-play",
+        "file": "aniimo-how-to-play"
+      },
+      {
+        "slug": "aniimo-tips-and-tricks",
+        "file": "aniimo-tips-and-tricks"
+      }
+    ],
+    "monetization": [
+      {
+        "slug": "aniimo-energy-system",
+        "file": "aniimo-energy-system"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "aniimo-android-release-date",
+        "file": "aniimo-android-release-date"
+      },
+      {
+        "slug": "aniimo-android",
+        "file": "aniimo-android"
+      },
+      {
+        "slug": "aniimo-app-store",
+        "file": "aniimo-app-store"
+      },
+      {
+        "slug": "aniimo-console-release",
+        "file": "aniimo-console-release"
+      },
+      {
+        "slug": "aniimo-cross-platform",
+        "file": "aniimo-cross-platform"
+      },
+      {
+        "slug": "aniimo-crossplay",
+        "file": "aniimo-crossplay"
+      },
+      {
+        "slug": "aniimo-on-ps5",
+        "file": "aniimo-on-ps5"
+      },
+      {
+        "slug": "aniimo-on-xbox",
+        "file": "aniimo-on-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "aniimo-demo",
+        "file": "aniimo-demo"
+      },
+      {
+        "slug": "aniimo-pre-register",
+        "file": "aniimo-pre-register"
       }
     ]
   }

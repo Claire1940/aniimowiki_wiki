@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "aniimo coop: 2026 Guide to Multiplayer & Team Tactics",
+  description: "Master aniimo coop mechanics with our guide on roster sharing, Alpha Boss battles, the Twine system, and social trading in the continent of Idyll.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Coop+Guide",
+  date: "2026-07-21",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **aniimo coop** allows players to explore the continent of Idyll together, sharing roster slots and battling Alpha Bosses in real-time.
+- **Roster Management** is strictly balanced; in a two-player session, each player controls two Aniimo from a combined four-slot party.
+- **Twine Mechanic** lets players transform into their captured Aniimo to utilize unique traversal skills and combat abilities directly.
+- **Trading Systems** are influenced by friendship levels, reducing costs and increasing the probability of obtaining rare variations.
+- **PVEVP Content** like the Egg Heist mode supports three-player teams for competitive treasure hunting in the Lost Isles.
+</Callout>
+
+<Section icon={Users} title="Multiplayer Basics and Session Setup">
+
+Entering the world of Idyll with friends changes the fundamental way you interact with the environment and your Aniimo collection. The **aniimo coop** system is designed for seamless integration, allowing Pathfinders to join sessions quickly and begin exploring, capturing, and battling without long loading screens or complex lobby menus.
+
+**Video Highlights:**
+- Demonstrating the quick-join feature for multiplayer sessions.
+- Explanation of the 2+2 roster split for balanced co-op gameplay.
+- Showcasing egg hatching and trading between friends.
+- First look at Alpha Boss battles and capturing mechanics in a team.
+
+<YouTubeEmbed videoId="ksipdnHUqz8" title="Aniimo Multiplayer Co-op Gameplay - Alpha Boss Battles, Egg Hatching & Trading" />
+
+When playing solo, you typically manage a full roster of four Aniimo. However, the multiplayer balance shifts this dynamic. Each player must strategically select which two creatures to bring into the first two slots of their active roster before joining a friend.
+
+| Feature | Solo Play | Co-op (2 Players) |
+| :--- | :--- | :--- |
+| **Total Aniimo Roster** | 4 Slots | 4 Slots (Shared) |
+| **Control per Player** | 4 Aniimo | 2 Aniimo each |
+| **Experience Gain** | Individual | Shared across party |
+| **Combat Focus** | Single-target/Micro | Team-based synergy |
+| **Traversal** | Single mount | Multiple concurrent mounts |
+
+<Callout type="tip" title="Pro Tip">
+Before joining a friend, ensure your first two Aniimo slots are filled with your strongest or most versatile creatures, as these are the only ones you can use during the co-op session.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and the Twine System">
+
+Combat in **aniimo coop** is more than just issuing commands. The "Twine" system allows Pathfinders to essentially become the Aniimo they have collected. This transformation grants access to the creature's full moveset, including standard attacks, defensive counters, and powerful ultimate abilities.
+
+In a team setting, players can coordinate their Twine transformations to cover different roles. For instance, one player can transform into a tank-class Aniimo like Geoclaw to draw aggro, while the other uses a healer or high-damage dealer like Nova Stage to provide support or burst damage.
+
+### Alpha Boss Strategies
+
+Alpha Bosses are larger, more powerful, and often evolved versions of standard Aniimo found in the wild. They possess unique mechanics, such as shield phases, AoE ground slams, and environmental hazards like freezing or burning fields.
+
+| Boss Type | Common Traits | Best Team Tactic |
+| :--- | :--- | :--- |
+| **Geoclaw (Alpha)** | High defense, Earth/Physical | Use Fire or Dark burst damage |
+| **Chirpy (Alpha)** | High mobility, Air/Wind | Coordinate stuns and ranged attacks |
+| **Guardian Bosses** | Multiple phases, Shielded | Break shields using ultimate moves |
+| **Wild Elite** | Rare variations, High HP | Use status effects and counters |
+
+<Steps>
+  <Step num="1" title="Initial Engagement">
+    Approach the Alpha Boss together and identify its elemental weaknesses. Use a tank-type Aniimo to initiate the fight and soak up the first wave of attacks.
+  </Step>
+  <Step num="2" title="Shield Breaking">
+    Watch for the boss's shield bar. Coordinate your ultimate abilities to "topple" the boss, leaving it vulnerable to massive burst damage for a short duration.
+  </Step>
+  <Step num="3" title="Twine Rotation">
+    Rotate your Twine transformations. If one player's Aniimo takes heavy damage, they should disengage and switch to their second slot while the other player maintains pressure.
+  </Step>
+  <Step num="4" title="Capture Attempt">
+    Once the boss's health is low (typically under 10%), use an Ultra Pod or higher-tier capture device. The capture chance increases significantly when the boss is toppled or afflicted with status effects.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important">
+Your human character can only take five hits before fainting. Even while Twined, stay aware of boss attacks that target the player specifically rather than the Aniimo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="World Exploration and Team Activities">
+
+The continent of Idyll is vast, offering diverse biomes from misty forests to sun-drenched plains. Exploration is enhanced in **aniimo coop** because different Aniimo provide unique traversal abilities. While one player glides through the air, another can swim across lakes or burrow underground to find hidden treasures.
+
+### Interactive Elements in Idyll
+
+The world is filled with puzzles and environmental obstacles that often require elemental interaction.
+
+<CardGrid cols={3}>
+  <Card title="Elemental Puzzles">
+    - **Vined Chests**: Require Fire Aniimo to burn away obstacles.
+    - **Water Gates**: Need specific swimming Aniimo to navigate.
+    - **Pressure Plates**: Often require heavy or multiple Aniimo to activate.
+  </Card>
+  <Card title="Resource Gathering">
+    - **Experience Gems**: Shared among the party.
+    - **Glimmers**: Currency used for upgrading equipment.
+    - **Evolution Materials**: Found in chests and dropped by Alphas.
+  </Card>
+  <Card title="Hatchery & Outposts">
+    - **Egg Incubation**: Hatch rare eggs with friends.
+    - **Stat Scanning**: Analyze captured Aniimo at outposts.
+    - **Fast Travel**: Unlock teleport points for the whole team.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Exploration Success">
+Capturing Aniimo while they are asleep in the wild provides a 100% capture guarantee and bonus experience points for the entire team.
+</Callout>
+
+| Traversal Type | Aniimo Example | Use Case |
+| :--- | :--- | :--- |
+| **Gliding** | Chirpy / Pranky | Crossing large gaps and descending from cliffs |
+| **Swimming** | Glacy / Nova Stage | Navigating rivers and reaching island chests |
+| **Climbing** | Geoclaw | Scaling vertical rock faces to find secrets |
+| **Sprinting** | Ember Pup | Fast travel across open plains and meadows |
+
+</Section>
+
+<Section icon={Sparkles} title="Social Systems: Trading and Homeland">
+
+The social aspect of **aniimo coop** extends beyond combat. Players can interact at their personal RV campsites, which serve as mobile social hubs. Here, you can meet other Pathfinders, trade Aniimo, and work together on your Homeland.
+
+### Trading Mechanics
+
+Trading is a core component of the multiplayer experience. The system rewards long-term friendships with reduced costs and better outcomes.
+
+- **Friendship Levels**: The closer you are to a friend, the more Aniimo types you can swap.
+- **Illusory Probability**: Higher friendship levels increase the chance of obtaining "Illusory" (shiny/rare) variations during a trade.
+- **Trading Costs**: Base trades cost credits, but these are significantly reduced for high-level friends.
+
+<Checklist
+  id="trading-prep"
+  title="Trading Readiness Checklist:"
+  items={[
+    "Reach the minimum friendship level for Alpha trades",
+    "Ensure you have enough credits for the transaction",
+    "Scan your Aniimo at an outpost to verify traits",
+    "Clear space in your active roster or storage",
+    "Verify the evolution stage of the creature being traded"
+  ]}
+/>
+
+### The RV and Homeland System
+
+Every Pathfinder owns a personal RV that can be parked at various campsites. The Homeland is a persistent space where you can:
+- **Plant Crops**: Grow food and materials for your Aniimo.
+- **Build Decorations**: Customize your space to reflect your journey.
+- **Interact with Aniimo**: Let your collection roam free in a controlled environment.
+
+<Callout type="info" title="Social Note">
+The PVEVP "Egg Heist" mode is a specialized co-op activity where a 3-player team competes in the Lost Isles to find and secure rare eggs while fending off both AI and other players.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Technical Setup and Requirements">
+
+To enjoy **aniimo coop** without performance issues, Pathfinders should ensure their hardware meets the necessary specifications. The game supports cross-platform multiplayer and various controller inputs.
+
+| Component | Minimum Requirements | Recommended Specs |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 10/11 (64-bit) |
+| **Processor** | Intel i7-9700 / Ryzen 5 3600X | Intel i7-12700F / Ryzen 7 7700X |
+| **Memory** | 12 GB RAM | 16 GB RAM |
+| **Graphics** | GTX 1060 / Radeon RX 6600 | RTX 3070 / Radeon RX 6800 |
+| **DirectX** | Version 11 | Version 11 |
+| **Storage** | 45 GB available space | 45 GB available space |
+
+### Controller Support
+
+While the game is still in its beta phases, it features robust controller support. Players using PlayStation or Xbox controllers on PC can navigate menus, use the touchpad for cursor control, and map skills to specific buttons. There may be minor bugs with mouse cursor persistence, but the core gameplay loop is fully optimized for gamepad play.
+
+<Callout type="warning" title="Beta Warning">
+As a Global Closed Beta title, players may encounter occasional synchronization bugs or visual glitches in multiplayer. Always report these via the in-game feedback tool.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many players can participate in aniimo coop?",
+    answer: "Standard exploration and world bosses support 2-player co-op with a shared 4-Aniimo roster. However, special modes like Egg Heist support 3-player teams, and some events allow matchmaking for up to 4 players."
+  },
+  {
+    question: "Can I capture Alpha Bosses in multiplayer?",
+    answer: "Yes, Alpha Bosses can be captured using high-tier pods. The capture is usually shared or results in rewards for both players, though individual stats must be scanned at an outpost later."
+  },
+  {
+    question: "Does the game support cross-platform play?",
+    answer: "Yes, Aniimo features cross-platform multiplayer, allowing Pathfinders on different systems to meet at the sky-floating metropolis or join each other's world sessions."
+  },
+  {
+    question: "What happens to my character health in co-op?",
+    answer: "Your character has a shield that allows for five hits. If you take too much damage, you will faint. However, turning into your Aniimo via the Twine system provides a fresh health bar based on that creature's stats."
+  }
+]} />
+
+</Section>

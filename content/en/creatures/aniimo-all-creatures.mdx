@@ -1,0 +1,235 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Aniimo All Creatures: Element Index & Role Rankings",
+  description: "Discover the complete Aniimo all creatures index. Learn about elements, combat roles, evolution stages, and build the ultimate team in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Creatures+Guide",
+  date: "2026-07-21",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo all creatures** are categorized by nine distinct elements and four primary combat roles.
+- **Combat roles** consist of DPS, Heal, BREAK, and REGEN to define team synergy.
+- **Evolution stages** transition from Lumin Stage to Gamma Stage, and finally Nova Stage.
+- **Elemental counters** provide significant damage bonuses in high-level PvE encounters.
+- **Top picks** like Helion and Infergon dominate the late-game meta.
+</Callout>
+
+<Section icon={Map} title="Aniimo All Creatures: Element System Overview">
+
+In the vibrant world of Aniimo, understanding the strengths and roles of the Aniimo all creatures roster is essential for mastering combat. The game features nine unique elements that dictate how creatures interact with one another during battle. Strategic team building relies heavily on exploiting these elemental matchups to gain a tactical advantage.
+
+Each element has specific strengths and weaknesses against others. Deploying a creature with an elemental advantage increases your overall damage output and reduces the damage taken from enemies. Conversely, using an element that is weak against your opponent will put your team at a severe disadvantage.
+
+| Element | Strong Against | Weak Against |
+|-|-|-|
+| Fire | Grass, Ice | Water, Rock |
+| Water | Fire, Rock | Grass, Electric |
+| Grass | Water, Rock | Fire, Ice |
+| Electric | Water, Wind | Rock, Dark |
+| Rock | Fire, Electric | Water, Grass |
+| Wind | Grass, Earth | Electric, Ice |
+| Ice | Grass, Wind | Fire, Rock |
+| Holy | Dark | None |
+| Dark | Holy | None |
+
+<Callout type="info" title="Elemental Advantage">
+Always match your team elements to the stage weaknesses. Exploiting elemental counters increases your BREAK efficiency by 50%.
+</Callout>
+
+Selecting the right elemental composition before entering a dungeon is the difference between victory and defeat. Prioritize leveling up at least one strong representative for each element.
+
+</Section>
+
+<Section icon={Swords} title="Role Classifications and Combat Functions">
+
+Beyond elements, every creature in the database is assigned to one of four distinct combat roles. These roles define the creature's primary function in battle and determine their stat scaling and skill sets. A balanced team composition must incorporate multiple roles to ensure sustainability and damage output.
+
+The four roles are DPS, Heal, BREAK, and REGEN. DPS units focus on dealing maximum damage, while Heal units keep the team alive. BREAK units are specialized in depleting enemy shields, and REGEN units accelerate energy recovery for the entire team.
+
+| Role | Primary Focus | Key Stat | Recommended Position |
+|-|-|-|-|
+| DPS | Direct damage output | Attack | Backline |
+| Heal | Health restoration | Max HP | Midline |
+| BREAK | Shield depletion | Impact | Frontline |
+| REGEN | Passive energy recovery | Speed | Midline |
+
+<Callout type="tip" title="Synergy Bonus">
+A balanced team should always feature at least one BREAK specialist to crack enemy shields before your DPS unleashes their main skills.
+</Callout>
+
+Understanding how these roles interact allows you to create powerful synergies. For example, pairing a high-speed REGEN unit with a heavy-hitting DPS unit allows for rapid skill deployment.
+
+</Section>
+
+<Section icon={Target} title="Evolution Stages and Progression">
+
+Creatures progress through three distinct evolution stages as they grow in power. Evolving your creatures is necessary to unlock their full potential, access advanced skills, and increase their base stats. The three stages are Lumin Stage, Gamma Stage, and Nova Stage.
+
+Every creature starts at the Lumin Stage. Through training and resource investment, they can transition to the Gamma Stage, and eventually reach their final form at the Nova Stage.
+
+<Steps>
+  <Step num="1" title="Level Up">
+    Train your creature to reach the maximum level cap of its current stage.
+  </Step>
+  <Step num="2" title="Gather Materials">
+    Collect element-specific evolution stones from daily dungeons and challenges.
+  </Step>
+  <Step num="3" title="Perform Evolution">
+    Access the evolution altar to transition your creature to the next stage.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evolution Reset">
+Evolving a creature resets its current level to 1, but increases its base stats and unlocks new skill slots. Plan your resources accordingly.
+</Callout>
+
+Make sure you have enough experience materials on hand to quickly level up your creature after performing an evolution.
+
+</Section>
+
+<Section icon={Sparkles} title="Complete Creature Database Index">
+
+The Aniimo index contains a wide variety of creatures, each possessing unique element and role combinations. Below are the structured tables indexing the creatures discovered across the Lumin, Gamma, and Nova stages. Use this database to plan your team progression and evolution paths.
+
+### Fire, Holy, and Wind Creatures
+
+This group contains highly offensive Fire units, supportive Holy units, and agile Wind units.
+
+| No. | Name | Element | Role | Stage |
+|-|-|-|-|-|
+| 001 | Emberpup | Fire | DPS | Lumin |
+| 002 | Flameruff | Fire | DPS | Lumin |
+| 003 | Scorchhowl | Fire | BREAK | Gamma |
+| 004 | Inferlupa | Fire | DPS | Nova |
+| 005 | Celestis | Holy | REGEN | Lumin |
+| 006 | Stellarys | Holy | REGEN | Gamma |
+| 007 | Chirpi | Wind | Heal | Lumin |
+| 008 | Tromber | Wind | BREAK | Lumin |
+| 009 | Cornet | Wind | BREAK | Gamma |
+| 010 | Tubster | Wind | BREAK | Nova |
+| 9998 | Helion | Holy | DPS | Nova |
+
+### Water, Ice, and Grass Creatures
+
+This group features defensive Grass units, crowd-control Ice units, and healing Water units.
+
+| No. | Name | Element | Role | Stage |
+|-|-|-|-|-|
+| 011 | Iris | Water | Heal | Lumin |
+| 012 | Irisal | Water | Heal | Gamma |
+| 014 | Skippy | Water | DPS | Lumin |
+| 015 | Pranky | Water | REGEN | Lumin |
+| 016 | Glacy | Ice | DPS | Lumin |
+| 017 | Leafy | Grass | Heal | Lumin |
+| 024 | Budclaw | Grass | BREAK | Lumin |
+| 025 | Shrubclaw | Grass | BREAK | Gamma |
+| 026 | Geoclaw | Rock | BREAK | Nova |
+| 034 | Budsquire | Grass | DPS | Lumin |
+| 035 | Thornblade | Grass | DPS | Gamma |
+
+### Dark, Electric, and Rock Creatures
+
+This group includes high-utility Electric units, sturdy Rock units, and disruptive Dark units.
+
+| No. | Name | Element | Role | Stage |
+|-|-|-|-|-|
+| 027 | Sparki | Electric | DPS | Lumin |
+| 044 | Fulmintis | Electric | DPS | Nova |
+| 067 | Helgon | Dark | BREAK | Gamma |
+| 068 | Infergon | Dark | DPS | Nova |
+| 071 | Pebbling | Rock | BREAK | Lumin |
+| 072 | Lavazar | Rock | BREAK | Gamma |
+| 073 | Magmarex | Rock | DPS | Nova |
+| 074 | Geodeback | Rock | BREAK | Nova |
+| 075 | Minespine | Rock | BREAK | Nova |
+| 9997 | Fennelun | Dark | REGEN | Nova |
+
+<CardGrid cols={3}>
+  <Card title="Emberpup Line">
+    - **Element**: Fire
+    - **Role Focus**: DPS
+    - **Best Stage**: Nova (Inferlupa)
+  </Card>
+  <Card title="Budclaw Line">
+    - **Element**: Grass / Rock
+    - **Role Focus**: BREAK
+    - **Best Stage**: Nova (Geoclaw)
+  </Card>
+  <Card title="Celestis Line">
+    - **Element**: Holy
+    - **Role Focus**: REGEN
+    - **Best Stage**: Gamma (Stellarys)
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="High-Tier Choices">
+Nova Stage creatures like Infergon and Helion offer the highest stat scaling in the game. Prioritize their progression for end-game content.
+</Callout>
+
+Focusing on these top-tier evolution paths ensures your team remains competitive in high-level dungeons.
+
+</Section>
+
+<Section icon={Trophy} title="Team Building Checklist and Goals">
+
+Building a competitive team requires careful preparation and resource management. Before tackling end-game content, ensure your roster meets the necessary milestones to survive tough encounters.
+
+Use this checklist to track your progress and optimize your team layout for maximum synergy.
+
+<Checklist
+  id="team-building-goals"
+  title="Team Preparation Checklist:"
+  items={[
+    "Unlock at least one Nova Stage creature for your primary element",
+    "Level up a dedicated BREAK unit to handle boss shields",
+    "Equip your Heal units with Max HP scaling gear",
+    "Reach maximum stage progression on your main DPS unit",
+    "Establish a secondary team containing opposite element counters"
+  ]}
+/>
+
+<Callout type="info" title="Team Composition">
+A standard team requires a 1 BREAK, 1 DPS, 1 Heal, and 1 REGEN setup to ensure constant skill rotation and survival.
+</Callout>
+
+Having a secondary team ready allows you to swap elements quickly when facing multi-element stages.
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best starting element when selecting Aniimo all creatures?",
+    answer: "Fire and Grass elements are highly recommended for beginners. Fire units like Emberpup offer high early-game DPS, while Grass units like Budclaw provide excellent defensive utility."
+  },
+  {
+    question: "How do I transition a creature from Gamma Stage to Nova Stage?",
+    answer: "You must max out the creature's level in the Gamma Stage, collect rare Nova-tier evolution materials from high-level dungeons, and complete the evolution process at the altar."
+  },
+  {
+    question: "Can I run a team without a Heal role creature?",
+    answer: "While possible for low-level speed runs, high-level PvE content requires a Heal or REGEN unit to sustain your team through long boss fights."
+  },
+  {
+    question: "How does the BREAK role interact with shields?",
+    answer: "BREAK units have skills that deal massive damage specifically to an enemy's shield bar. Once the shield is broken, the enemy enters a vulnerable state where they take increased damage from your DPS units."
+  }
+]} />
+
+<Callout type="tip" title="Updates">
+The database is updated regularly as new stages and creatures release. Check back for changes to the meta rankings.
+</Callout>
+
+Keep experimenting with different element and role combinations to find the playstyle that suits you best.
+
+</Section>

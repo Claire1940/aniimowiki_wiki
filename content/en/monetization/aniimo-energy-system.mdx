@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Clock, Coins } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Energy System: Prime Energy Management & Recovery Guide",
+  description: "Master the Aniimo energy system. Learn how Prime Energy works, recovery rates, energy costs for chests, and how to manage currencies in the 2026 beta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Aniimo+Energy+System+Guide",
+  date: "2026-07-21",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Prime Energy**: The core stamina mechanic used for high-value rewards and crafting.
+- **Recovery Rate**: Regenerates **1 unit every 10 minutes**, with a maximum cap of **200 units**.
+- **Key Costs**: Opening **Omega Chests** costs 50 energy, while **Alpha Chests** require 30 energy.
+- **Conversion Loop**: Use **Glimmers** to obtain Prime Energy replenishment through batteries or exchanges.
+- **Monetization**: Currently focused on **Pay-to-Progress** and cosmetics rather than traditional Pay-to-Win mechanics.
+</Callout>
+
+<Section icon={Map} title="The Fundamentals of Prime Energy">
+
+The **aniimo energy system**, primarily known as **Prime Energy** (or Primey), serves as the central gatekeeper for progression-heavy activities within the game. Unlike standard movement or basic capturing, Prime Energy is consumed when interacting with advanced reward systems and home-base production. Understanding this resource is vital for players who want to optimize their daily gameplay loop without hitting progress walls.
+
+**Video Highlights:**
+- **Monetization Structure**: Analysis of how the energy system fits into the broader game economy.
+- **Resource Costs**: Breakdown of specific energy requirements for Alpha and Omega encounters.
+- **Currency Transparency**: Confirmation that the Anilog and Research Points are currently non-monetized.
+
+<YouTubeEmbed videoId="R13NLyy6W9I" title="How will monetization ACTUALLY work within Aniimo? - Full Discussion" />
+
+In the current 2026 beta phase, players start with a maximum capacity of 200 Prime Energy. This resource is not required for exploring the world or battling standard wild Aniimo, but it becomes essential the moment you defeat powerful bosses or attempt to mass-produce high-tier capture devices.
+
+| Activity Type | Prime Energy Cost | Primary Reward |
+| :--- | :--- | :--- |
+| **Omega Chest** | 50 Units | High-tier Glimmers, Rare Ability Tablets |
+| **Alpha Chest** | 30 Units | Standard Glimmers, Upgrade Materials |
+| **Antipod Production** | Variable | Capture devices for Aniimo |
+| **Battle Sim Rewards** | 20-40 Units | Experience Gems and Training Data |
+| **Home Base Crafting** | 10-50 Units | Advanced furniture and utility items |
+
+<Callout type="success" title="Energy Availability">
+Standard exploration and capturing do not consume Prime Energy. You can continue to fill your Anilog and gain Research Points even when your energy reserves are completely depleted.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Energy Recovery and Replenishment">
+
+Managing your **aniimo energy system** requires a clear understanding of time-based regeneration. Prime Energy recovers passively over time, but players can also use active methods to refill their tanks when preparing for intensive farming sessions.
+
+The passive recovery rate is fixed at **1 unit per 10 minutes**. This means players must plan their sessions around long-term regeneration if they wish to avoid spending premium-adjacent currencies.
+
+| Time Duration | Energy Recovered | Potential Activities |
+| :--- | :--- | :--- |
+| **1 Hour** | 6 Units | Partial crafting costs |
+| **5 Hours** | 30 Units | 1 Alpha Chest opening |
+| **8.5 Hours** | 50 Units | 1 Omega Chest opening |
+| **33.3 Hours** | 200 Units | Full recovery from zero |
+
+<Steps>
+  <Step num="1" title="Passive Regeneration">
+    Always ensure your energy is below the 200 cap before logging off. If you stay at 200, you are essentially wasting potential progress.
+  </Step>
+  <Step num="2" title="Prime Battery Usage">
+    Use **Prime Batteries** found in chests or earned through missions to instantly replenish large chunks of energy.
+  </Step>
+  <Step num="3" title="Glimmer Exchange">
+    In the Polaris Institute or specific outposts, you can exchange **Glimmers** (earned from Elite Training and Alpha defeats) for energy refills.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="The Feedback Loop">
+Be careful with the Glimmer-to-Energy loop. Since you need energy to open chests that contain Glimmers, running out of both can stall your progress significantly. Always keep a small reserve of Glimmers for emergency energy.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="The Multi-Currency Ecosystem">
+
+The **aniimo energy system** does not exist in a vacuum. It is supported by four other distinct currencies that dictate how you interact with the world and customize your experience. While Prime Energy gates progress, these other currencies facilitate growth and personalization.
+
+<CardGrid cols={2}>
+  <Card title="Credits & Glimmers">
+    **Credits** are the standard gold-equivalent earned from catches and star levels. **Glimmers** are advanced tokens used for Ultra Antipods and high-level ability tablets.
+  </Card>
+  <Card title="Fashion & Fame">
+    **Fashion Vouchers** are strictly for character cosmetics. **Fame** is earned through Polaris Institute missions and is used specifically for Aniimo-specific skins and visual effects.
+  </Card>
+</CardGrid>
+
+| Currency Name | Acquisition Method | Primary Usage |
+| :--- | :--- | :--- |
+| **Credits** | Reporting catches, Chests, Star levels | Buying Antipods, EXP Gems, Vendors |
+| **Glimmers** | Elite Training, Branch Quests, Alphas | Ultra Antipods, Energy Refills, Vouchers |
+| **Fashion Vouchers**| Conversion from Glimmers, Elite Training | Character clothing and accessories |
+| **Fame** | Polaris Institute Missions | Aniimo-specific cosmetics |
+| **Prime Energy** | Passive Time, Prime Batteries | Alpha/Omega Chests, Production |
+
+<Callout type="info" title="Monetization Philosophy">
+Currently, the developers have kept the Anilog (the capture progress bar) and Research Points entirely free. These are tied to in-game milestones, ensuring that the core "Monster Tamer" experience isn't locked behind a paywall.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimizing Your Daily Energy Loop">
+
+To make the most of the **aniimo energy system**, players should adopt a specific priority list. Since Omega Chests offer the highest value per point of energy spent, your daily routine should revolve around these high-tier encounters.
+
+<Checklist
+  id="daily-energy-tasks"
+  title="Daily Energy Priority List:"
+  items={[
+    "Defeat at least two Omega Aniimo to spend 100 energy on high-tier loot",
+    "Clear Alpha encounters if Omega bosses are too difficult for your current level",
+    "Allocate 20-30 energy for Antipod production to ensure you never run out of capture devices",
+    "Check Polaris Institute for missions that reward Prime Batteries",
+    "Convert excess Glimmers into Prime Energy only if you have a surplus of 1000+"
+  ]}
+/>
+
+Strategic players will notice that while 200 energy seems like a lot, it only covers four Omega Chests. This makes the game feel more like a "marathon" than a "sprint."
+
+| Priority Level | Activity | Value for Energy |
+| :--- | :--- | :--- |
+| **High** | Omega Chests | Excellent (Best source of Glimmers) |
+| **Medium** | Alpha Chests | Good (Reliable material source) |
+| **Medium** | Antipod Production | Essential (Required for gameplay) |
+| **Low** | Home Base Furniture | Cosmetic (Only for collectors) |
+
+<Callout type="tip" title="Pro Management">
+If you are close to a level-up or a major milestone in the Polaris Institute, check if the reward includes a Prime Battery. Using a battery when you are already at 180/200 energy will waste the excess, as it often caps at 200.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Pay-to-Progress vs. Pay-to-Win">
+
+There is a significant distinction in how the **aniimo energy system** handles monetization compared to other modern titles. While the system acts as a "stamina" mechanic common in mobile games, its current implementation in the 2026 beta focuses on the speed of progression rather than raw power.
+
+- **Non-Gated Content**: You can still battle, explore, and complete the story without spending energy.
+- **Cosmetic Focus**: Currencies like Fame and Fashion Vouchers are isolated from combat stats.
+- **In-Game Alternatives**: Prime Batteries can be earned through gameplay, meaning a free-to-play player can still participate in high-end farming by managing their time effectively.
+
+| Feature | Monetized? | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Aniimo Capture** | No | Core gameplay remains open to all |
+| **Stat Boosts** | No | No direct purchase of power |
+| **Energy Refills** | Likely | Increases farming frequency |
+| **Cosmetics** | Yes | Visual customization only |
+
+<Callout type="warning" title="Beta Subjectivity">
+Keep in mind that these systems are based on the 2026 closed beta. Developers may adjust recovery rates or energy costs before the full global release to balance the economy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Aniimo Energy FAQ">
+
+<FAQ items={[
+  {
+    question: "Does the aniimo energy system prevent me from playing the game?",
+    answer: "No. You can still explore the world, engage in standard battles, and capture Aniimo for your Anilog without using energy. Energy is only required for high-tier rewards like Alpha/Omega chests and home crafting."
+  },
+  {
+    question: "What is the fastest way to recover Prime Energy?",
+    answer: "The fastest way is using a Prime Battery or exchanging Glimmers at a vendor. Otherwise, you recover 1 unit every 10 minutes passively."
+  },
+  {
+    question: "How many Omega Chests can I open with a full energy bar?",
+    answer: "With a full cap of 200 Prime Energy, you can open exactly 4 Omega Chests (50 energy each)."
+  },
+  {
+    question: "Are Research Points part of the energy system?",
+    answer: "No, Research Points are entirely separate and are earned through in-game progress. They are not gated by the energy system or monetization."
+  }
+]} />
+
+</Section>

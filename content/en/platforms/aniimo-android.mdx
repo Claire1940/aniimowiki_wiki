@@ -1,0 +1,123 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aniimo Android: 2026 Beta Gameplay & Progression Guide",
+  description: "Master the open-world mechanics of Aniimo on Android. Learn about the unique twining system, combat strategies, and progression tips for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Aniimo+Android+Guide",
+  date: "2026-07-21",
+  author: "aniimo Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Aniimo Android** gameplay focuses on an expansive open-world RPG experience with creature collection.
+- The **twining system** allows players to merge with creatures for unique combat skills and exploration abilities.
+- Players must balance **real-time combat** and survival elements to succeed in the wild.
+- Staying updated on **closed beta schedules** is essential for early access to the game.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Aniimo on Mobile">
+
+The world of Aniimo brings a fresh perspective to the creature-collection genre. As a Pathfinder, you are not just a trainer, but a partner to the creatures you encounter. The game is designed for high-performance mobile devices, offering console-quality graphics and responsive controls.
+
+**Video Highlights:**
+- Detailed look at the open-world creature collection mechanics.
+- Demonstration of the unique twining system in combat.
+- Overview of the current closed beta performance on Android devices.
+
+<YouTubeEmbed videoId="hDroEKCwp3s" title="Aniimo Mobile Beta Test Is Here! Android & iOS Gameplay" />
+
+<Callout type="tip" title="Pro Tip">
+Always prioritize performance settings in the game menu if your device experiences frame drops during intense combat encounters in the open world.
+</Callout>
+
+| Setting | Recommendation |
+| :--- | :--- |
+| Graphics Quality | Balanced/High |
+| Frame Rate | 60 FPS |
+| Control Layout | Default (Customizable) |
+| Audio | Stereo/Headphones |
+
+</Section>
+
+<Section icon={Swords} title="Combat and Twining Mechanics">
+
+Combat in Aniimo is real-time and dynamic. The standout feature is the "Twine" mechanic, which lets you gain the powers of your creatures directly. Whether you need to fly across gaps or use elemental attacks, mastering this system is vital.
+
+| Creature Element | Combat Specialty | Exploration Utility |
+| :--- | :--- | :--- |
+| Fire | High burst damage | Burning barriers |
+| Water | Crowd control | Underwater travel |
+| Wind | High mobility | Vertical movement |
+| Dark | Stealth/Debuffs | Shadow traversal |
+
+<Callout type="warning" title="Important">
+Twining consumes energy. Do not overuse your creature's merged form during trash mob encounters; save your energy for elite enemies and boss fights.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression Roadmap">
+
+Progression in Aniimo is tied to your exploration and your relationship with your creatures. Follow these steps to ensure efficient leveling during the beta phase.
+
+<Steps>
+  <Step num="1" title="Complete Initial Quests">
+    Follow the Pathfinder story to unlock your first creature and basic mobility skills.
+  </Step>
+  <Step num="2" title="Explore the Idyll Ecosystem">
+    Venture into different biomes to discover unique creatures and gather resources for upgrades.
+  </Step>
+  <Step num="3" title="Upgrade Creature Ties">
+    Focus on bonding with your main companions to unlock higher tiers of the twining ability.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Daily Goals and Milestones">
+
+To maximize your efficiency, keep track of your daily tasks. These activities provide essential materials for crafting and creature evolution.
+
+<Checklist
+  id="daily-tasks"
+  title="Daily Routine:"
+  items={[
+    "Clear Daily Bounty missions for Glimmer",
+    "Gather materials from the forest biomes",
+    "Participate in at least one real-time battle trial",
+    "Check for social interaction rewards in the main hub"
+  ]}
+/>
+
+<Callout type="success" title="Success Strategy">
+Focusing on your creature's "Form" evolution is the fastest way to increase your combat rating in the current 2026 build.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is Aniimo currently available on Android?",
+    answer: "Aniimo is currently in a closed beta phase for Android and iOS. Please check the official website for future beta registration windows."
+  },
+  {
+    question: "What is the Twining system?",
+    answer: "The Twine system allows you to merge with your creatures to gain their unique combat skills and traversal abilities in real-time."
+  },
+  {
+    question: "How do I increase my creature's power?",
+    answer: "You can increase power by leveling up, evolving your creatures into different forms, and strengthening your bond through the twining mechanic."
+  }
+]} />
+
+</Section>
